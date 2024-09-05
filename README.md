@@ -4,6 +4,42 @@
 
 The objective of this project is to develop a comprehensive learning management system that incorporates content encryption features and leverages neural networks for student performance prediction. Our system will provide a secure platform where students can learn various subjects, read educational articles, and stay updated with daily news in the education sector. Additionally, it will include personalized dashboards and prediction models to enhance the learning experience.
 
+# Project Structure
+lms_project/
+│
+├── app/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── routes.py
+│   ├── forms.py
+│   ├── utils.py
+│   └── ml_model.py
+│
+├── static/
+│   ├── css/
+│   └── js/
+│
+├── templates/
+│   ├── base.html
+│   ├── login.html
+│   ├── dashboard.html
+│   ├── course_content.html
+│   └── performance_prediction.html
+│
+├── instance/
+│   └── config.py
+│
+├── migrations/
+│
+├── tests/
+│
+├── venv/
+│
+├── config.py
+├── run.py
+└── requirements.txt
+
+
 ## Main Architecture
 
 ### 1. Website Development
