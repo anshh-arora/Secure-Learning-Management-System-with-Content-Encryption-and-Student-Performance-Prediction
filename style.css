@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 0 50px;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 7px;
+    transition: 0.2s ease;
+}
+
+#navbar a:hover {
+    color: #bebebe;
+}
+
+#logo-container {
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.logo {
+    background-image: url(Images/Logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 50px;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+#search-box {
+    width: 95%;
+    height: 30px;
+}
+
+#search-box input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#search-box input:focus {
+    outline: none;
+}
+
+#search-btn {
+    width: 5%;
+    height: 30px;
+}
+
+#s-btn {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background: #bebebe;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#s-btn:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+
+/* Hero Section */
+#banner {
+    background-image: url(Images/banner.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#banner-content {
+    width: 35%;
+    color: #ffffff;
+    margin-right: 100px;
+    text-transform: capitalize;
+}
+
+#banner h1 {
+    font-size: 2.5rem;
+}
+
+#banner p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 300px;
+    background: #000000;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-logo {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#social {
+    margin-top: 10px;
+}
+
+#social a {
+    text-decoration: none;
+    color: #bebebe;
+    margin-right: 10px;
+}
+
+#social a:hover {
+    color: #ffffff;
+}
+
+#copyright p {
+    color: #bebebe;
+    font-size: small;
+    margin-top: 110px;
+}
+
+#contact-us form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+}
+
+#contact-us input, #contact-us textarea:focus {
+    outline: none;
+}
+
+#contact-us input {
+    height: 30px;
+}
+
+#contact-us input ,#contact-us textarea {
+    background-color: #000000;
+    margin-bottom: 10px;
+    color: #bebebe;
+    border: none;
+    border-bottom: 1px solid #bebebe;
+    padding: 5px;
+}
+
+#contact-us textarea {
+    resize: none;
+}
+
+#contact-us button {
+    height: 30px;
+    padding: 5px;
+    border: none;
+    background-color: #000000;
+    color: #bebebe;
+    border: 1px solid #bebebe;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#contact-us button:hover {
+    color: #ffffff;
+}
+
