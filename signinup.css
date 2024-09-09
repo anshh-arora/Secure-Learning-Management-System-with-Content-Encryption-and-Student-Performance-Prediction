@@ -10,6 +10,7 @@ body {
     color: #ffffff;
 }
 
+
 /* Header */
 header {
     display: flex;
@@ -28,6 +29,7 @@ header {
     width: 200px;
     height: 50px;
 }
+
 
 /* Sign In/Up Form */
 #form-container {
