@@ -44,10 +44,6 @@ header {
     overflow-y: scroll;
 }
 
-#form-container::-webkit-scrollbar { 
-    display: none;
-}
-
 #form-container h2 {
     font-size: 2em;
 }
