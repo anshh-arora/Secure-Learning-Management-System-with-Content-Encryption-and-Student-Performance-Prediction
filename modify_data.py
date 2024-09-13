@@ -1,50 +1,33 @@
 import pandas as pd
 import random
+import numpy as np
 
-# Load the original dataset
-data = pd.read_csv("StudentsPerformance.csv")
+# Load the dataset with the correct delimiter (semicolon in this case)
+df = pd.read_csv("student-mat.csv", delimiter=';')
 
-# Generate unique student ID, names based on gender, emails, and passwords
-def generate_student_data(df):
-    male_names = ["Raj Verma", "Arun Kumar", "Vikram Reddy", "Rahul Nair", "Amit Malhotra"]
-    female_names = ["Priya Sharma", "Neha Singh", "Anjali Patel", "Pooja Desai", "Riya Gupta"]
+# Check the column names to ensure they are correctly separated
+print(df.columns)
 
-    student_data = []
-    
-    for idx, row in df.iterrows():
-        student_id = idx + 1  # Unique student ID
-        
-        # Generate name based on gender
-        if row['gender'] == 'male':
-            name = random.choice(male_names)
-        else:
-            name = random.choice(female_names)
-        
-        # Generate email and password
-        email_providers = ["gmail.com", "yahoo.com", "microsoft.com"]
-        email = f"{name.split()[0].lower()}.{name.split()[1].lower()}@{random.choice(email_providers)}"
-        password = f"{name.split()[0]}{random.randint(1000, 9999)}"
-        
-        # Append student data
-        student_data.append([student_id, name, email, password])
-    
-    return student_data
+# Add a name column based on gender ('sex' column)
+male_names = ["Ansh", "Karan", "Piyush", "Anshul", "Vivek", "Ram", "Abdul"]
+female_names = ["Mary", "Khushi", "Manisha", "Preeti", "Varsha"]
 
-# Generate student info with IDs, names, emails, and passwords
-student_info = generate_student_data(data)
-student_df = pd.DataFrame(student_info, columns=["student_id", "name", "email", "password"])
+df['name'] = df['sex'].apply(lambda x: random.choice(male_names) if x == 'M' else random.choice(female_names))
 
-# Concatenate new columns with the original dataset
-data_with_info = pd.concat([student_df, data], axis=1)
+# Add email column (using the generated name)
+df['email'] = df['name'].str.lower() + '@gmail.com'
 
-# Rename the subject columns
-data_with_info.rename(columns={
-    "math score": "Web Development",
-    "reading score": "Python",
-    "writing score": "Machine Learning"
-}, inplace=True)
+# Add password column (using the name + random 4 digit number)
+df['password'] = df['name'].str.lower() + df['sex'].apply(lambda x: str(random.randint(1000, 9999)))
+
+# Add random attendance percentage (between 50 and 100)
+df['attendance'] = np.random.randint(50, 101, df.shape[0])
+
+# Adjust the grades G1, G2, G3 based on attendance
+df.loc[df['attendance'] < 60, ['G1', 'G2', 'G3']] = df.loc[df['attendance'] < 60, ['G1', 'G2', 'G3']] - 1
+df.loc[df['attendance'] > 90, ['G1', 'G2', 'G3']] = df.loc[df['attendance'] > 90, ['G1', 'G2', 'G3']] + 1
 
 # Save the modified dataset to a CSV file
-data_with_info.to_csv('modified_student_data.csv', index=False)
+df.to_csv('modified_student_data.csv', index=False)
 
 print("Modified dataset saved to 'modified_student_data.csv'")

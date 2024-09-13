@@ -1,1001 +1,396 @@
-student_id,name,email,password,gender,race/ethnicity,parental level of education,lunch,test preparation course,Web Development,Python,Machine Learning
-1,Riya Gupta,riya.gupta@gmail.com,Riya8307,female,group B,bachelor's degree,standard,none,72,72,74
-2,Pooja Desai,pooja.desai@gmail.com,Pooja2495,female,group C,some college,standard,completed,69,90,88
-3,Neha Singh,neha.singh@yahoo.com,Neha1507,female,group B,master's degree,standard,none,90,95,93
-4,Rahul Nair,rahul.nair@yahoo.com,Rahul3564,male,group A,associate's degree,free/reduced,none,47,57,44
-5,Vikram Reddy,vikram.reddy@yahoo.com,Vikram9337,male,group C,some college,standard,none,76,78,75
-6,Pooja Desai,pooja.desai@microsoft.com,Pooja9756,female,group B,associate's degree,standard,none,71,83,78
-7,Riya Gupta,riya.gupta@yahoo.com,Riya3456,female,group B,some college,standard,completed,88,95,92
-8,Amit Malhotra,amit.malhotra@gmail.com,Amit5896,male,group B,some college,free/reduced,none,40,43,39
-9,Rahul Nair,rahul.nair@yahoo.com,Rahul4681,male,group D,high school,free/reduced,completed,64,64,67
-10,Anjali Patel,anjali.patel@microsoft.com,Anjali3508,female,group B,high school,free/reduced,none,38,60,50
-11,Rahul Nair,rahul.nair@microsoft.com,Rahul9044,male,group C,associate's degree,standard,none,58,54,52
-12,Amit Malhotra,amit.malhotra@yahoo.com,Amit7354,male,group D,associate's degree,standard,none,40,52,43
-13,Neha Singh,neha.singh@yahoo.com,Neha5853,female,group B,high school,standard,none,65,81,73
-14,Vikram Reddy,vikram.reddy@yahoo.com,Vikram4980,male,group A,some college,standard,completed,78,72,70
-15,Neha Singh,neha.singh@gmail.com,Neha2642,female,group A,master's degree,standard,none,50,53,58
-16,Neha Singh,neha.singh@microsoft.com,Neha9017,female,group C,some high school,standard,none,69,75,78
-17,Amit Malhotra,amit.malhotra@yahoo.com,Amit7555,male,group C,high school,standard,none,88,89,86
-18,Anjali Patel,anjali.patel@microsoft.com,Anjali2956,female,group B,some high school,free/reduced,none,18,32,28
-19,Vikram Reddy,vikram.reddy@yahoo.com,Vikram5561,male,group C,master's degree,free/reduced,completed,46,42,46
-20,Neha Singh,neha.singh@gmail.com,Neha6261,female,group C,associate's degree,free/reduced,none,54,58,61
-21,Raj Verma,raj.verma@yahoo.com,Raj3739,male,group D,high school,standard,none,66,69,63
-22,Pooja Desai,pooja.desai@microsoft.com,Pooja2931,female,group B,some college,free/reduced,completed,65,75,70
-23,Rahul Nair,rahul.nair@gmail.com,Rahul9572,male,group D,some college,standard,none,44,54,53
-24,Anjali Patel,anjali.patel@yahoo.com,Anjali9151,female,group C,some high school,standard,none,69,73,73
-25,Rahul Nair,rahul.nair@gmail.com,Rahul9186,male,group D,bachelor's degree,free/reduced,completed,74,71,80
-26,Amit Malhotra,amit.malhotra@yahoo.com,Amit1896,male,group A,master's degree,free/reduced,none,73,74,72
-27,Rahul Nair,rahul.nair@gmail.com,Rahul5287,male,group B,some college,standard,none,69,54,55
-28,Riya Gupta,riya.gupta@microsoft.com,Riya6035,female,group C,bachelor's degree,standard,none,67,69,75
-29,Vikram Reddy,vikram.reddy@yahoo.com,Vikram8671,male,group C,high school,standard,none,70,70,65
-30,Neha Singh,neha.singh@microsoft.com,Neha8784,female,group D,master's degree,standard,none,62,70,75
-31,Riya Gupta,riya.gupta@yahoo.com,Riya5654,female,group D,some college,standard,none,69,74,74
-32,Neha Singh,neha.singh@microsoft.com,Neha9819,female,group B,some college,standard,none,63,65,61
-33,Anjali Patel,anjali.patel@yahoo.com,Anjali2444,female,group E,master's degree,free/reduced,none,56,72,65
-34,Rahul Nair,rahul.nair@gmail.com,Rahul4777,male,group D,some college,standard,none,40,42,38
-35,Arun Kumar,arun.kumar@microsoft.com,Arun3283,male,group E,some college,standard,none,97,87,82
-36,Arun Kumar,arun.kumar@yahoo.com,Arun5563,male,group E,associate's degree,standard,completed,81,81,79
-37,Anjali Patel,anjali.patel@yahoo.com,Anjali2071,female,group D,associate's degree,standard,none,74,81,83
-38,Priya Sharma,priya.sharma@gmail.com,Priya1931,female,group D,some high school,free/reduced,none,50,64,59
-39,Anjali Patel,anjali.patel@yahoo.com,Anjali5786,female,group D,associate's degree,free/reduced,completed,75,90,88
-40,Arun Kumar,arun.kumar@microsoft.com,Arun5851,male,group B,associate's degree,free/reduced,none,57,56,57
-41,Amit Malhotra,amit.malhotra@gmail.com,Amit7755,male,group C,associate's degree,free/reduced,none,55,61,54
-42,Neha Singh,neha.singh@yahoo.com,Neha1589,female,group C,associate's degree,standard,none,58,73,68
-43,Priya Sharma,priya.sharma@microsoft.com,Priya4340,female,group B,associate's degree,standard,none,53,58,65
-44,Arun Kumar,arun.kumar@gmail.com,Arun2475,male,group B,some college,free/reduced,completed,59,65,66
-45,Priya Sharma,priya.sharma@gmail.com,Priya6843,female,group E,associate's degree,free/reduced,none,50,56,54
-46,Raj Verma,raj.verma@microsoft.com,Raj4168,male,group B,associate's degree,standard,none,65,54,57
-47,Priya Sharma,priya.sharma@gmail.com,Priya5782,female,group A,associate's degree,standard,completed,55,65,62
-48,Pooja Desai,pooja.desai@microsoft.com,Pooja4522,female,group C,high school,standard,none,66,71,76
-49,Riya Gupta,riya.gupta@yahoo.com,Riya4778,female,group D,associate's degree,free/reduced,completed,57,74,76
-50,Vikram Reddy,vikram.reddy@gmail.com,Vikram3530,male,group C,high school,standard,completed,82,84,82
-51,Vikram Reddy,vikram.reddy@gmail.com,Vikram6443,male,group E,some college,standard,none,53,55,48
-52,Arun Kumar,arun.kumar@microsoft.com,Arun1224,male,group E,associate's degree,free/reduced,completed,77,69,68
-53,Raj Verma,raj.verma@gmail.com,Raj6078,male,group C,some college,standard,none,53,44,42
-54,Amit Malhotra,amit.malhotra@microsoft.com,Amit2197,male,group D,high school,standard,none,88,78,75
-55,Pooja Desai,pooja.desai@yahoo.com,Pooja9950,female,group C,some high school,free/reduced,completed,71,84,87
-56,Pooja Desai,pooja.desai@yahoo.com,Pooja8040,female,group C,high school,free/reduced,none,33,41,43
-57,Pooja Desai,pooja.desai@gmail.com,Pooja6075,female,group E,associate's degree,standard,completed,82,85,86
-58,Raj Verma,raj.verma@microsoft.com,Raj7124,male,group D,associate's degree,standard,none,52,55,49
-59,Arun Kumar,arun.kumar@gmail.com,Arun3020,male,group D,some college,standard,completed,58,59,58
-60,Priya Sharma,priya.sharma@yahoo.com,Priya6651,female,group C,some high school,free/reduced,none,0,17,10
-61,Amit Malhotra,amit.malhotra@microsoft.com,Amit9398,male,group E,bachelor's degree,free/reduced,completed,79,74,72
-62,Amit Malhotra,amit.malhotra@yahoo.com,Amit8321,male,group A,some high school,free/reduced,none,39,39,34
-63,Rahul Nair,rahul.nair@microsoft.com,Rahul6984,male,group A,associate's degree,free/reduced,none,62,61,55
-64,Anjali Patel,anjali.patel@gmail.com,Anjali6922,female,group C,associate's degree,standard,none,69,80,71
-65,Neha Singh,neha.singh@microsoft.com,Neha3868,female,group D,some high school,standard,none,59,58,59
-66,Amit Malhotra,amit.malhotra@gmail.com,Amit7290,male,group B,some high school,standard,none,67,64,61
-67,Rahul Nair,rahul.nair@gmail.com,Rahul1217,male,group D,some high school,free/reduced,none,45,37,37
-68,Riya Gupta,riya.gupta@gmail.com,Riya9499,female,group C,some college,standard,none,60,72,74
-69,Raj Verma,raj.verma@yahoo.com,Raj7960,male,group B,associate's degree,free/reduced,none,61,58,56
-70,Priya Sharma,priya.sharma@gmail.com,Priya1209,female,group C,associate's degree,standard,none,39,64,57
-71,Pooja Desai,pooja.desai@gmail.com,Pooja8822,female,group D,some college,free/reduced,completed,58,63,73
-72,Vikram Reddy,vikram.reddy@microsoft.com,Vikram6194,male,group D,some college,standard,completed,63,55,63
-73,Pooja Desai,pooja.desai@gmail.com,Pooja2324,female,group A,associate's degree,free/reduced,none,41,51,48
-74,Vikram Reddy,vikram.reddy@yahoo.com,Vikram7218,male,group C,some high school,free/reduced,none,61,57,56
-75,Raj Verma,raj.verma@microsoft.com,Raj7659,male,group C,some high school,standard,none,49,49,41
-76,Rahul Nair,rahul.nair@gmail.com,Rahul1137,male,group B,associate's degree,free/reduced,none,44,41,38
-77,Arun Kumar,arun.kumar@yahoo.com,Arun5453,male,group E,some high school,standard,none,30,26,22
-78,Amit Malhotra,amit.malhotra@yahoo.com,Amit1525,male,group A,bachelor's degree,standard,completed,80,78,81
-79,Anjali Patel,anjali.patel@microsoft.com,Anjali1305,female,group D,some high school,standard,completed,61,74,72
-80,Neha Singh,neha.singh@microsoft.com,Neha9708,female,group E,master's degree,standard,none,62,68,68
-81,Riya Gupta,riya.gupta@microsoft.com,Riya7565,female,group B,associate's degree,standard,none,47,49,50
-82,Arun Kumar,arun.kumar@yahoo.com,Arun6968,male,group B,high school,free/reduced,none,49,45,45
-83,Amit Malhotra,amit.malhotra@microsoft.com,Amit8344,male,group A,some college,free/reduced,completed,50,47,54
-84,Raj Verma,raj.verma@gmail.com,Raj4113,male,group E,associate's degree,standard,none,72,64,63
-85,Vikram Reddy,vikram.reddy@yahoo.com,Vikram7674,male,group D,high school,free/reduced,none,42,39,34
-86,Anjali Patel,anjali.patel@yahoo.com,Anjali5137,female,group C,some college,standard,none,73,80,82
-87,Anjali Patel,anjali.patel@microsoft.com,Anjali5272,female,group C,some college,free/reduced,none,76,83,88
-88,Neha Singh,neha.singh@yahoo.com,Neha2363,female,group D,associate's degree,standard,none,71,71,74
-89,Anjali Patel,anjali.patel@gmail.com,Anjali8242,female,group A,some college,standard,none,58,70,67
-90,Priya Sharma,priya.sharma@microsoft.com,Priya2782,female,group D,some high school,standard,none,73,86,82
-91,Pooja Desai,pooja.desai@microsoft.com,Pooja6532,female,group C,bachelor's degree,standard,none,65,72,74
-92,Arun Kumar,arun.kumar@yahoo.com,Arun4424,male,group C,high school,free/reduced,none,27,34,36
-93,Raj Verma,raj.verma@yahoo.com,Raj1975,male,group C,high school,standard,none,71,79,71
-94,Vikram Reddy,vikram.reddy@gmail.com,Vikram4515,male,group C,associate's degree,free/reduced,completed,43,45,50
-95,Pooja Desai,pooja.desai@gmail.com,Pooja6238,female,group B,some college,standard,none,79,86,92
-96,Raj Verma,raj.verma@gmail.com,Raj2130,male,group C,associate's degree,free/reduced,completed,78,81,82
-97,Rahul Nair,rahul.nair@microsoft.com,Rahul5196,male,group B,some high school,standard,completed,65,66,62
-98,Pooja Desai,pooja.desai@yahoo.com,Pooja5105,female,group E,some college,standard,completed,63,72,70
-99,Anjali Patel,anjali.patel@yahoo.com,Anjali1798,female,group D,some college,free/reduced,none,58,67,62
-100,Riya Gupta,riya.gupta@gmail.com,Riya2702,female,group D,bachelor's degree,standard,none,65,67,62
-101,Amit Malhotra,amit.malhotra@microsoft.com,Amit9744,male,group B,some college,standard,none,79,67,67
-102,Amit Malhotra,amit.malhotra@yahoo.com,Amit3102,male,group D,bachelor's degree,standard,completed,68,74,74
-103,Anjali Patel,anjali.patel@yahoo.com,Anjali7144,female,group D,associate's degree,standard,none,85,91,89
-104,Raj Verma,raj.verma@gmail.com,Raj4122,male,group B,high school,standard,completed,60,44,47
-105,Raj Verma,raj.verma@yahoo.com,Raj6990,male,group C,some college,standard,completed,98,86,90
-106,Riya Gupta,riya.gupta@microsoft.com,Riya1027,female,group C,some college,standard,none,58,67,72
-107,Pooja Desai,pooja.desai@yahoo.com,Pooja9293,female,group D,master's degree,standard,none,87,100,100
-108,Vikram Reddy,vikram.reddy@yahoo.com,Vikram1377,male,group E,associate's degree,standard,completed,66,63,64
-109,Riya Gupta,riya.gupta@yahoo.com,Riya3163,female,group B,associate's degree,free/reduced,none,52,76,70
-110,Riya Gupta,riya.gupta@microsoft.com,Riya7249,female,group B,some high school,standard,none,70,64,72
-111,Priya Sharma,priya.sharma@microsoft.com,Priya8840,female,group D,associate's degree,free/reduced,completed,77,89,98
-112,Amit Malhotra,amit.malhotra@microsoft.com,Amit8636,male,group C,high school,standard,none,62,55,49
-113,Arun Kumar,arun.kumar@microsoft.com,Arun1602,male,group A,associate's degree,standard,none,54,53,47
-114,Neha Singh,neha.singh@yahoo.com,Neha4010,female,group D,some college,standard,none,51,58,54
-115,Priya Sharma,priya.sharma@yahoo.com,Priya2934,female,group E,bachelor's degree,standard,completed,99,100,100
-116,Vikram Reddy,vikram.reddy@microsoft.com,Vikram3538,male,group C,high school,standard,none,84,77,74
-117,Priya Sharma,priya.sharma@gmail.com,Priya4722,female,group B,bachelor's degree,free/reduced,none,75,85,82
-118,Riya Gupta,riya.gupta@yahoo.com,Riya9765,female,group D,bachelor's degree,standard,none,78,82,79
-119,Neha Singh,neha.singh@yahoo.com,Neha7354,female,group D,some high school,standard,none,51,63,61
-120,Priya Sharma,priya.sharma@microsoft.com,Priya2814,female,group C,some college,standard,none,55,69,65
-121,Pooja Desai,pooja.desai@gmail.com,Pooja9562,female,group C,bachelor's degree,standard,completed,79,92,89
-122,Vikram Reddy,vikram.reddy@gmail.com,Vikram1989,male,group B,associate's degree,standard,completed,91,89,92
-123,Neha Singh,neha.singh@microsoft.com,Neha8950,female,group C,some college,standard,completed,88,93,93
-124,Vikram Reddy,vikram.reddy@gmail.com,Vikram9836,male,group D,high school,free/reduced,none,63,57,56
-125,Raj Verma,raj.verma@microsoft.com,Raj9002,male,group E,some college,standard,none,83,80,73
-126,Riya Gupta,riya.gupta@yahoo.com,Riya7776,female,group B,high school,standard,none,87,95,86
-127,Rahul Nair,rahul.nair@microsoft.com,Rahul1238,male,group B,some high school,standard,none,72,68,67
-128,Amit Malhotra,amit.malhotra@microsoft.com,Amit1258,male,group D,some college,standard,completed,65,77,74
-129,Arun Kumar,arun.kumar@yahoo.com,Arun3804,male,group D,master's degree,standard,none,82,82,74
-130,Pooja Desai,pooja.desai@gmail.com,Pooja1474,female,group A,bachelor's degree,standard,none,51,49,51
-131,Arun Kumar,arun.kumar@gmail.com,Arun3160,male,group D,master's degree,standard,none,89,84,82
-132,Arun Kumar,arun.kumar@microsoft.com,Arun8659,male,group C,some high school,free/reduced,completed,53,37,40
-133,Raj Verma,raj.verma@microsoft.com,Raj3452,male,group E,some college,free/reduced,completed,87,74,70
-134,Priya Sharma,priya.sharma@yahoo.com,Priya1816,female,group C,some college,standard,completed,75,81,84
-135,Rahul Nair,rahul.nair@yahoo.com,Rahul9308,male,group D,bachelor's degree,free/reduced,completed,74,79,75
-136,Amit Malhotra,amit.malhotra@yahoo.com,Amit8652,male,group C,bachelor's degree,standard,none,58,55,48
-137,Rahul Nair,rahul.nair@gmail.com,Rahul9236,male,group B,some high school,standard,completed,51,54,41
-138,Vikram Reddy,vikram.reddy@microsoft.com,Vikram3064,male,group E,high school,standard,none,70,55,56
-139,Priya Sharma,priya.sharma@gmail.com,Priya5519,female,group C,associate's degree,standard,none,59,66,67
-140,Raj Verma,raj.verma@yahoo.com,Raj5234,male,group D,some college,standard,completed,71,61,69
-141,Priya Sharma,priya.sharma@microsoft.com,Priya9826,female,group D,some high school,standard,none,76,72,71
-142,Riya Gupta,riya.gupta@microsoft.com,Riya8082,female,group C,some college,free/reduced,none,59,62,64
-143,Pooja Desai,pooja.desai@gmail.com,Pooja7734,female,group E,some college,free/reduced,completed,42,55,54
-144,Arun Kumar,arun.kumar@yahoo.com,Arun2185,male,group A,high school,standard,none,57,43,47
-145,Vikram Reddy,vikram.reddy@microsoft.com,Vikram4353,male,group D,some college,standard,none,88,73,78
-146,Riya Gupta,riya.gupta@yahoo.com,Riya6238,female,group C,some college,free/reduced,none,22,39,33
-147,Arun Kumar,arun.kumar@microsoft.com,Arun4951,male,group B,some high school,standard,none,88,84,75
-148,Arun Kumar,arun.kumar@gmail.com,Arun5335,male,group C,associate's degree,free/reduced,none,73,68,66
-149,Pooja Desai,pooja.desai@gmail.com,Pooja3567,female,group D,bachelor's degree,standard,completed,68,75,81
-150,Raj Verma,raj.verma@yahoo.com,Raj1603,male,group E,associate's degree,free/reduced,completed,100,100,93
-151,Amit Malhotra,amit.malhotra@gmail.com,Amit9127,male,group A,some high school,standard,completed,62,67,69
-152,Vikram Reddy,vikram.reddy@gmail.com,Vikram8710,male,group A,bachelor's degree,standard,none,77,67,68
-153,Neha Singh,neha.singh@gmail.com,Neha2261,female,group B,associate's degree,standard,completed,59,70,66
-154,Amit Malhotra,amit.malhotra@yahoo.com,Amit8452,male,group D,bachelor's degree,standard,none,54,49,47
-155,Arun Kumar,arun.kumar@gmail.com,Arun1353,male,group D,some high school,standard,none,62,67,61
-156,Neha Singh,neha.singh@microsoft.com,Neha2200,female,group C,some college,standard,completed,70,89,88
-157,Riya Gupta,riya.gupta@yahoo.com,Riya2320,female,group E,high school,free/reduced,completed,66,74,78
-158,Raj Verma,raj.verma@yahoo.com,Raj4902,male,group B,some college,free/reduced,none,60,60,60
-159,Riya Gupta,riya.gupta@gmail.com,Riya7347,female,group B,associate's degree,standard,completed,61,86,87
-160,Vikram Reddy,vikram.reddy@microsoft.com,Vikram8656,male,group D,associate's degree,free/reduced,none,66,62,64
-161,Arun Kumar,arun.kumar@gmail.com,Arun1651,male,group B,associate's degree,free/reduced,completed,82,78,74
-162,Riya Gupta,riya.gupta@microsoft.com,Riya1410,female,group E,some college,free/reduced,completed,75,88,85
-163,Rahul Nair,rahul.nair@yahoo.com,Rahul2424,male,group B,master's degree,free/reduced,none,49,53,52
-164,Amit Malhotra,amit.malhotra@gmail.com,Amit8450,male,group C,high school,standard,none,52,53,49
-165,Anjali Patel,anjali.patel@yahoo.com,Anjali7962,female,group E,master's degree,standard,none,81,92,91
-166,Anjali Patel,anjali.patel@gmail.com,Anjali8540,female,group C,bachelor's degree,standard,completed,96,100,100
-167,Amit Malhotra,amit.malhotra@gmail.com,Amit7246,male,group C,high school,free/reduced,completed,53,51,51
-168,Neha Singh,neha.singh@gmail.com,Neha6573,female,group B,master's degree,free/reduced,completed,58,76,78
-169,Priya Sharma,priya.sharma@gmail.com,Priya9632,female,group B,high school,standard,completed,68,83,78
-170,Pooja Desai,pooja.desai@yahoo.com,Pooja4058,female,group C,some college,free/reduced,completed,67,75,70
-171,Vikram Reddy,vikram.reddy@yahoo.com,Vikram8289,male,group A,high school,standard,completed,72,73,74
-172,Arun Kumar,arun.kumar@microsoft.com,Arun3578,male,group E,some high school,standard,none,94,88,78
-173,Priya Sharma,priya.sharma@gmail.com,Priya5757,female,group D,some college,standard,none,79,86,81
-174,Anjali Patel,anjali.patel@yahoo.com,Anjali2362,female,group C,associate's degree,standard,none,63,67,70
-175,Pooja Desai,pooja.desai@gmail.com,Pooja8797,female,group C,bachelor's degree,free/reduced,completed,43,51,54
-176,Pooja Desai,pooja.desai@gmail.com,Pooja1662,female,group C,master's degree,standard,completed,81,91,87
-177,Riya Gupta,riya.gupta@yahoo.com,Riya5273,female,group B,high school,free/reduced,completed,46,54,58
-178,Riya Gupta,riya.gupta@microsoft.com,Riya6254,female,group C,associate's degree,standard,completed,71,77,77
-179,Neha Singh,neha.singh@gmail.com,Neha5189,female,group B,master's degree,free/reduced,completed,52,70,62
-180,Anjali Patel,anjali.patel@yahoo.com,Anjali1848,female,group D,some high school,standard,completed,97,100,100
-181,Raj Verma,raj.verma@microsoft.com,Raj7006,male,group C,master's degree,free/reduced,completed,62,68,75
-182,Anjali Patel,anjali.patel@yahoo.com,Anjali3930,female,group C,some college,free/reduced,none,46,64,66
-183,Anjali Patel,anjali.patel@gmail.com,Anjali1730,female,group E,high school,standard,none,50,50,47
-184,Riya Gupta,riya.gupta@microsoft.com,Riya7093,female,group D,associate's degree,standard,none,65,69,70
-185,Vikram Reddy,vikram.reddy@microsoft.com,Vikram2275,male,group C,some high school,free/reduced,completed,45,52,49
-186,Rahul Nair,rahul.nair@microsoft.com,Rahul2786,male,group C,associate's degree,free/reduced,completed,65,67,65
-187,Vikram Reddy,vikram.reddy@yahoo.com,Vikram5062,male,group E,high school,standard,none,80,76,65
-188,Vikram Reddy,vikram.reddy@microsoft.com,Vikram4494,male,group D,some high school,standard,completed,62,66,68
-189,Amit Malhotra,amit.malhotra@gmail.com,Amit7103,male,group B,some high school,free/reduced,none,48,52,45
-190,Pooja Desai,pooja.desai@gmail.com,Pooja3101,female,group C,bachelor's degree,standard,none,77,88,87
-191,Priya Sharma,priya.sharma@gmail.com,Priya1930,female,group E,associate's degree,standard,none,66,65,69
-192,Rahul Nair,rahul.nair@microsoft.com,Rahul9700,male,group D,some college,standard,completed,76,83,79
-193,Riya Gupta,riya.gupta@microsoft.com,Riya2769,female,group B,some high school,standard,none,62,64,66
-194,Vikram Reddy,vikram.reddy@yahoo.com,Vikram1762,male,group D,some college,standard,completed,77,62,62
-195,Neha Singh,neha.singh@yahoo.com,Neha2531,female,group C,master's degree,standard,completed,69,84,85
-196,Amit Malhotra,amit.malhotra@microsoft.com,Amit1034,male,group D,associate's degree,standard,none,61,55,52
-197,Rahul Nair,rahul.nair@microsoft.com,Rahul6350,male,group C,some high school,free/reduced,completed,59,69,65
-198,Raj Verma,raj.verma@yahoo.com,Raj5641,male,group E,high school,free/reduced,none,55,56,51
-199,Priya Sharma,priya.sharma@yahoo.com,Priya5120,female,group B,some college,free/reduced,none,45,53,55
-200,Neha Singh,neha.singh@microsoft.com,Neha9762,female,group B,bachelor's degree,free/reduced,none,78,79,76
-201,Priya Sharma,priya.sharma@yahoo.com,Priya1779,female,group C,associate's degree,standard,completed,67,84,86
-202,Anjali Patel,anjali.patel@microsoft.com,Anjali5708,female,group D,some college,free/reduced,none,65,81,77
-203,Arun Kumar,arun.kumar@yahoo.com,Arun6622,male,group C,associate's degree,standard,none,69,77,69
-204,Pooja Desai,pooja.desai@microsoft.com,Pooja6003,female,group B,associate's degree,standard,none,57,69,68
-205,Amit Malhotra,amit.malhotra@yahoo.com,Amit4183,male,group C,some college,standard,none,59,41,42
-206,Raj Verma,raj.verma@microsoft.com,Raj6363,male,group D,some high school,standard,completed,74,71,78
-207,Rahul Nair,rahul.nair@microsoft.com,Rahul2374,male,group E,bachelor's degree,standard,none,82,62,62
-208,Rahul Nair,rahul.nair@microsoft.com,Rahul8229,male,group E,high school,standard,completed,81,80,76
-209,Riya Gupta,riya.gupta@yahoo.com,Riya4086,female,group B,some college,free/reduced,none,74,81,76
-210,Riya Gupta,riya.gupta@gmail.com,Riya2433,female,group B,some college,free/reduced,none,58,61,66
-211,Amit Malhotra,amit.malhotra@yahoo.com,Amit3169,male,group D,some high school,free/reduced,completed,80,79,79
-212,Vikram Reddy,vikram.reddy@yahoo.com,Vikram1150,male,group C,some college,free/reduced,none,35,28,27
-213,Pooja Desai,pooja.desai@microsoft.com,Pooja5066,female,group C,high school,free/reduced,none,42,62,60
-214,Raj Verma,raj.verma@yahoo.com,Raj8684,male,group C,associate's degree,free/reduced,completed,60,51,56
-215,Arun Kumar,arun.kumar@yahoo.com,Arun1070,male,group E,high school,standard,completed,87,91,81
-216,Arun Kumar,arun.kumar@microsoft.com,Arun1002,male,group B,some high school,standard,completed,84,83,75
-217,Riya Gupta,riya.gupta@microsoft.com,Riya7373,female,group E,associate's degree,free/reduced,completed,83,86,88
-218,Pooja Desai,pooja.desai@microsoft.com,Pooja8823,female,group C,high school,free/reduced,none,34,42,39
-219,Raj Verma,raj.verma@yahoo.com,Raj5481,male,group B,high school,free/reduced,none,66,77,70
-220,Vikram Reddy,vikram.reddy@microsoft.com,Vikram9501,male,group B,some high school,standard,completed,61,56,56
-221,Neha Singh,neha.singh@yahoo.com,Neha4191,female,group D,high school,standard,completed,56,68,74
-222,Arun Kumar,arun.kumar@microsoft.com,Arun3214,male,group B,associate's degree,standard,none,87,85,73
-223,Neha Singh,neha.singh@yahoo.com,Neha4781,female,group C,some high school,free/reduced,none,55,65,62
-224,Amit Malhotra,amit.malhotra@yahoo.com,Amit5579,male,group D,some high school,standard,none,86,80,75
-225,Priya Sharma,priya.sharma@microsoft.com,Priya5706,female,group B,associate's degree,standard,completed,52,66,73
-226,Pooja Desai,pooja.desai@yahoo.com,Pooja2056,female,group E,master's degree,free/reduced,none,45,56,54
-227,Riya Gupta,riya.gupta@yahoo.com,Riya5899,female,group C,some college,standard,none,72,72,71
-228,Raj Verma,raj.verma@gmail.com,Raj9829,male,group D,high school,standard,none,57,50,54
-229,Amit Malhotra,amit.malhotra@yahoo.com,Amit3995,male,group A,some high school,free/reduced,none,68,72,64
-230,Priya Sharma,priya.sharma@microsoft.com,Priya2521,female,group C,some college,standard,completed,88,95,94
-231,Arun Kumar,arun.kumar@microsoft.com,Arun5075,male,group D,some college,standard,none,76,64,66
-232,Amit Malhotra,amit.malhotra@gmail.com,Amit5940,male,group C,associate's degree,standard,none,46,43,42
-233,Anjali Patel,anjali.patel@gmail.com,Anjali8302,female,group B,bachelor's degree,standard,none,67,86,83
-234,Amit Malhotra,amit.malhotra@gmail.com,Amit2812,male,group E,some high school,standard,none,92,87,78
-235,Amit Malhotra,amit.malhotra@microsoft.com,Amit6658,male,group C,bachelor's degree,standard,completed,83,82,84
-236,Amit Malhotra,amit.malhotra@microsoft.com,Amit5503,male,group D,associate's degree,standard,none,80,75,77
-237,Rahul Nair,rahul.nair@yahoo.com,Rahul5204,male,group D,bachelor's degree,free/reduced,none,63,66,67
-238,Priya Sharma,priya.sharma@microsoft.com,Priya1039,female,group D,some high school,standard,completed,64,60,74
-239,Amit Malhotra,amit.malhotra@yahoo.com,Amit4801,male,group B,some college,standard,none,54,52,51
-240,Rahul Nair,rahul.nair@gmail.com,Rahul5247,male,group C,associate's degree,standard,none,84,80,80
-241,Raj Verma,raj.verma@microsoft.com,Raj1363,male,group D,high school,free/reduced,completed,73,68,66
-242,Priya Sharma,priya.sharma@gmail.com,Priya4037,female,group E,bachelor's degree,standard,none,80,83,83
-243,Neha Singh,neha.singh@yahoo.com,Neha5414,female,group D,high school,standard,none,56,52,55
-244,Arun Kumar,arun.kumar@yahoo.com,Arun5085,male,group E,some college,standard,none,59,51,43
-245,Raj Verma,raj.verma@microsoft.com,Raj2899,male,group D,some high school,standard,none,75,74,69
-246,Raj Verma,raj.verma@yahoo.com,Raj1434,male,group C,associate's degree,standard,none,85,76,71
-247,Raj Verma,raj.verma@yahoo.com,Raj4868,male,group E,associate's degree,standard,none,89,76,74
-248,Priya Sharma,priya.sharma@microsoft.com,Priya7352,female,group B,high school,standard,completed,58,70,68
-249,Pooja Desai,pooja.desai@gmail.com,Pooja3811,female,group B,high school,standard,none,65,64,62
-250,Rahul Nair,rahul.nair@gmail.com,Rahul7135,male,group C,high school,standard,none,68,60,53
-251,Amit Malhotra,amit.malhotra@gmail.com,Amit9388,male,group A,some high school,standard,completed,47,49,49
-252,Priya Sharma,priya.sharma@microsoft.com,Priya7271,female,group D,some college,free/reduced,none,71,83,83
-253,Pooja Desai,pooja.desai@microsoft.com,Pooja1779,female,group B,some high school,standard,completed,60,70,70
-254,Amit Malhotra,amit.malhotra@yahoo.com,Amit2135,male,group D,master's degree,standard,none,80,80,72
-255,Arun Kumar,arun.kumar@yahoo.com,Arun5787,male,group D,high school,standard,none,54,52,52
-256,Anjali Patel,anjali.patel@gmail.com,Anjali6351,female,group E,some college,standard,none,62,73,70
-257,Neha Singh,neha.singh@gmail.com,Neha6801,female,group C,associate's degree,free/reduced,none,64,73,68
-258,Amit Malhotra,amit.malhotra@yahoo.com,Amit2003,male,group C,associate's degree,standard,completed,78,77,77
-259,Priya Sharma,priya.sharma@microsoft.com,Priya3767,female,group B,some college,standard,none,70,75,78
-260,Riya Gupta,riya.gupta@yahoo.com,Riya8779,female,group C,master's degree,free/reduced,completed,65,81,81
-261,Pooja Desai,pooja.desai@gmail.com,Pooja2358,female,group C,some high school,free/reduced,completed,64,79,77
-262,Amit Malhotra,amit.malhotra@gmail.com,Amit9265,male,group C,some college,standard,completed,79,79,78
-263,Riya Gupta,riya.gupta@microsoft.com,Riya9992,female,group C,some high school,free/reduced,none,44,50,51
-264,Riya Gupta,riya.gupta@gmail.com,Riya8982,female,group E,high school,standard,none,99,93,90
-265,Raj Verma,raj.verma@yahoo.com,Raj2499,male,group D,high school,standard,none,76,73,68
-266,Arun Kumar,arun.kumar@gmail.com,Arun2041,male,group D,some high school,free/reduced,none,59,42,41
-267,Pooja Desai,pooja.desai@gmail.com,Pooja4378,female,group C,bachelor's degree,standard,none,63,75,81
-268,Neha Singh,neha.singh@microsoft.com,Neha6259,female,group D,high school,standard,none,69,72,77
-269,Anjali Patel,anjali.patel@microsoft.com,Anjali8720,female,group D,associate's degree,standard,completed,88,92,95
-270,Neha Singh,neha.singh@yahoo.com,Neha8685,female,group E,some college,free/reduced,none,71,76,70
-271,Raj Verma,raj.verma@yahoo.com,Raj1416,male,group C,bachelor's degree,standard,none,69,63,61
-272,Vikram Reddy,vikram.reddy@gmail.com,Vikram1877,male,group C,some college,standard,none,58,49,42
-273,Anjali Patel,anjali.patel@gmail.com,Anjali7644,female,group D,associate's degree,free/reduced,none,47,53,58
-274,Pooja Desai,pooja.desai@microsoft.com,Pooja6671,female,group D,some college,standard,none,65,70,71
-275,Amit Malhotra,amit.malhotra@microsoft.com,Amit8061,male,group B,some college,standard,completed,88,85,76
-276,Rahul Nair,rahul.nair@yahoo.com,Rahul6374,male,group C,bachelor's degree,standard,none,83,78,73
-277,Pooja Desai,pooja.desai@microsoft.com,Pooja3447,female,group C,some high school,standard,completed,85,92,93
-278,Anjali Patel,anjali.patel@gmail.com,Anjali3315,female,group E,high school,standard,completed,59,63,75
-279,Priya Sharma,priya.sharma@yahoo.com,Priya3323,female,group C,some high school,free/reduced,none,65,86,80
-280,Arun Kumar,arun.kumar@yahoo.com,Arun2340,male,group B,bachelor's degree,free/reduced,none,73,56,57
-281,Rahul Nair,rahul.nair@microsoft.com,Rahul1162,male,group D,high school,standard,none,53,52,42
-282,Vikram Reddy,vikram.reddy@microsoft.com,Vikram8578,male,group D,high school,standard,none,45,48,46
-283,Riya Gupta,riya.gupta@gmail.com,Riya4745,female,group D,bachelor's degree,free/reduced,none,73,79,84
-284,Pooja Desai,pooja.desai@microsoft.com,Pooja2378,female,group D,some college,free/reduced,completed,70,78,78
-285,Priya Sharma,priya.sharma@microsoft.com,Priya4995,female,group B,some high school,standard,none,37,46,46
-286,Amit Malhotra,amit.malhotra@yahoo.com,Amit1878,male,group B,associate's degree,standard,completed,81,82,82
-287,Amit Malhotra,amit.malhotra@microsoft.com,Amit3383,male,group E,associate's degree,standard,completed,97,82,88
-288,Anjali Patel,anjali.patel@yahoo.com,Anjali6189,female,group B,some high school,standard,none,67,89,82
-289,Amit Malhotra,amit.malhotra@microsoft.com,Amit1697,male,group B,bachelor's degree,free/reduced,none,88,75,76
-290,Raj Verma,raj.verma@microsoft.com,Raj3891,male,group E,some high school,standard,completed,77,76,77
-291,Vikram Reddy,vikram.reddy@yahoo.com,Vikram7310,male,group C,associate's degree,standard,none,76,70,68
-292,Rahul Nair,rahul.nair@yahoo.com,Rahul1838,male,group D,some high school,standard,none,86,73,70
-293,Raj Verma,raj.verma@microsoft.com,Raj5472,male,group C,some high school,standard,completed,63,60,57
-294,Anjali Patel,anjali.patel@microsoft.com,Anjali4007,female,group E,bachelor's degree,standard,none,65,73,75
-295,Arun Kumar,arun.kumar@gmail.com,Arun3629,male,group D,high school,free/reduced,completed,78,77,80
-296,Rahul Nair,rahul.nair@gmail.com,Rahul7980,male,group B,associate's degree,free/reduced,none,67,62,60
-297,Rahul Nair,rahul.nair@microsoft.com,Rahul8251,male,group A,some high school,standard,completed,46,41,43
-298,Vikram Reddy,vikram.reddy@microsoft.com,Vikram5560,male,group E,associate's degree,standard,completed,71,74,68
-299,Arun Kumar,arun.kumar@gmail.com,Arun6228,male,group C,high school,free/reduced,completed,40,46,50
-300,Rahul Nair,rahul.nair@microsoft.com,Rahul3970,male,group D,associate's degree,free/reduced,none,90,87,75
-301,Raj Verma,raj.verma@gmail.com,Raj7480,male,group A,some college,free/reduced,completed,81,78,81
-302,Vikram Reddy,vikram.reddy@gmail.com,Vikram4469,male,group D,some high school,free/reduced,none,56,54,52
-303,Pooja Desai,pooja.desai@yahoo.com,Pooja8809,female,group C,associate's degree,standard,completed,67,84,81
-304,Rahul Nair,rahul.nair@gmail.com,Rahul9825,male,group B,associate's degree,standard,none,80,76,64
-305,Neha Singh,neha.singh@gmail.com,Neha1188,female,group C,associate's degree,standard,completed,74,75,83
-306,Rahul Nair,rahul.nair@microsoft.com,Rahul6584,male,group A,some college,standard,none,69,67,69
-307,Raj Verma,raj.verma@yahoo.com,Raj9846,male,group E,some college,standard,completed,99,87,81
-308,Amit Malhotra,amit.malhotra@gmail.com,Amit9949,male,group C,some high school,standard,none,51,52,44
-309,Anjali Patel,anjali.patel@yahoo.com,Anjali8114,female,group B,associate's degree,free/reduced,none,53,71,67
-310,Riya Gupta,riya.gupta@microsoft.com,Riya4327,female,group D,high school,free/reduced,none,49,57,52
-311,Anjali Patel,anjali.patel@gmail.com,Anjali2228,female,group B,associate's degree,standard,none,73,76,80
-312,Raj Verma,raj.verma@yahoo.com,Raj7290,male,group B,bachelor's degree,standard,none,66,60,57
-313,Vikram Reddy,vikram.reddy@yahoo.com,Vikram8180,male,group D,bachelor's degree,standard,completed,67,61,68
-314,Priya Sharma,priya.sharma@microsoft.com,Priya2729,female,group C,associate's degree,free/reduced,completed,68,67,69
-315,Anjali Patel,anjali.patel@yahoo.com,Anjali8441,female,group C,bachelor's degree,standard,completed,59,64,75
-316,Amit Malhotra,amit.malhotra@gmail.com,Amit3990,male,group C,high school,standard,none,71,66,65
-317,Pooja Desai,pooja.desai@yahoo.com,Pooja4518,female,group D,master's degree,standard,completed,77,82,91
-318,Raj Verma,raj.verma@gmail.com,Raj3317,male,group C,associate's degree,standard,none,83,72,78
-319,Amit Malhotra,amit.malhotra@gmail.com,Amit4136,male,group B,bachelor's degree,standard,none,63,71,69
-320,Anjali Patel,anjali.patel@gmail.com,Anjali4714,female,group D,associate's degree,free/reduced,none,56,65,63
-321,Anjali Patel,anjali.patel@yahoo.com,Anjali9273,female,group C,high school,free/reduced,completed,67,79,84
-322,Priya Sharma,priya.sharma@gmail.com,Priya9821,female,group E,high school,standard,none,75,86,79
-323,Riya Gupta,riya.gupta@gmail.com,Riya8430,female,group C,some college,standard,none,71,81,80
-324,Anjali Patel,anjali.patel@microsoft.com,Anjali3114,female,group C,some high school,free/reduced,none,43,53,53
-325,Pooja Desai,pooja.desai@gmail.com,Pooja8862,female,group C,high school,free/reduced,none,41,46,43
-326,Riya Gupta,riya.gupta@yahoo.com,Riya7310,female,group C,some college,standard,none,82,90,94
-327,Vikram Reddy,vikram.reddy@microsoft.com,Vikram4517,male,group C,some college,standard,none,61,61,62
-328,Amit Malhotra,amit.malhotra@microsoft.com,Amit2201,male,group A,some college,free/reduced,none,28,23,19
-329,Rahul Nair,rahul.nair@gmail.com,Rahul8023,male,group C,associate's degree,standard,completed,82,75,77
-330,Priya Sharma,priya.sharma@yahoo.com,Priya9049,female,group B,some high school,standard,none,41,55,51
-331,Rahul Nair,rahul.nair@yahoo.com,Rahul9060,male,group C,high school,standard,none,71,60,61
-332,Rahul Nair,rahul.nair@microsoft.com,Rahul1314,male,group C,associate's degree,standard,none,47,37,35
-333,Amit Malhotra,amit.malhotra@gmail.com,Amit5109,male,group E,associate's degree,standard,completed,62,56,53
-334,Amit Malhotra,amit.malhotra@yahoo.com,Amit8661,male,group B,associate's degree,standard,none,90,78,81
-335,Priya Sharma,priya.sharma@yahoo.com,Priya9928,female,group C,bachelor's degree,standard,none,83,93,95
-336,Neha Singh,neha.singh@gmail.com,Neha3686,female,group B,some college,free/reduced,none,61,68,66
-337,Arun Kumar,arun.kumar@gmail.com,Arun1982,male,group D,some high school,standard,completed,76,70,69
-338,Amit Malhotra,amit.malhotra@microsoft.com,Amit7880,male,group C,associate's degree,standard,none,49,51,43
-339,Priya Sharma,priya.sharma@yahoo.com,Priya2087,female,group B,some high school,free/reduced,none,24,38,27
-340,Neha Singh,neha.singh@gmail.com,Neha3189,female,group D,some high school,free/reduced,completed,35,55,60
-341,Arun Kumar,arun.kumar@microsoft.com,Arun9523,male,group C,high school,free/reduced,none,58,61,52
-342,Anjali Patel,anjali.patel@microsoft.com,Anjali4745,female,group C,high school,standard,none,61,73,63
-343,Pooja Desai,pooja.desai@gmail.com,Pooja2216,female,group B,high school,standard,completed,69,76,74
-344,Arun Kumar,arun.kumar@yahoo.com,Arun3635,male,group D,associate's degree,standard,completed,67,72,67
-345,Vikram Reddy,vikram.reddy@gmail.com,Vikram2331,male,group D,some college,standard,none,79,73,67
-346,Anjali Patel,anjali.patel@microsoft.com,Anjali6837,female,group C,high school,standard,none,72,80,75
-347,Rahul Nair,rahul.nair@microsoft.com,Rahul6458,male,group B,some college,standard,none,62,61,57
-348,Priya Sharma,priya.sharma@gmail.com,Priya7092,female,group C,bachelor's degree,standard,completed,77,94,95
-349,Vikram Reddy,vikram.reddy@gmail.com,Vikram2624,male,group D,high school,free/reduced,none,75,74,66
-350,Vikram Reddy,vikram.reddy@microsoft.com,Vikram8365,male,group E,associate's degree,standard,none,87,74,76
-351,Neha Singh,neha.singh@yahoo.com,Neha4523,female,group B,bachelor's degree,standard,none,52,65,69
-352,Arun Kumar,arun.kumar@microsoft.com,Arun8347,male,group E,some college,standard,none,66,57,52
-353,Anjali Patel,anjali.patel@gmail.com,Anjali6796,female,group C,some college,standard,completed,63,78,80
-354,Riya Gupta,riya.gupta@microsoft.com,Riya2223,female,group C,associate's degree,standard,none,46,58,57
-355,Priya Sharma,priya.sharma@gmail.com,Priya8177,female,group C,some college,standard,none,59,71,70
-356,Pooja Desai,pooja.desai@microsoft.com,Pooja2068,female,group B,bachelor's degree,standard,none,61,72,70
-357,Amit Malhotra,amit.malhotra@gmail.com,Amit8147,male,group A,associate's degree,standard,none,63,61,61
-358,Anjali Patel,anjali.patel@gmail.com,Anjali9431,female,group C,some college,free/reduced,completed,42,66,69
-359,Arun Kumar,arun.kumar@microsoft.com,Arun9729,male,group D,some college,free/reduced,none,59,62,61
-360,Neha Singh,neha.singh@gmail.com,Neha9491,female,group D,some college,standard,none,80,90,89
-361,Neha Singh,neha.singh@microsoft.com,Neha9865,female,group B,high school,standard,none,58,62,59
-362,Raj Verma,raj.verma@yahoo.com,Raj4649,male,group B,some high school,standard,completed,85,84,78
-363,Neha Singh,neha.singh@microsoft.com,Neha5570,female,group C,some college,standard,none,52,58,58
-364,Anjali Patel,anjali.patel@gmail.com,Anjali5077,female,group D,some high school,free/reduced,none,27,34,32
-365,Vikram Reddy,vikram.reddy@gmail.com,Vikram5629,male,group C,some college,standard,none,59,60,58
-366,Raj Verma,raj.verma@microsoft.com,Raj1134,male,group A,bachelor's degree,free/reduced,completed,49,58,60
-367,Raj Verma,raj.verma@yahoo.com,Raj9394,male,group C,high school,standard,completed,69,58,53
-368,Vikram Reddy,vikram.reddy@gmail.com,Vikram5415,male,group C,bachelor's degree,free/reduced,none,61,66,61
-369,Pooja Desai,pooja.desai@gmail.com,Pooja7827,female,group A,some high school,free/reduced,none,44,64,58
-370,Priya Sharma,priya.sharma@yahoo.com,Priya1744,female,group D,some high school,standard,none,73,84,85
-371,Rahul Nair,rahul.nair@gmail.com,Rahul7257,male,group E,some college,standard,none,84,77,71
-372,Priya Sharma,priya.sharma@yahoo.com,Priya6355,female,group C,some college,free/reduced,completed,45,73,70
-373,Raj Verma,raj.verma@gmail.com,Raj9221,male,group D,some high school,standard,none,74,74,72
-374,Anjali Patel,anjali.patel@yahoo.com,Anjali3874,female,group D,some college,standard,completed,82,97,96
-375,Riya Gupta,riya.gupta@yahoo.com,Riya7414,female,group D,bachelor's degree,standard,none,59,70,73
-376,Rahul Nair,rahul.nair@microsoft.com,Rahul9164,male,group E,associate's degree,free/reduced,none,46,43,41
-377,Pooja Desai,pooja.desai@yahoo.com,Pooja2426,female,group D,some high school,standard,none,80,90,82
-378,Priya Sharma,priya.sharma@yahoo.com,Priya1245,female,group D,master's degree,free/reduced,completed,85,95,100
-379,Neha Singh,neha.singh@microsoft.com,Neha4486,female,group A,some high school,standard,none,71,83,77
-380,Vikram Reddy,vikram.reddy@microsoft.com,Vikram8823,male,group A,bachelor's degree,standard,none,66,64,62
-381,Neha Singh,neha.singh@yahoo.com,Neha7602,female,group B,associate's degree,standard,none,80,86,83
-382,Amit Malhotra,amit.malhotra@gmail.com,Amit1934,male,group C,associate's degree,standard,completed,87,100,95
-383,Arun Kumar,arun.kumar@microsoft.com,Arun5836,male,group C,master's degree,free/reduced,none,79,81,71
-384,Priya Sharma,priya.sharma@microsoft.com,Priya3304,female,group E,some high school,free/reduced,none,38,49,45
-385,Anjali Patel,anjali.patel@yahoo.com,Anjali6421,female,group A,some high school,free/reduced,none,38,43,43
-386,Priya Sharma,priya.sharma@microsoft.com,Priya8462,female,group E,some college,standard,none,67,76,75
-387,Neha Singh,neha.singh@yahoo.com,Neha4822,female,group E,bachelor's degree,standard,none,64,73,70
-388,Neha Singh,neha.singh@gmail.com,Neha9973,female,group C,associate's degree,free/reduced,none,57,78,67
-389,Neha Singh,neha.singh@microsoft.com,Neha5709,female,group D,high school,standard,none,62,64,64
-390,Arun Kumar,arun.kumar@gmail.com,Arun5384,male,group D,master's degree,standard,none,73,70,75
-391,Amit Malhotra,amit.malhotra@gmail.com,Amit8774,male,group E,some high school,free/reduced,completed,73,67,59
-392,Priya Sharma,priya.sharma@yahoo.com,Priya8878,female,group D,some college,standard,none,77,68,77
-393,Rahul Nair,rahul.nair@gmail.com,Rahul8960,male,group E,some college,standard,none,76,67,67
-394,Amit Malhotra,amit.malhotra@yahoo.com,Amit1149,male,group C,associate's degree,standard,completed,57,54,56
-395,Pooja Desai,pooja.desai@gmail.com,Pooja8758,female,group C,some high school,standard,completed,65,74,77
-396,Raj Verma,raj.verma@microsoft.com,Raj5285,male,group A,high school,free/reduced,none,48,45,41
-397,Priya Sharma,priya.sharma@yahoo.com,Priya7865,female,group B,high school,free/reduced,none,50,67,63
-398,Riya Gupta,riya.gupta@gmail.com,Riya4806,female,group C,associate's degree,standard,none,85,89,95
-399,Vikram Reddy,vikram.reddy@yahoo.com,Vikram8010,male,group B,some high school,standard,none,74,63,57
-400,Arun Kumar,arun.kumar@microsoft.com,Arun2887,male,group D,some high school,standard,none,60,59,54
-401,Riya Gupta,riya.gupta@gmail.com,Riya1568,female,group C,some high school,standard,completed,59,54,67
-402,Arun Kumar,arun.kumar@gmail.com,Arun9943,male,group A,some college,standard,none,53,43,43
-403,Priya Sharma,priya.sharma@gmail.com,Priya4195,female,group A,some college,free/reduced,none,49,65,55
-404,Anjali Patel,anjali.patel@yahoo.com,Anjali7379,female,group D,high school,standard,completed,88,99,100
-405,Anjali Patel,anjali.patel@yahoo.com,Anjali6214,female,group C,high school,standard,none,54,59,62
-406,Neha Singh,neha.singh@microsoft.com,Neha3420,female,group C,some high school,standard,none,63,73,68
-407,Amit Malhotra,amit.malhotra@gmail.com,Amit7187,male,group B,associate's degree,standard,completed,65,65,63
-408,Riya Gupta,riya.gupta@yahoo.com,Riya2965,female,group B,associate's degree,standard,none,82,80,77
-409,Anjali Patel,anjali.patel@gmail.com,Anjali1934,female,group D,high school,free/reduced,completed,52,57,56
-410,Arun Kumar,arun.kumar@microsoft.com,Arun6258,male,group D,associate's degree,standard,completed,87,84,85
-411,Riya Gupta,riya.gupta@microsoft.com,Riya9411,female,group D,master's degree,standard,completed,70,71,74
-412,Vikram Reddy,vikram.reddy@yahoo.com,Vikram2066,male,group E,some college,standard,completed,84,83,78
-413,Raj Verma,raj.verma@microsoft.com,Raj1399,male,group D,associate's degree,standard,none,71,66,60
-414,Raj Verma,raj.verma@microsoft.com,Raj6068,male,group B,some high school,standard,completed,63,67,67
-415,Riya Gupta,riya.gupta@gmail.com,Riya2346,female,group C,bachelor's degree,free/reduced,completed,51,72,79
-416,Rahul Nair,rahul.nair@yahoo.com,Rahul9521,male,group E,high school,standard,none,84,73,69
-417,Vikram Reddy,vikram.reddy@microsoft.com,Vikram2161,male,group C,bachelor's degree,standard,completed,71,74,68
-418,Raj Verma,raj.verma@microsoft.com,Raj8038,male,group C,associate's degree,standard,none,74,73,67
-419,Vikram Reddy,vikram.reddy@gmail.com,Vikram5457,male,group D,some college,standard,none,68,59,62
-420,Rahul Nair,rahul.nair@gmail.com,Rahul9531,male,group E,high school,free/reduced,completed,57,56,54
-421,Anjali Patel,anjali.patel@microsoft.com,Anjali6372,female,group C,associate's degree,free/reduced,completed,82,93,93
-422,Neha Singh,neha.singh@gmail.com,Neha9760,female,group D,high school,standard,completed,57,58,64
-423,Pooja Desai,pooja.desai@gmail.com,Pooja6786,female,group D,master's degree,free/reduced,completed,47,58,67
-424,Neha Singh,neha.singh@gmail.com,Neha8274,female,group A,some high school,standard,completed,59,85,80
-425,Raj Verma,raj.verma@microsoft.com,Raj7403,male,group B,some college,free/reduced,none,41,39,34
-426,Priya Sharma,priya.sharma@yahoo.com,Priya1403,female,group C,some college,free/reduced,none,62,67,62
-427,Vikram Reddy,vikram.reddy@microsoft.com,Vikram2833,male,group C,bachelor's degree,standard,none,86,83,86
-428,Raj Verma,raj.verma@gmail.com,Raj6327,male,group C,some high school,free/reduced,none,69,71,65
-429,Vikram Reddy,vikram.reddy@gmail.com,Vikram1118,male,group A,some high school,free/reduced,none,65,59,53
-430,Arun Kumar,arun.kumar@yahoo.com,Arun4226,male,group C,some high school,free/reduced,none,68,63,54
-431,Rahul Nair,rahul.nair@microsoft.com,Rahul9772,male,group C,associate's degree,free/reduced,none,64,66,59
-432,Priya Sharma,priya.sharma@yahoo.com,Priya9201,female,group C,high school,standard,none,61,72,70
-433,Vikram Reddy,vikram.reddy@yahoo.com,Vikram6555,male,group C,high school,standard,none,61,56,55
-434,Pooja Desai,pooja.desai@gmail.com,Pooja6699,female,group A,some high school,free/reduced,none,47,59,50
-435,Arun Kumar,arun.kumar@gmail.com,Arun4678,male,group C,some high school,standard,none,73,66,66
-436,Arun Kumar,arun.kumar@gmail.com,Arun4183,male,group C,some college,free/reduced,completed,50,48,53
-437,Arun Kumar,arun.kumar@microsoft.com,Arun9036,male,group D,associate's degree,standard,none,75,68,64
-438,Raj Verma,raj.verma@microsoft.com,Raj6898,male,group D,associate's degree,free/reduced,none,75,66,73
-439,Arun Kumar,arun.kumar@yahoo.com,Arun6469,male,group C,high school,standard,none,70,56,51
-440,Rahul Nair,rahul.nair@yahoo.com,Rahul7205,male,group D,some high school,standard,completed,89,88,82
-441,Neha Singh,neha.singh@microsoft.com,Neha2022,female,group C,some college,standard,completed,67,81,79
-442,Neha Singh,neha.singh@gmail.com,Neha2515,female,group D,high school,standard,none,78,81,80
-443,Anjali Patel,anjali.patel@microsoft.com,Anjali9839,female,group A,some high school,free/reduced,none,59,73,69
-444,Pooja Desai,pooja.desai@yahoo.com,Pooja5053,female,group B,associate's degree,standard,none,73,83,76
-445,Arun Kumar,arun.kumar@gmail.com,Arun6592,male,group A,some high school,free/reduced,none,79,82,73
-446,Anjali Patel,anjali.patel@gmail.com,Anjali1916,female,group C,some high school,standard,completed,67,74,77
-447,Vikram Reddy,vikram.reddy@microsoft.com,Vikram5469,male,group D,some college,free/reduced,none,69,66,60
-448,Raj Verma,raj.verma@yahoo.com,Raj9580,male,group C,high school,standard,completed,86,81,80
-449,Vikram Reddy,vikram.reddy@microsoft.com,Vikram8453,male,group B,high school,standard,none,47,46,42
-450,Rahul Nair,rahul.nair@yahoo.com,Rahul7850,male,group B,associate's degree,standard,none,81,73,72
-451,Anjali Patel,anjali.patel@microsoft.com,Anjali8913,female,group C,some college,free/reduced,completed,64,85,85
-452,Anjali Patel,anjali.patel@gmail.com,Anjali1486,female,group E,some college,standard,none,100,92,97
-453,Neha Singh,neha.singh@gmail.com,Neha4571,female,group C,associate's degree,free/reduced,none,65,77,74
-454,Rahul Nair,rahul.nair@gmail.com,Rahul1605,male,group C,some college,free/reduced,none,65,58,49
-455,Anjali Patel,anjali.patel@microsoft.com,Anjali5880,female,group C,associate's degree,free/reduced,none,53,61,62
-456,Amit Malhotra,amit.malhotra@microsoft.com,Amit4419,male,group C,bachelor's degree,free/reduced,none,37,56,47
-457,Priya Sharma,priya.sharma@gmail.com,Priya4644,female,group D,bachelor's degree,standard,none,79,89,89
-458,Raj Verma,raj.verma@gmail.com,Raj7275,male,group D,associate's degree,free/reduced,none,53,54,48
-459,Pooja Desai,pooja.desai@microsoft.com,Pooja7818,female,group E,bachelor's degree,standard,none,100,100,100
-460,Amit Malhotra,amit.malhotra@microsoft.com,Amit3496,male,group B,high school,standard,completed,72,65,68
-461,Rahul Nair,rahul.nair@yahoo.com,Rahul1721,male,group C,bachelor's degree,free/reduced,none,53,58,55
-462,Arun Kumar,arun.kumar@microsoft.com,Arun8958,male,group B,some college,free/reduced,none,54,54,45
-463,Riya Gupta,riya.gupta@gmail.com,Riya4694,female,group E,some college,standard,none,71,70,76
-464,Neha Singh,neha.singh@gmail.com,Neha8685,female,group C,some college,free/reduced,none,77,90,91
-465,Vikram Reddy,vikram.reddy@microsoft.com,Vikram2042,male,group A,bachelor's degree,standard,completed,75,58,62
-466,Anjali Patel,anjali.patel@microsoft.com,Anjali8406,female,group C,some college,standard,none,84,87,91
-467,Priya Sharma,priya.sharma@gmail.com,Priya3249,female,group D,associate's degree,free/reduced,none,26,31,38
-468,Arun Kumar,arun.kumar@yahoo.com,Arun4647,male,group A,high school,free/reduced,completed,72,67,65
-469,Anjali Patel,anjali.patel@microsoft.com,Anjali7476,female,group A,high school,free/reduced,completed,77,88,85
-470,Arun Kumar,arun.kumar@yahoo.com,Arun5262,male,group C,some college,standard,none,91,74,76
-471,Pooja Desai,pooja.desai@yahoo.com,Pooja8027,female,group C,associate's degree,standard,completed,83,85,90
-472,Riya Gupta,riya.gupta@microsoft.com,Riya6882,female,group C,high school,standard,none,63,69,74
-473,Anjali Patel,anjali.patel@yahoo.com,Anjali8277,female,group C,associate's degree,standard,completed,68,86,84
-474,Pooja Desai,pooja.desai@microsoft.com,Pooja7298,female,group D,some high school,standard,none,59,67,61
-475,Anjali Patel,anjali.patel@microsoft.com,Anjali6438,female,group B,associate's degree,standard,completed,90,90,91
-476,Riya Gupta,riya.gupta@microsoft.com,Riya2105,female,group D,bachelor's degree,standard,completed,71,76,83
-477,Amit Malhotra,amit.malhotra@yahoo.com,Amit2152,male,group E,bachelor's degree,standard,completed,76,62,66
-478,Arun Kumar,arun.kumar@microsoft.com,Arun6681,male,group D,associate's degree,standard,none,80,68,72
-479,Riya Gupta,riya.gupta@microsoft.com,Riya1402,female,group D,master's degree,standard,none,55,64,70
-480,Amit Malhotra,amit.malhotra@microsoft.com,Amit3308,male,group E,associate's degree,standard,none,76,71,67
-481,Raj Verma,raj.verma@microsoft.com,Raj9254,male,group B,high school,standard,completed,73,71,68
-482,Pooja Desai,pooja.desai@microsoft.com,Pooja5692,female,group D,associate's degree,free/reduced,none,52,59,56
-483,Raj Verma,raj.verma@yahoo.com,Raj2328,male,group C,some college,free/reduced,none,68,68,61
-484,Raj Verma,raj.verma@microsoft.com,Raj4815,male,group A,high school,standard,none,59,52,46
-485,Neha Singh,neha.singh@microsoft.com,Neha4121,female,group B,associate's degree,standard,none,49,52,54
-486,Rahul Nair,rahul.nair@gmail.com,Rahul5513,male,group C,high school,standard,none,70,74,71
-487,Rahul Nair,rahul.nair@microsoft.com,Rahul4942,male,group D,some college,free/reduced,none,61,47,56
-488,Priya Sharma,priya.sharma@microsoft.com,Priya7306,female,group C,associate's degree,free/reduced,none,60,75,74
-489,Amit Malhotra,amit.malhotra@microsoft.com,Amit8380,male,group B,some high school,standard,completed,64,53,57
-490,Raj Verma,raj.verma@yahoo.com,Raj9007,male,group A,associate's degree,free/reduced,completed,79,82,82
-491,Pooja Desai,pooja.desai@yahoo.com,Pooja6701,female,group A,associate's degree,free/reduced,none,65,85,76
-492,Pooja Desai,pooja.desai@gmail.com,Pooja3586,female,group C,associate's degree,standard,none,64,64,70
-493,Priya Sharma,priya.sharma@microsoft.com,Priya7755,female,group C,some college,standard,none,83,83,90
-494,Priya Sharma,priya.sharma@yahoo.com,Priya2334,female,group C,bachelor's degree,standard,none,81,88,90
-495,Priya Sharma,priya.sharma@microsoft.com,Priya6454,female,group B,high school,standard,none,54,64,68
-496,Arun Kumar,arun.kumar@gmail.com,Arun7285,male,group D,high school,standard,completed,68,64,66
-497,Neha Singh,neha.singh@microsoft.com,Neha8211,female,group C,some college,standard,none,54,48,52
-498,Priya Sharma,priya.sharma@yahoo.com,Priya8145,female,group D,some college,free/reduced,completed,59,78,76
-499,Anjali Patel,anjali.patel@microsoft.com,Anjali3335,female,group B,some high school,standard,none,66,69,68
-500,Arun Kumar,arun.kumar@yahoo.com,Arun1290,male,group E,some college,standard,none,76,71,72
-501,Anjali Patel,anjali.patel@yahoo.com,Anjali8260,female,group D,master's degree,standard,none,74,79,82
-502,Anjali Patel,anjali.patel@gmail.com,Anjali7059,female,group B,associate's degree,standard,completed,94,87,92
-503,Raj Verma,raj.verma@yahoo.com,Raj5396,male,group C,some college,free/reduced,none,63,61,54
-504,Riya Gupta,riya.gupta@yahoo.com,Riya7565,female,group E,associate's degree,standard,completed,95,89,92
-505,Priya Sharma,priya.sharma@microsoft.com,Priya6316,female,group D,master's degree,free/reduced,none,40,59,54
-506,Priya Sharma,priya.sharma@yahoo.com,Priya1031,female,group B,some high school,standard,none,82,82,80
-507,Arun Kumar,arun.kumar@gmail.com,Arun2731,male,group A,high school,standard,none,68,70,66
-508,Raj Verma,raj.verma@microsoft.com,Raj1182,male,group B,bachelor's degree,free/reduced,none,55,59,54
-509,Vikram Reddy,vikram.reddy@yahoo.com,Vikram4115,male,group C,master's degree,standard,none,79,78,77
-510,Pooja Desai,pooja.desai@microsoft.com,Pooja2018,female,group C,bachelor's degree,standard,none,86,92,87
-511,Amit Malhotra,amit.malhotra@microsoft.com,Amit9119,male,group D,some college,standard,none,76,71,73
-512,Vikram Reddy,vikram.reddy@gmail.com,Vikram9575,male,group A,some high school,standard,none,64,50,43
-513,Arun Kumar,arun.kumar@microsoft.com,Arun2153,male,group D,some high school,free/reduced,none,62,49,52
-514,Neha Singh,neha.singh@yahoo.com,Neha7929,female,group B,some high school,standard,completed,54,61,62
-515,Neha Singh,neha.singh@microsoft.com,Neha5948,female,group B,master's degree,free/reduced,completed,77,97,94
-516,Anjali Patel,anjali.patel@microsoft.com,Anjali2280,female,group C,some high school,standard,completed,76,87,85
-517,Priya Sharma,priya.sharma@gmail.com,Priya6177,female,group D,some college,standard,none,74,89,84
-518,Neha Singh,neha.singh@gmail.com,Neha6294,female,group E,some college,standard,completed,66,74,73
-519,Pooja Desai,pooja.desai@gmail.com,Pooja9934,female,group D,some high school,standard,completed,66,78,78
-520,Neha Singh,neha.singh@yahoo.com,Neha1131,female,group B,high school,free/reduced,completed,67,78,79
-521,Rahul Nair,rahul.nair@microsoft.com,Rahul1352,male,group D,some college,standard,none,71,49,52
-522,Priya Sharma,priya.sharma@gmail.com,Priya6722,female,group C,associate's degree,standard,none,91,86,84
-523,Vikram Reddy,vikram.reddy@yahoo.com,Vikram6078,male,group D,bachelor's degree,standard,none,69,58,57
-524,Raj Verma,raj.verma@gmail.com,Raj7595,male,group C,master's degree,free/reduced,none,54,59,50
-525,Amit Malhotra,amit.malhotra@yahoo.com,Amit4532,male,group C,high school,standard,completed,53,52,49
-526,Arun Kumar,arun.kumar@yahoo.com,Arun6380,male,group E,some college,standard,none,68,60,59
-527,Arun Kumar,arun.kumar@microsoft.com,Arun6845,male,group C,some high school,free/reduced,completed,56,61,60
-528,Riya Gupta,riya.gupta@microsoft.com,Riya2610,female,group C,high school,free/reduced,none,36,53,43
-529,Anjali Patel,anjali.patel@microsoft.com,Anjali1265,female,group D,bachelor's degree,free/reduced,none,29,41,47
-530,Pooja Desai,pooja.desai@gmail.com,Pooja4049,female,group C,associate's degree,standard,none,62,74,70
-531,Neha Singh,neha.singh@gmail.com,Neha9263,female,group C,associate's degree,standard,completed,68,67,73
-532,Priya Sharma,priya.sharma@microsoft.com,Priya6453,female,group C,some high school,standard,none,47,54,53
-533,Rahul Nair,rahul.nair@gmail.com,Rahul6033,male,group E,associate's degree,standard,completed,62,61,58
-534,Pooja Desai,pooja.desai@microsoft.com,Pooja9270,female,group E,associate's degree,standard,completed,79,88,94
-535,Amit Malhotra,amit.malhotra@microsoft.com,Amit1902,male,group B,high school,standard,completed,73,69,68
-536,Pooja Desai,pooja.desai@gmail.com,Pooja1237,female,group C,bachelor's degree,free/reduced,completed,66,83,83
-537,Rahul Nair,rahul.nair@gmail.com,Rahul9132,male,group C,associate's degree,standard,completed,51,60,58
-538,Priya Sharma,priya.sharma@gmail.com,Priya1768,female,group D,high school,standard,none,51,66,62
-539,Raj Verma,raj.verma@gmail.com,Raj4843,male,group E,bachelor's degree,standard,completed,85,66,71
-540,Raj Verma,raj.verma@gmail.com,Raj1739,male,group A,associate's degree,standard,completed,97,92,86
-541,Amit Malhotra,amit.malhotra@microsoft.com,Amit5678,male,group C,high school,standard,completed,75,69,68
-542,Vikram Reddy,vikram.reddy@gmail.com,Vikram9794,male,group D,associate's degree,free/reduced,completed,79,82,80
-543,Priya Sharma,priya.sharma@yahoo.com,Priya5260,female,group C,associate's degree,standard,none,81,77,79
-544,Anjali Patel,anjali.patel@microsoft.com,Anjali5842,female,group D,associate's degree,standard,none,82,95,89
-545,Pooja Desai,pooja.desai@gmail.com,Pooja7102,female,group D,master's degree,standard,none,64,63,66
-546,Arun Kumar,arun.kumar@gmail.com,Arun1048,male,group E,some high school,free/reduced,completed,78,83,80
-547,Pooja Desai,pooja.desai@yahoo.com,Pooja9401,female,group A,some high school,standard,completed,92,100,97
-548,Vikram Reddy,vikram.reddy@yahoo.com,Vikram5064,male,group C,high school,standard,completed,72,67,64
-549,Neha Singh,neha.singh@gmail.com,Neha7784,female,group C,high school,free/reduced,none,62,67,64
-550,Amit Malhotra,amit.malhotra@gmail.com,Amit9808,male,group C,master's degree,standard,none,79,72,69
-551,Raj Verma,raj.verma@gmail.com,Raj8088,male,group C,some high school,free/reduced,none,79,76,65
-552,Vikram Reddy,vikram.reddy@microsoft.com,Vikram7766,male,group B,bachelor's degree,free/reduced,completed,87,90,88
-553,Priya Sharma,priya.sharma@microsoft.com,Priya3118,female,group B,associate's degree,standard,none,40,48,50
-554,Rahul Nair,rahul.nair@gmail.com,Rahul7210,male,group D,some college,free/reduced,none,77,62,64
-555,Arun Kumar,arun.kumar@gmail.com,Arun6276,male,group E,associate's degree,standard,none,53,45,40
-556,Pooja Desai,pooja.desai@microsoft.com,Pooja2854,female,group C,some college,free/reduced,none,32,39,33
-557,Priya Sharma,priya.sharma@gmail.com,Priya2425,female,group C,associate's degree,standard,completed,55,72,79
-558,Arun Kumar,arun.kumar@microsoft.com,Arun7187,male,group C,master's degree,free/reduced,none,61,67,66
-559,Anjali Patel,anjali.patel@yahoo.com,Anjali8203,female,group B,associate's degree,free/reduced,none,53,70,70
-560,Arun Kumar,arun.kumar@microsoft.com,Arun9354,male,group D,some high school,standard,none,73,66,62
-561,Riya Gupta,riya.gupta@microsoft.com,Riya1668,female,group D,some college,standard,completed,74,75,79
-562,Riya Gupta,riya.gupta@gmail.com,Riya4215,female,group C,some college,standard,none,63,74,74
-563,Vikram Reddy,vikram.reddy@gmail.com,Vikram7668,male,group C,bachelor's degree,standard,completed,96,90,92
-564,Anjali Patel,anjali.patel@yahoo.com,Anjali1160,female,group D,some college,free/reduced,completed,63,80,80
-565,Arun Kumar,arun.kumar@microsoft.com,Arun6058,male,group B,bachelor's degree,free/reduced,none,48,51,46
-566,Amit Malhotra,amit.malhotra@gmail.com,Amit5554,male,group B,associate's degree,standard,none,48,43,45
-567,Riya Gupta,riya.gupta@gmail.com,Riya3348,female,group E,bachelor's degree,free/reduced,completed,92,100,100
-568,Anjali Patel,anjali.patel@gmail.com,Anjali7612,female,group D,master's degree,free/reduced,completed,61,71,78
-569,Rahul Nair,rahul.nair@gmail.com,Rahul3830,male,group B,high school,free/reduced,none,63,48,47
-570,Amit Malhotra,amit.malhotra@microsoft.com,Amit1101,male,group D,bachelor's degree,free/reduced,none,68,68,67
-571,Amit Malhotra,amit.malhotra@microsoft.com,Amit7744,male,group B,some college,standard,completed,71,75,70
-572,Vikram Reddy,vikram.reddy@gmail.com,Vikram4377,male,group A,bachelor's degree,standard,none,91,96,92
-573,Riya Gupta,riya.gupta@yahoo.com,Riya3806,female,group C,some college,standard,none,53,62,56
-574,Pooja Desai,pooja.desai@microsoft.com,Pooja3580,female,group C,high school,free/reduced,completed,50,66,64
-575,Pooja Desai,pooja.desai@gmail.com,Pooja9617,female,group E,high school,standard,none,74,81,71
-576,Arun Kumar,arun.kumar@gmail.com,Arun4468,male,group A,associate's degree,free/reduced,completed,40,55,53
-577,Raj Verma,raj.verma@microsoft.com,Raj4222,male,group A,some college,standard,completed,61,51,52
-578,Riya Gupta,riya.gupta@gmail.com,Riya4983,female,group B,high school,standard,none,81,91,89
-579,Anjali Patel,anjali.patel@microsoft.com,Anjali5446,female,group B,some college,free/reduced,completed,48,56,58
-580,Pooja Desai,pooja.desai@microsoft.com,Pooja4654,female,group D,master's degree,standard,none,53,61,68
-581,Priya Sharma,priya.sharma@yahoo.com,Priya2944,female,group D,some high school,standard,none,81,97,96
-582,Priya Sharma,priya.sharma@gmail.com,Priya9108,female,group E,some high school,standard,none,77,79,80
-583,Riya Gupta,riya.gupta@yahoo.com,Riya1487,female,group D,bachelor's degree,free/reduced,none,63,73,78
-584,Anjali Patel,anjali.patel@gmail.com,Anjali4674,female,group D,associate's degree,standard,completed,73,75,80
-585,Priya Sharma,priya.sharma@microsoft.com,Priya2769,female,group D,some college,standard,none,69,77,77
-586,Priya Sharma,priya.sharma@yahoo.com,Priya5129,female,group C,associate's degree,standard,none,65,76,76
-587,Neha Singh,neha.singh@microsoft.com,Neha9861,female,group A,high school,standard,none,55,73,73
-588,Neha Singh,neha.singh@yahoo.com,Neha6475,female,group C,bachelor's degree,free/reduced,none,44,63,62
-589,Priya Sharma,priya.sharma@yahoo.com,Priya2291,female,group C,some college,standard,none,54,64,65
-590,Pooja Desai,pooja.desai@yahoo.com,Pooja8478,female,group A,some high school,standard,none,48,66,65
-591,Rahul Nair,rahul.nair@gmail.com,Rahul3292,male,group C,some college,free/reduced,none,58,57,54
-592,Raj Verma,raj.verma@gmail.com,Raj7695,male,group A,some high school,standard,none,71,62,50
-593,Amit Malhotra,amit.malhotra@gmail.com,Amit9399,male,group E,bachelor's degree,standard,none,68,68,64
-594,Anjali Patel,anjali.patel@yahoo.com,Anjali1795,female,group E,high school,standard,none,74,76,73
-595,Neha Singh,neha.singh@gmail.com,Neha5755,female,group C,bachelor's degree,standard,completed,92,100,99
-596,Priya Sharma,priya.sharma@microsoft.com,Priya4015,female,group C,bachelor's degree,standard,completed,56,79,72
-597,Amit Malhotra,amit.malhotra@microsoft.com,Amit1265,male,group B,high school,free/reduced,none,30,24,15
-598,Rahul Nair,rahul.nair@gmail.com,Rahul2673,male,group A,some high school,standard,none,53,54,48
-599,Priya Sharma,priya.sharma@microsoft.com,Priya1093,female,group D,high school,standard,none,69,77,73
-600,Priya Sharma,priya.sharma@yahoo.com,Priya5552,female,group D,some high school,standard,none,65,82,81
-601,Pooja Desai,pooja.desai@gmail.com,Pooja4340,female,group D,master's degree,standard,none,54,60,63
-602,Priya Sharma,priya.sharma@gmail.com,Priya4476,female,group C,high school,standard,none,29,29,30
-603,Neha Singh,neha.singh@yahoo.com,Neha6950,female,group E,some college,standard,none,76,78,80
-604,Raj Verma,raj.verma@yahoo.com,Raj5411,male,group D,high school,free/reduced,none,60,57,51
-605,Amit Malhotra,amit.malhotra@gmail.com,Amit5446,male,group D,master's degree,free/reduced,completed,84,89,90
-606,Arun Kumar,arun.kumar@microsoft.com,Arun5132,male,group C,some high school,standard,none,75,72,62
-607,Pooja Desai,pooja.desai@microsoft.com,Pooja4438,female,group C,associate's degree,standard,none,85,84,82
-608,Priya Sharma,priya.sharma@microsoft.com,Priya3208,female,group C,master's degree,free/reduced,none,40,58,54
-609,Priya Sharma,priya.sharma@microsoft.com,Priya4377,female,group E,some college,standard,none,61,64,62
-610,Priya Sharma,priya.sharma@gmail.com,Priya3037,female,group B,associate's degree,standard,none,58,63,65
-611,Rahul Nair,rahul.nair@yahoo.com,Rahul3651,male,group D,some college,free/reduced,completed,69,60,63
-612,Priya Sharma,priya.sharma@yahoo.com,Priya5005,female,group C,some college,standard,none,58,59,66
-613,Raj Verma,raj.verma@yahoo.com,Raj7609,male,group C,bachelor's degree,standard,completed,94,90,91
-614,Riya Gupta,riya.gupta@microsoft.com,Riya9453,female,group C,associate's degree,standard,none,65,77,74
-615,Pooja Desai,pooja.desai@microsoft.com,Pooja1125,female,group A,associate's degree,standard,none,82,93,93
-616,Neha Singh,neha.singh@gmail.com,Neha9315,female,group C,high school,standard,none,60,68,72
-617,Anjali Patel,anjali.patel@yahoo.com,Anjali2968,female,group E,bachelor's degree,standard,none,37,45,38
-618,Vikram Reddy,vikram.reddy@yahoo.com,Vikram3554,male,group D,bachelor's degree,standard,none,88,78,83
-619,Amit Malhotra,amit.malhotra@gmail.com,Amit3361,male,group D,master's degree,standard,none,95,81,84
-620,Amit Malhotra,amit.malhotra@gmail.com,Amit3108,male,group C,associate's degree,free/reduced,completed,65,73,68
-621,Neha Singh,neha.singh@microsoft.com,Neha8535,female,group C,high school,free/reduced,none,35,61,54
-622,Rahul Nair,rahul.nair@microsoft.com,Rahul8208,male,group B,bachelor's degree,free/reduced,none,62,63,56
-623,Vikram Reddy,vikram.reddy@yahoo.com,Vikram4161,male,group C,high school,free/reduced,completed,58,51,52
-624,Arun Kumar,arun.kumar@yahoo.com,Arun1340,male,group A,some college,standard,completed,100,96,86
-625,Pooja Desai,pooja.desai@gmail.com,Pooja1908,female,group E,bachelor's degree,free/reduced,none,61,58,62
-626,Rahul Nair,rahul.nair@yahoo.com,Rahul9046,male,group D,some college,standard,completed,100,97,99
-627,Arun Kumar,arun.kumar@microsoft.com,Arun8435,male,group B,associate's degree,free/reduced,completed,69,70,63
-628,Raj Verma,raj.verma@gmail.com,Raj1963,male,group D,associate's degree,standard,none,61,48,46
-629,Amit Malhotra,amit.malhotra@yahoo.com,Amit7880,male,group D,some college,free/reduced,none,49,57,46
-630,Riya Gupta,riya.gupta@gmail.com,Riya4894,female,group C,some high school,standard,completed,44,51,55
-631,Rahul Nair,rahul.nair@yahoo.com,Rahul6979,male,group D,some college,standard,none,67,64,70
-632,Vikram Reddy,vikram.reddy@microsoft.com,Vikram8149,male,group B,high school,standard,none,79,60,65
-633,Priya Sharma,priya.sharma@microsoft.com,Priya4684,female,group B,bachelor's degree,standard,completed,66,74,81
-634,Riya Gupta,riya.gupta@gmail.com,Riya7918,female,group C,high school,standard,none,75,88,85
-635,Rahul Nair,rahul.nair@yahoo.com,Rahul5423,male,group D,some high school,standard,none,84,84,80
-636,Rahul Nair,rahul.nair@gmail.com,Rahul6752,male,group A,high school,standard,none,71,74,64
-637,Neha Singh,neha.singh@yahoo.com,Neha9901,female,group B,high school,free/reduced,completed,67,80,81
-638,Anjali Patel,anjali.patel@gmail.com,Anjali8983,female,group D,some high school,standard,completed,80,92,88
-639,Vikram Reddy,vikram.reddy@yahoo.com,Vikram5284,male,group E,some college,standard,none,86,76,74
-640,Pooja Desai,pooja.desai@yahoo.com,Pooja2378,female,group D,associate's degree,standard,none,76,74,73
-641,Raj Verma,raj.verma@gmail.com,Raj4925,male,group D,high school,standard,none,41,52,51
-642,Pooja Desai,pooja.desai@gmail.com,Pooja4203,female,group D,associate's degree,free/reduced,completed,74,88,90
-643,Priya Sharma,priya.sharma@microsoft.com,Priya8658,female,group B,some high school,free/reduced,none,72,81,79
-644,Anjali Patel,anjali.patel@yahoo.com,Anjali9771,female,group E,high school,standard,completed,74,79,80
-645,Rahul Nair,rahul.nair@microsoft.com,Rahul9607,male,group B,high school,standard,none,70,65,60
-646,Priya Sharma,priya.sharma@yahoo.com,Priya8023,female,group B,bachelor's degree,standard,completed,65,81,81
-647,Pooja Desai,pooja.desai@yahoo.com,Pooja9717,female,group D,associate's degree,standard,none,59,70,65
-648,Priya Sharma,priya.sharma@yahoo.com,Priya3971,female,group E,high school,free/reduced,none,64,62,68
-649,Anjali Patel,anjali.patel@microsoft.com,Anjali5533,female,group B,high school,standard,none,50,53,55
-650,Anjali Patel,anjali.patel@yahoo.com,Anjali6347,female,group D,some college,standard,completed,69,79,81
-651,Raj Verma,raj.verma@gmail.com,Raj8756,male,group C,some high school,free/reduced,completed,51,56,53
-652,Priya Sharma,priya.sharma@microsoft.com,Priya8881,female,group A,high school,standard,completed,68,80,76
-653,Pooja Desai,pooja.desai@microsoft.com,Pooja8522,female,group D,some college,standard,completed,85,86,98
-654,Riya Gupta,riya.gupta@gmail.com,Riya2126,female,group A,associate's degree,standard,completed,65,70,74
-655,Priya Sharma,priya.sharma@gmail.com,Priya8867,female,group B,some high school,standard,none,73,79,79
-656,Neha Singh,neha.singh@microsoft.com,Neha9656,female,group B,some college,standard,none,62,67,67
-657,Arun Kumar,arun.kumar@yahoo.com,Arun7867,male,group C,associate's degree,free/reduced,none,77,67,64
-658,Vikram Reddy,vikram.reddy@microsoft.com,Vikram4508,male,group D,some high school,standard,none,69,66,61
-659,Anjali Patel,anjali.patel@microsoft.com,Anjali5030,female,group D,associate's degree,free/reduced,none,43,60,58
-660,Vikram Reddy,vikram.reddy@yahoo.com,Vikram6700,male,group D,associate's degree,standard,none,90,87,85
-661,Raj Verma,raj.verma@microsoft.com,Raj1134,male,group C,some college,free/reduced,none,74,77,73
-662,Raj Verma,raj.verma@gmail.com,Raj1660,male,group C,some high school,standard,none,73,66,63
-663,Riya Gupta,riya.gupta@yahoo.com,Riya4072,female,group D,some college,free/reduced,none,55,71,69
-664,Riya Gupta,riya.gupta@microsoft.com,Riya1657,female,group C,high school,standard,none,65,69,67
-665,Raj Verma,raj.verma@gmail.com,Raj2727,male,group D,associate's degree,standard,none,80,63,63
-666,Anjali Patel,anjali.patel@gmail.com,Anjali9202,female,group C,some high school,free/reduced,completed,50,60,60
-667,Anjali Patel,anjali.patel@gmail.com,Anjali1202,female,group C,some college,free/reduced,completed,63,73,71
-668,Riya Gupta,riya.gupta@gmail.com,Riya1391,female,group B,bachelor's degree,free/reduced,none,77,85,87
-669,Raj Verma,raj.verma@microsoft.com,Raj6009,male,group C,some college,standard,none,73,74,61
-670,Rahul Nair,rahul.nair@yahoo.com,Rahul9015,male,group D,associate's degree,standard,completed,81,72,77
-671,Anjali Patel,anjali.patel@gmail.com,Anjali4993,female,group C,high school,free/reduced,none,66,76,68
-672,Amit Malhotra,amit.malhotra@yahoo.com,Amit5810,male,group D,associate's degree,free/reduced,none,52,57,50
-673,Priya Sharma,priya.sharma@yahoo.com,Priya5208,female,group C,some college,standard,none,69,78,76
-674,Neha Singh,neha.singh@gmail.com,Neha8123,female,group C,associate's degree,standard,completed,65,84,84
-675,Neha Singh,neha.singh@yahoo.com,Neha2368,female,group D,high school,standard,completed,69,77,78
-676,Riya Gupta,riya.gupta@gmail.com,Riya1077,female,group B,some college,standard,completed,50,64,66
-677,Pooja Desai,pooja.desai@gmail.com,Pooja9710,female,group E,some college,standard,completed,73,78,76
-678,Riya Gupta,riya.gupta@microsoft.com,Riya4880,female,group C,some high school,standard,completed,70,82,76
-679,Rahul Nair,rahul.nair@yahoo.com,Rahul5825,male,group D,associate's degree,free/reduced,none,81,75,78
-680,Vikram Reddy,vikram.reddy@gmail.com,Vikram9366,male,group D,some college,free/reduced,none,63,61,60
-681,Riya Gupta,riya.gupta@gmail.com,Riya3742,female,group D,high school,standard,none,67,72,74
-682,Rahul Nair,rahul.nair@yahoo.com,Rahul8187,male,group B,high school,standard,none,60,68,60
-683,Rahul Nair,rahul.nair@gmail.com,Rahul3283,male,group B,high school,standard,none,62,55,54
-684,Priya Sharma,priya.sharma@gmail.com,Priya6831,female,group C,some high school,free/reduced,completed,29,40,44
-685,Amit Malhotra,amit.malhotra@microsoft.com,Amit6190,male,group B,some college,standard,completed,62,66,68
-686,Anjali Patel,anjali.patel@microsoft.com,Anjali6168,female,group E,master's degree,standard,completed,94,99,100
-687,Arun Kumar,arun.kumar@yahoo.com,Arun8620,male,group E,some college,standard,completed,85,75,68
-688,Raj Verma,raj.verma@yahoo.com,Raj2429,male,group D,associate's degree,free/reduced,none,77,78,73
-689,Rahul Nair,rahul.nair@yahoo.com,Rahul4768,male,group A,high school,free/reduced,none,53,58,44
-690,Rahul Nair,rahul.nair@yahoo.com,Rahul2470,male,group E,some college,free/reduced,none,93,90,83
-691,Priya Sharma,priya.sharma@microsoft.com,Priya8810,female,group C,associate's degree,standard,none,49,53,53
-692,Pooja Desai,pooja.desai@yahoo.com,Pooja7116,female,group E,associate's degree,free/reduced,none,73,76,78
-693,Priya Sharma,priya.sharma@gmail.com,Priya5873,female,group C,bachelor's degree,free/reduced,completed,66,74,81
-694,Anjali Patel,anjali.patel@yahoo.com,Anjali2265,female,group D,associate's degree,standard,none,77,77,73
-695,Anjali Patel,anjali.patel@gmail.com,Anjali1880,female,group C,some high school,standard,none,49,63,56
-696,Pooja Desai,pooja.desai@microsoft.com,Pooja2486,female,group D,some college,free/reduced,none,79,89,86
-697,Pooja Desai,pooja.desai@microsoft.com,Pooja3673,female,group C,associate's degree,standard,completed,75,82,90
-698,Riya Gupta,riya.gupta@yahoo.com,Riya8836,female,group A,bachelor's degree,standard,none,59,72,70
-699,Pooja Desai,pooja.desai@microsoft.com,Pooja9359,female,group D,associate's degree,standard,completed,57,78,79
-700,Vikram Reddy,vikram.reddy@gmail.com,Vikram4879,male,group C,high school,free/reduced,none,66,66,59
-701,Pooja Desai,pooja.desai@yahoo.com,Pooja2174,female,group E,bachelor's degree,standard,completed,79,81,82
-702,Pooja Desai,pooja.desai@microsoft.com,Pooja1389,female,group B,some high school,standard,none,57,67,72
-703,Amit Malhotra,amit.malhotra@microsoft.com,Amit4785,male,group A,bachelor's degree,standard,completed,87,84,87
-704,Pooja Desai,pooja.desai@microsoft.com,Pooja7287,female,group D,some college,standard,none,63,64,67
-705,Pooja Desai,pooja.desai@yahoo.com,Pooja6812,female,group B,some high school,free/reduced,completed,59,63,64
-706,Arun Kumar,arun.kumar@gmail.com,Arun7479,male,group A,bachelor's degree,free/reduced,none,62,72,65
-707,Raj Verma,raj.verma@microsoft.com,Raj1321,male,group D,high school,standard,none,46,34,36
-708,Rahul Nair,rahul.nair@gmail.com,Rahul4897,male,group C,some college,standard,none,66,59,52
-709,Raj Verma,raj.verma@gmail.com,Raj5667,male,group D,high school,standard,none,89,87,79
-710,Priya Sharma,priya.sharma@gmail.com,Priya8114,female,group D,associate's degree,free/reduced,completed,42,61,58
-711,Raj Verma,raj.verma@microsoft.com,Raj8461,male,group C,some college,standard,completed,93,84,90
-712,Anjali Patel,anjali.patel@gmail.com,Anjali7526,female,group E,some high school,standard,completed,80,85,85
-713,Riya Gupta,riya.gupta@gmail.com,Riya3810,female,group D,some college,standard,none,98,100,99
-714,Vikram Reddy,vikram.reddy@gmail.com,Vikram6617,male,group D,master's degree,standard,none,81,81,84
-715,Pooja Desai,pooja.desai@gmail.com,Pooja1717,female,group B,some high school,standard,completed,60,70,74
-716,Pooja Desai,pooja.desai@gmail.com,Pooja5761,female,group B,associate's degree,free/reduced,completed,76,94,87
-717,Amit Malhotra,amit.malhotra@yahoo.com,Amit4310,male,group C,associate's degree,standard,completed,73,78,72
-718,Anjali Patel,anjali.patel@yahoo.com,Anjali5264,female,group C,associate's degree,standard,completed,96,96,99
-719,Neha Singh,neha.singh@yahoo.com,Neha7074,female,group C,high school,standard,none,76,76,74
-720,Raj Verma,raj.verma@microsoft.com,Raj2288,male,group E,associate's degree,free/reduced,completed,91,73,80
-721,Anjali Patel,anjali.patel@yahoo.com,Anjali5873,female,group C,some college,free/reduced,none,62,72,70
-722,Rahul Nair,rahul.nair@gmail.com,Rahul4010,male,group D,some high school,free/reduced,completed,55,59,59
-723,Priya Sharma,priya.sharma@yahoo.com,Priya9379,female,group B,some high school,free/reduced,completed,74,90,88
-724,Arun Kumar,arun.kumar@gmail.com,Arun6960,male,group C,high school,standard,none,50,48,42
-725,Rahul Nair,rahul.nair@microsoft.com,Rahul6644,male,group B,some college,standard,none,47,43,41
-726,Vikram Reddy,vikram.reddy@yahoo.com,Vikram7270,male,group E,some college,standard,completed,81,74,71
-727,Riya Gupta,riya.gupta@gmail.com,Riya6539,female,group E,associate's degree,standard,completed,65,75,77
-728,Amit Malhotra,amit.malhotra@microsoft.com,Amit8887,male,group E,some high school,standard,completed,68,51,57
-729,Neha Singh,neha.singh@yahoo.com,Neha9688,female,group D,high school,free/reduced,none,73,92,84
-730,Raj Verma,raj.verma@gmail.com,Raj7357,male,group C,some college,standard,none,53,39,37
-731,Neha Singh,neha.singh@gmail.com,Neha8974,female,group B,associate's degree,free/reduced,completed,68,77,80
-732,Raj Verma,raj.verma@yahoo.com,Raj2199,male,group A,some high school,free/reduced,none,55,46,43
-733,Anjali Patel,anjali.patel@gmail.com,Anjali3854,female,group C,some college,standard,completed,87,89,94
-734,Vikram Reddy,vikram.reddy@yahoo.com,Vikram5824,male,group D,some high school,standard,none,55,47,44
-735,Neha Singh,neha.singh@yahoo.com,Neha5081,female,group E,some college,free/reduced,none,53,58,57
-736,Amit Malhotra,amit.malhotra@yahoo.com,Amit7680,male,group C,master's degree,standard,none,67,57,59
-737,Raj Verma,raj.verma@gmail.com,Raj8754,male,group C,associate's degree,standard,none,92,79,84
-738,Neha Singh,neha.singh@yahoo.com,Neha5265,female,group B,some college,free/reduced,completed,53,66,73
-739,Raj Verma,raj.verma@gmail.com,Raj8767,male,group D,associate's degree,standard,none,81,71,73
-740,Raj Verma,raj.verma@microsoft.com,Raj4432,male,group C,high school,free/reduced,none,61,60,55
-741,Vikram Reddy,vikram.reddy@microsoft.com,Vikram9434,male,group D,bachelor's degree,standard,none,80,73,72
-742,Neha Singh,neha.singh@microsoft.com,Neha7904,female,group A,associate's degree,free/reduced,none,37,57,56
-743,Neha Singh,neha.singh@yahoo.com,Neha9596,female,group C,high school,standard,none,81,84,82
-744,Priya Sharma,priya.sharma@yahoo.com,Priya2639,female,group C,associate's degree,standard,completed,59,73,72
-745,Vikram Reddy,vikram.reddy@yahoo.com,Vikram3406,male,group B,some college,free/reduced,none,55,55,47
-746,Vikram Reddy,vikram.reddy@gmail.com,Vikram7445,male,group D,associate's degree,standard,none,72,79,74
-747,Vikram Reddy,vikram.reddy@gmail.com,Vikram1655,male,group D,high school,standard,none,69,75,71
-748,Raj Verma,raj.verma@microsoft.com,Raj4819,male,group C,some college,standard,none,69,64,68
-749,Anjali Patel,anjali.patel@gmail.com,Anjali9295,female,group C,bachelor's degree,free/reduced,none,50,60,59
-750,Vikram Reddy,vikram.reddy@yahoo.com,Vikram1564,male,group B,some college,standard,completed,87,84,86
-751,Amit Malhotra,amit.malhotra@gmail.com,Amit4040,male,group D,some high school,standard,completed,71,69,68
-752,Rahul Nair,rahul.nair@yahoo.com,Rahul1343,male,group E,some college,standard,none,68,72,65
-753,Vikram Reddy,vikram.reddy@microsoft.com,Vikram1812,male,group C,master's degree,free/reduced,completed,79,77,75
-754,Pooja Desai,pooja.desai@gmail.com,Pooja5310,female,group C,some high school,standard,completed,77,90,85
-755,Raj Verma,raj.verma@gmail.com,Raj1658,male,group C,associate's degree,free/reduced,none,58,55,53
-756,Anjali Patel,anjali.patel@yahoo.com,Anjali3712,female,group E,associate's degree,standard,none,84,95,92
-757,Raj Verma,raj.verma@yahoo.com,Raj2353,male,group D,some college,standard,none,55,58,52
-758,Arun Kumar,arun.kumar@yahoo.com,Arun3211,male,group E,bachelor's degree,free/reduced,completed,70,68,72
-759,Riya Gupta,riya.gupta@microsoft.com,Riya4101,female,group D,some college,free/reduced,completed,52,59,65
-760,Amit Malhotra,amit.malhotra@microsoft.com,Amit1522,male,group B,some college,standard,completed,69,77,77
-761,Anjali Patel,anjali.patel@microsoft.com,Anjali9862,female,group C,high school,free/reduced,none,53,72,64
-762,Priya Sharma,priya.sharma@microsoft.com,Priya7062,female,group D,some high school,standard,none,48,58,54
-763,Vikram Reddy,vikram.reddy@microsoft.com,Vikram4827,male,group D,some high school,standard,completed,78,81,86
-764,Neha Singh,neha.singh@gmail.com,Neha5582,female,group B,high school,standard,none,62,62,63
-765,Arun Kumar,arun.kumar@yahoo.com,Arun7253,male,group D,some college,standard,none,60,63,59
-766,Riya Gupta,riya.gupta@yahoo.com,Riya5589,female,group B,high school,standard,none,74,72,72
-767,Neha Singh,neha.singh@gmail.com,Neha1969,female,group C,high school,standard,completed,58,75,77
-768,Vikram Reddy,vikram.reddy@gmail.com,Vikram8726,male,group B,high school,standard,completed,76,62,60
-769,Anjali Patel,anjali.patel@gmail.com,Anjali2105,female,group D,some high school,standard,none,68,71,75
-770,Amit Malhotra,amit.malhotra@microsoft.com,Amit9518,male,group A,some college,free/reduced,none,58,60,57
-771,Arun Kumar,arun.kumar@microsoft.com,Arun1382,male,group B,high school,standard,none,52,48,49
-772,Vikram Reddy,vikram.reddy@yahoo.com,Vikram6616,male,group D,bachelor's degree,standard,none,75,73,74
-773,Neha Singh,neha.singh@gmail.com,Neha8446,female,group B,some high school,free/reduced,completed,52,67,72
-774,Priya Sharma,priya.sharma@microsoft.com,Priya9807,female,group C,bachelor's degree,free/reduced,none,62,78,79
-775,Amit Malhotra,amit.malhotra@gmail.com,Amit5315,male,group B,some college,standard,none,66,65,60
-776,Neha Singh,neha.singh@microsoft.com,Neha5853,female,group B,some high school,free/reduced,none,49,58,55
-777,Neha Singh,neha.singh@gmail.com,Neha8457,female,group B,high school,standard,none,66,72,70
-778,Pooja Desai,pooja.desai@yahoo.com,Pooja6351,female,group C,some college,free/reduced,none,35,44,43
-779,Pooja Desai,pooja.desai@gmail.com,Pooja9273,female,group A,some college,standard,completed,72,79,82
-780,Raj Verma,raj.verma@microsoft.com,Raj8788,male,group E,associate's degree,standard,completed,94,85,82
-781,Riya Gupta,riya.gupta@gmail.com,Riya1103,female,group D,associate's degree,free/reduced,none,46,56,57
-782,Priya Sharma,priya.sharma@gmail.com,Priya5463,female,group B,master's degree,standard,none,77,90,84
-783,Neha Singh,neha.singh@yahoo.com,Neha7628,female,group B,high school,free/reduced,completed,76,85,82
-784,Priya Sharma,priya.sharma@yahoo.com,Priya2992,female,group C,associate's degree,standard,completed,52,59,62
-785,Raj Verma,raj.verma@gmail.com,Raj2088,male,group C,bachelor's degree,standard,completed,91,81,79
-786,Neha Singh,neha.singh@microsoft.com,Neha1237,female,group B,some high school,standard,completed,32,51,44
-787,Pooja Desai,pooja.desai@gmail.com,Pooja2007,female,group E,some high school,free/reduced,none,72,79,77
-788,Anjali Patel,anjali.patel@gmail.com,Anjali2196,female,group B,some college,standard,none,19,38,32
-789,Amit Malhotra,amit.malhotra@yahoo.com,Amit6525,male,group C,associate's degree,free/reduced,none,68,65,61
-790,Pooja Desai,pooja.desai@gmail.com,Pooja3038,female,group C,master's degree,free/reduced,none,52,65,61
-791,Priya Sharma,priya.sharma@microsoft.com,Priya8715,female,group B,high school,standard,none,48,62,60
-792,Anjali Patel,anjali.patel@gmail.com,Anjali8126,female,group D,some college,free/reduced,none,60,66,70
-793,Raj Verma,raj.verma@yahoo.com,Raj5545,male,group D,high school,free/reduced,none,66,74,69
-794,Raj Verma,raj.verma@gmail.com,Raj9325,male,group E,some high school,standard,completed,89,84,77
-795,Priya Sharma,priya.sharma@gmail.com,Priya4297,female,group B,high school,standard,none,42,52,51
-796,Priya Sharma,priya.sharma@microsoft.com,Priya3086,female,group E,associate's degree,free/reduced,completed,57,68,73
-797,Arun Kumar,arun.kumar@gmail.com,Arun4496,male,group D,high school,standard,none,70,70,70
-798,Priya Sharma,priya.sharma@yahoo.com,Priya1326,female,group E,associate's degree,free/reduced,none,70,84,81
-799,Rahul Nair,rahul.nair@yahoo.com,Rahul1520,male,group E,some college,standard,none,69,60,54
-800,Anjali Patel,anjali.patel@gmail.com,Anjali8119,female,group C,associate's degree,standard,none,52,55,57
-801,Vikram Reddy,vikram.reddy@gmail.com,Vikram1843,male,group C,some high school,standard,completed,67,73,68
-802,Vikram Reddy,vikram.reddy@microsoft.com,Vikram3886,male,group C,some high school,standard,completed,76,80,73
-803,Anjali Patel,anjali.patel@microsoft.com,Anjali1173,female,group E,associate's degree,standard,none,87,94,95
-804,Riya Gupta,riya.gupta@gmail.com,Riya3834,female,group B,some college,standard,none,82,85,87
-805,Neha Singh,neha.singh@microsoft.com,Neha7676,female,group C,some college,standard,none,73,76,78
-806,Arun Kumar,arun.kumar@microsoft.com,Arun3896,male,group A,some college,free/reduced,none,75,81,74
-807,Neha Singh,neha.singh@microsoft.com,Neha4783,female,group D,some college,free/reduced,none,64,74,75
-808,Priya Sharma,priya.sharma@gmail.com,Priya1720,female,group E,high school,free/reduced,none,41,45,40
-809,Rahul Nair,rahul.nair@gmail.com,Rahul6305,male,group C,high school,standard,none,90,75,69
-810,Raj Verma,raj.verma@yahoo.com,Raj9919,male,group B,bachelor's degree,standard,none,59,54,51
-811,Rahul Nair,rahul.nair@gmail.com,Rahul9853,male,group A,some high school,standard,none,51,31,36
-812,Vikram Reddy,vikram.reddy@microsoft.com,Vikram5657,male,group A,high school,free/reduced,none,45,47,49
-813,Neha Singh,neha.singh@microsoft.com,Neha3251,female,group C,master's degree,standard,completed,54,64,67
-814,Amit Malhotra,amit.malhotra@yahoo.com,Amit8029,male,group E,some high school,standard,completed,87,84,76
-815,Anjali Patel,anjali.patel@gmail.com,Anjali8242,female,group C,high school,standard,none,72,80,83
-816,Raj Verma,raj.verma@yahoo.com,Raj9913,male,group B,some high school,standard,completed,94,86,87
-817,Pooja Desai,pooja.desai@gmail.com,Pooja5019,female,group A,bachelor's degree,standard,none,45,59,64
-818,Arun Kumar,arun.kumar@gmail.com,Arun7601,male,group D,bachelor's degree,free/reduced,completed,61,70,76
-819,Priya Sharma,priya.sharma@gmail.com,Priya6662,female,group B,high school,free/reduced,none,60,72,68
-820,Riya Gupta,riya.gupta@gmail.com,Riya2657,female,group C,some high school,standard,none,77,91,88
-821,Anjali Patel,anjali.patel@gmail.com,Anjali3501,female,group A,some high school,standard,completed,85,90,92
-822,Pooja Desai,pooja.desai@microsoft.com,Pooja9888,female,group D,bachelor's degree,free/reduced,none,78,90,93
-823,Rahul Nair,rahul.nair@microsoft.com,Rahul1559,male,group E,some college,free/reduced,completed,49,52,51
-824,Priya Sharma,priya.sharma@gmail.com,Priya6185,female,group B,high school,free/reduced,none,71,87,82
-825,Neha Singh,neha.singh@yahoo.com,Neha4605,female,group C,some high school,free/reduced,none,48,58,52
-826,Vikram Reddy,vikram.reddy@gmail.com,Vikram9440,male,group C,high school,standard,none,62,67,58
-827,Anjali Patel,anjali.patel@yahoo.com,Anjali8782,female,group C,associate's degree,free/reduced,completed,56,68,70
-828,Neha Singh,neha.singh@yahoo.com,Neha4768,female,group C,some high school,standard,none,65,69,76
-829,Anjali Patel,anjali.patel@yahoo.com,Anjali6394,female,group D,some high school,free/reduced,completed,69,86,81
-830,Arun Kumar,arun.kumar@gmail.com,Arun4823,male,group B,some high school,standard,none,68,54,53
-831,Anjali Patel,anjali.patel@yahoo.com,Anjali1221,female,group A,some college,free/reduced,none,61,60,57
-832,Priya Sharma,priya.sharma@gmail.com,Priya4928,female,group C,bachelor's degree,free/reduced,completed,74,86,89
-833,Raj Verma,raj.verma@gmail.com,Raj9565,male,group A,bachelor's degree,standard,none,64,60,58
-834,Pooja Desai,pooja.desai@gmail.com,Pooja8458,female,group B,high school,standard,completed,77,82,89
-835,Rahul Nair,rahul.nair@microsoft.com,Rahul1199,male,group B,some college,standard,none,58,50,45
-836,Neha Singh,neha.singh@yahoo.com,Neha4823,female,group C,high school,standard,completed,60,64,74
-837,Raj Verma,raj.verma@gmail.com,Raj4497,male,group E,high school,standard,none,73,64,57
-838,Pooja Desai,pooja.desai@yahoo.com,Pooja2004,female,group A,high school,standard,completed,75,82,79
-839,Rahul Nair,rahul.nair@gmail.com,Rahul8783,male,group B,associate's degree,free/reduced,completed,58,57,53
-840,Riya Gupta,riya.gupta@gmail.com,Riya2752,female,group C,associate's degree,standard,none,66,77,73
-841,Neha Singh,neha.singh@yahoo.com,Neha7710,female,group D,high school,free/reduced,none,39,52,46
-842,Raj Verma,raj.verma@microsoft.com,Raj9076,male,group C,some high school,standard,none,64,58,51
-843,Anjali Patel,anjali.patel@gmail.com,Anjali5394,female,group B,high school,free/reduced,completed,23,44,36
-844,Raj Verma,raj.verma@yahoo.com,Raj9192,male,group B,some college,free/reduced,completed,74,77,76
-845,Pooja Desai,pooja.desai@microsoft.com,Pooja4741,female,group D,some high school,free/reduced,completed,40,65,64
-846,Raj Verma,raj.verma@microsoft.com,Raj4981,male,group E,master's degree,standard,none,90,85,84
-847,Arun Kumar,arun.kumar@gmail.com,Arun3834,male,group C,master's degree,standard,completed,91,85,85
-848,Amit Malhotra,amit.malhotra@microsoft.com,Amit1394,male,group D,high school,standard,none,64,54,50
-849,Anjali Patel,anjali.patel@gmail.com,Anjali1565,female,group C,high school,standard,none,59,72,68
-850,Raj Verma,raj.verma@microsoft.com,Raj8710,male,group D,associate's degree,standard,none,80,75,69
-851,Vikram Reddy,vikram.reddy@microsoft.com,Vikram9886,male,group C,master's degree,standard,none,71,67,67
-852,Anjali Patel,anjali.patel@yahoo.com,Anjali2810,female,group A,high school,standard,none,61,68,63
-853,Pooja Desai,pooja.desai@gmail.com,Pooja9306,female,group E,some college,standard,none,87,85,93
-854,Raj Verma,raj.verma@gmail.com,Raj1736,male,group E,some high school,standard,none,82,67,61
-855,Arun Kumar,arun.kumar@microsoft.com,Arun2575,male,group C,some high school,standard,none,62,64,55
-856,Priya Sharma,priya.sharma@gmail.com,Priya4038,female,group B,bachelor's degree,standard,none,97,97,96
-857,Vikram Reddy,vikram.reddy@yahoo.com,Vikram6911,male,group B,some college,free/reduced,none,75,68,65
-858,Riya Gupta,riya.gupta@yahoo.com,Riya3146,female,group C,bachelor's degree,standard,none,65,79,81
-859,Arun Kumar,arun.kumar@yahoo.com,Arun2582,male,group B,high school,standard,completed,52,49,46
-860,Rahul Nair,rahul.nair@gmail.com,Rahul3353,male,group C,associate's degree,free/reduced,none,87,73,72
-861,Neha Singh,neha.singh@gmail.com,Neha5622,female,group C,associate's degree,standard,none,53,62,53
-862,Pooja Desai,pooja.desai@gmail.com,Pooja2210,female,group E,master's degree,free/reduced,none,81,86,87
-863,Arun Kumar,arun.kumar@gmail.com,Arun2496,male,group D,bachelor's degree,free/reduced,completed,39,42,38
-864,Riya Gupta,riya.gupta@gmail.com,Riya7369,female,group C,some college,standard,completed,71,71,80
-865,Vikram Reddy,vikram.reddy@yahoo.com,Vikram3823,male,group C,associate's degree,standard,none,97,93,91
-866,Vikram Reddy,vikram.reddy@microsoft.com,Vikram6651,male,group D,some college,standard,completed,82,82,88
-867,Arun Kumar,arun.kumar@gmail.com,Arun2551,male,group C,high school,free/reduced,none,59,53,52
-868,Amit Malhotra,amit.malhotra@microsoft.com,Amit4461,male,group B,associate's degree,standard,none,61,42,41
-869,Amit Malhotra,amit.malhotra@yahoo.com,Amit8635,male,group E,associate's degree,free/reduced,completed,78,74,72
-870,Rahul Nair,rahul.nair@yahoo.com,Rahul9286,male,group C,associate's degree,free/reduced,none,49,51,51
-871,Vikram Reddy,vikram.reddy@yahoo.com,Vikram9390,male,group B,high school,standard,none,59,58,47
-872,Neha Singh,neha.singh@microsoft.com,Neha6873,female,group C,some college,standard,completed,70,72,76
-873,Amit Malhotra,amit.malhotra@gmail.com,Amit3240,male,group B,associate's degree,standard,completed,82,84,78
-874,Amit Malhotra,amit.malhotra@gmail.com,Amit4746,male,group E,associate's degree,free/reduced,none,90,90,82
-875,Priya Sharma,priya.sharma@microsoft.com,Priya9659,female,group C,bachelor's degree,free/reduced,none,43,62,61
-876,Rahul Nair,rahul.nair@microsoft.com,Rahul2990,male,group C,some college,free/reduced,none,80,64,66
-877,Raj Verma,raj.verma@gmail.com,Raj5993,male,group D,some college,standard,none,81,82,84
-878,Amit Malhotra,amit.malhotra@yahoo.com,Amit5065,male,group C,some high school,standard,none,57,61,54
-879,Pooja Desai,pooja.desai@gmail.com,Pooja3307,female,group D,some high school,standard,none,59,72,80
-880,Anjali Patel,anjali.patel@gmail.com,Anjali4971,female,group D,associate's degree,standard,none,64,76,74
-881,Vikram Reddy,vikram.reddy@yahoo.com,Vikram9127,male,group C,bachelor's degree,standard,completed,63,64,66
-882,Anjali Patel,anjali.patel@yahoo.com,Anjali3506,female,group E,bachelor's degree,standard,completed,71,70,70
-883,Anjali Patel,anjali.patel@gmail.com,Anjali8242,female,group B,high school,free/reduced,none,64,73,71
-884,Raj Verma,raj.verma@yahoo.com,Raj7560,male,group D,bachelor's degree,free/reduced,none,55,46,44
-885,Anjali Patel,anjali.patel@gmail.com,Anjali5702,female,group E,associate's degree,standard,none,51,51,54
-886,Neha Singh,neha.singh@gmail.com,Neha1517,female,group C,associate's degree,standard,completed,62,76,80
-887,Anjali Patel,anjali.patel@gmail.com,Anjali1337,female,group E,associate's degree,standard,completed,93,100,95
-888,Vikram Reddy,vikram.reddy@yahoo.com,Vikram3498,male,group C,high school,free/reduced,none,54,72,59
-889,Anjali Patel,anjali.patel@gmail.com,Anjali5240,female,group D,some college,free/reduced,none,69,65,74
-890,Vikram Reddy,vikram.reddy@yahoo.com,Vikram2559,male,group D,high school,free/reduced,none,44,51,48
-891,Pooja Desai,pooja.desai@microsoft.com,Pooja1650,female,group E,some college,standard,completed,86,85,91
-892,Priya Sharma,priya.sharma@yahoo.com,Priya7312,female,group E,associate's degree,standard,none,85,92,85
-893,Pooja Desai,pooja.desai@gmail.com,Pooja2830,female,group A,master's degree,free/reduced,none,50,67,73
-894,Arun Kumar,arun.kumar@yahoo.com,Arun2022,male,group D,some high school,standard,completed,88,74,75
-895,Priya Sharma,priya.sharma@microsoft.com,Priya1882,female,group E,associate's degree,standard,none,59,62,69
-896,Riya Gupta,riya.gupta@microsoft.com,Riya4071,female,group E,some high school,free/reduced,none,32,34,38
-897,Amit Malhotra,amit.malhotra@yahoo.com,Amit9378,male,group B,high school,free/reduced,none,36,29,27
-898,Priya Sharma,priya.sharma@microsoft.com,Priya2722,female,group B,some high school,free/reduced,completed,63,78,79
-899,Raj Verma,raj.verma@gmail.com,Raj9766,male,group D,associate's degree,standard,completed,67,54,63
-900,Riya Gupta,riya.gupta@yahoo.com,Riya7872,female,group D,some high school,standard,completed,65,78,82
-901,Vikram Reddy,vikram.reddy@yahoo.com,Vikram9981,male,group D,master's degree,standard,none,85,84,89
-902,Neha Singh,neha.singh@yahoo.com,Neha6318,female,group C,master's degree,standard,none,73,78,74
-903,Anjali Patel,anjali.patel@gmail.com,Anjali8254,female,group A,high school,free/reduced,completed,34,48,41
-904,Anjali Patel,anjali.patel@gmail.com,Anjali6550,female,group D,bachelor's degree,free/reduced,completed,93,100,100
-905,Neha Singh,neha.singh@microsoft.com,Neha3390,female,group D,some high school,free/reduced,none,67,84,84
-906,Arun Kumar,arun.kumar@yahoo.com,Arun3748,male,group D,some college,standard,none,88,77,77
-907,Raj Verma,raj.verma@yahoo.com,Raj2534,male,group B,high school,standard,none,57,48,51
-908,Neha Singh,neha.singh@gmail.com,Neha1666,female,group D,some college,standard,completed,79,84,91
-909,Priya Sharma,priya.sharma@microsoft.com,Priya1489,female,group C,bachelor's degree,free/reduced,none,67,75,72
-910,Amit Malhotra,amit.malhotra@yahoo.com,Amit9216,male,group E,bachelor's degree,standard,completed,70,64,70
-911,Vikram Reddy,vikram.reddy@microsoft.com,Vikram6417,male,group D,bachelor's degree,free/reduced,none,50,42,48
-912,Pooja Desai,pooja.desai@microsoft.com,Pooja1999,female,group A,some college,standard,none,69,84,82
-913,Pooja Desai,pooja.desai@yahoo.com,Pooja2113,female,group C,bachelor's degree,standard,completed,52,61,66
-914,Pooja Desai,pooja.desai@microsoft.com,Pooja6892,female,group C,bachelor's degree,free/reduced,completed,47,62,66
-915,Anjali Patel,anjali.patel@microsoft.com,Anjali1067,female,group B,associate's degree,free/reduced,none,46,61,55
-916,Riya Gupta,riya.gupta@yahoo.com,Riya2949,female,group E,some college,standard,none,68,70,66
-917,Rahul Nair,rahul.nair@yahoo.com,Rahul1664,male,group E,bachelor's degree,standard,completed,100,100,100
-918,Riya Gupta,riya.gupta@gmail.com,Riya2679,female,group C,high school,standard,none,44,61,52
-919,Riya Gupta,riya.gupta@yahoo.com,Riya7985,female,group C,associate's degree,standard,completed,57,77,80
-920,Amit Malhotra,amit.malhotra@microsoft.com,Amit6201,male,group B,some college,standard,completed,91,96,91
-921,Arun Kumar,arun.kumar@yahoo.com,Arun4476,male,group D,high school,free/reduced,none,69,70,67
-922,Anjali Patel,anjali.patel@microsoft.com,Anjali2573,female,group C,high school,free/reduced,none,35,53,46
-923,Vikram Reddy,vikram.reddy@microsoft.com,Vikram1295,male,group D,high school,standard,none,72,66,66
-924,Pooja Desai,pooja.desai@gmail.com,Pooja3709,female,group B,associate's degree,free/reduced,none,54,65,65
-925,Arun Kumar,arun.kumar@yahoo.com,Arun5398,male,group D,high school,free/reduced,none,74,70,69
-926,Amit Malhotra,amit.malhotra@gmail.com,Amit3111,male,group E,some high school,standard,completed,74,64,60
-927,Amit Malhotra,amit.malhotra@microsoft.com,Amit1846,male,group E,associate's degree,free/reduced,none,64,56,52
-928,Priya Sharma,priya.sharma@yahoo.com,Priya5428,female,group D,high school,free/reduced,completed,65,61,71
-929,Amit Malhotra,amit.malhotra@gmail.com,Amit9041,male,group E,associate's degree,free/reduced,completed,46,43,44
-930,Pooja Desai,pooja.desai@microsoft.com,Pooja6436,female,group C,some high school,free/reduced,none,48,56,51
-931,Amit Malhotra,amit.malhotra@microsoft.com,Amit3479,male,group C,some college,free/reduced,completed,67,74,70
-932,Vikram Reddy,vikram.reddy@gmail.com,Vikram7762,male,group D,some college,free/reduced,none,62,57,62
-933,Amit Malhotra,amit.malhotra@microsoft.com,Amit8566,male,group D,associate's degree,free/reduced,completed,61,71,73
-934,Vikram Reddy,vikram.reddy@yahoo.com,Vikram3531,male,group C,bachelor's degree,free/reduced,completed,70,75,74
-935,Vikram Reddy,vikram.reddy@gmail.com,Vikram6560,male,group C,associate's degree,standard,completed,98,87,90
-936,Rahul Nair,rahul.nair@microsoft.com,Rahul2901,male,group D,some college,free/reduced,none,70,63,58
-937,Amit Malhotra,amit.malhotra@gmail.com,Amit5609,male,group A,associate's degree,standard,none,67,57,53
-938,Priya Sharma,priya.sharma@gmail.com,Priya4517,female,group E,high school,free/reduced,none,57,58,57
-939,Rahul Nair,rahul.nair@yahoo.com,Rahul6071,male,group D,some college,standard,completed,85,81,85
-940,Rahul Nair,rahul.nair@yahoo.com,Rahul6310,male,group D,some high school,standard,completed,77,68,69
-941,Amit Malhotra,amit.malhotra@yahoo.com,Amit7008,male,group C,master's degree,free/reduced,completed,72,66,72
-942,Anjali Patel,anjali.patel@yahoo.com,Anjali3685,female,group D,master's degree,standard,none,78,91,96
-943,Arun Kumar,arun.kumar@gmail.com,Arun2470,male,group C,high school,standard,none,81,66,64
-944,Rahul Nair,rahul.nair@gmail.com,Rahul3774,male,group A,some high school,free/reduced,completed,61,62,61
-945,Riya Gupta,riya.gupta@yahoo.com,Riya1046,female,group B,high school,standard,none,58,68,61
-946,Anjali Patel,anjali.patel@yahoo.com,Anjali1134,female,group C,associate's degree,standard,none,54,61,58
-947,Raj Verma,raj.verma@gmail.com,Raj1170,male,group B,high school,standard,none,82,82,80
-948,Priya Sharma,priya.sharma@gmail.com,Priya3703,female,group D,some college,free/reduced,none,49,58,60
-949,Vikram Reddy,vikram.reddy@microsoft.com,Vikram2107,male,group B,some high school,free/reduced,completed,49,50,52
-950,Pooja Desai,pooja.desai@yahoo.com,Pooja9766,female,group E,high school,free/reduced,completed,57,75,73
-951,Rahul Nair,rahul.nair@yahoo.com,Rahul6461,male,group E,high school,standard,none,94,73,71
-952,Priya Sharma,priya.sharma@microsoft.com,Priya1787,female,group D,some college,standard,completed,75,77,83
-953,Anjali Patel,anjali.patel@microsoft.com,Anjali5175,female,group E,some high school,free/reduced,none,74,74,72
-954,Rahul Nair,rahul.nair@gmail.com,Rahul6853,male,group C,high school,standard,completed,58,52,54
-955,Priya Sharma,priya.sharma@yahoo.com,Priya3706,female,group C,some college,standard,none,62,69,69
-956,Arun Kumar,arun.kumar@microsoft.com,Arun1058,male,group E,associate's degree,standard,none,72,57,62
-957,Vikram Reddy,vikram.reddy@microsoft.com,Vikram3252,male,group C,some college,standard,none,84,87,81
-958,Neha Singh,neha.singh@gmail.com,Neha2954,female,group D,master's degree,standard,none,92,100,100
-959,Pooja Desai,pooja.desai@microsoft.com,Pooja2384,female,group D,high school,standard,none,45,63,59
-960,Rahul Nair,rahul.nair@yahoo.com,Rahul6048,male,group C,high school,standard,none,75,81,71
-961,Riya Gupta,riya.gupta@gmail.com,Riya8858,female,group A,some college,standard,none,56,58,64
-962,Priya Sharma,priya.sharma@microsoft.com,Priya4026,female,group D,some high school,free/reduced,none,48,54,53
-963,Pooja Desai,pooja.desai@yahoo.com,Pooja3756,female,group E,associate's degree,standard,none,100,100,100
-964,Pooja Desai,pooja.desai@microsoft.com,Pooja4756,female,group C,some high school,free/reduced,completed,65,76,75
-965,Vikram Reddy,vikram.reddy@yahoo.com,Vikram6088,male,group D,some college,standard,none,72,57,58
-966,Pooja Desai,pooja.desai@gmail.com,Pooja3278,female,group D,some college,standard,none,62,70,72
-967,Amit Malhotra,amit.malhotra@microsoft.com,Amit8919,male,group A,some high school,standard,completed,66,68,64
-968,Rahul Nair,rahul.nair@gmail.com,Rahul2623,male,group C,some college,standard,none,63,63,60
-969,Pooja Desai,pooja.desai@microsoft.com,Pooja2758,female,group E,associate's degree,standard,none,68,76,67
-970,Priya Sharma,priya.sharma@yahoo.com,Priya4145,female,group B,bachelor's degree,standard,none,75,84,80
-971,Priya Sharma,priya.sharma@gmail.com,Priya7472,female,group D,bachelor's degree,standard,none,89,100,100
-972,Raj Verma,raj.verma@microsoft.com,Raj2191,male,group C,some high school,standard,completed,78,72,69
-973,Riya Gupta,riya.gupta@yahoo.com,Riya2732,female,group A,high school,free/reduced,completed,53,50,60
-974,Pooja Desai,pooja.desai@gmail.com,Pooja2715,female,group D,some college,free/reduced,none,49,65,61
-975,Priya Sharma,priya.sharma@gmail.com,Priya5873,female,group A,some college,standard,none,54,63,67
-976,Priya Sharma,priya.sharma@gmail.com,Priya5435,female,group C,some college,standard,completed,64,82,77
-977,Raj Verma,raj.verma@gmail.com,Raj3486,male,group B,some college,free/reduced,completed,60,62,60
-978,Vikram Reddy,vikram.reddy@gmail.com,Vikram3071,male,group C,associate's degree,standard,none,62,65,58
-979,Rahul Nair,rahul.nair@microsoft.com,Rahul5974,male,group D,high school,standard,completed,55,41,48
-980,Anjali Patel,anjali.patel@gmail.com,Anjali1025,female,group C,associate's degree,standard,none,91,95,94
-981,Neha Singh,neha.singh@gmail.com,Neha2453,female,group B,high school,free/reduced,none,8,24,23
-982,Rahul Nair,rahul.nair@gmail.com,Rahul5173,male,group D,some high school,standard,none,81,78,78
-983,Raj Verma,raj.verma@microsoft.com,Raj6287,male,group B,some high school,standard,completed,79,85,86
-984,Neha Singh,neha.singh@microsoft.com,Neha4774,female,group A,some college,standard,completed,78,87,91
-985,Pooja Desai,pooja.desai@microsoft.com,Pooja5445,female,group C,some high school,standard,none,74,75,82
-986,Arun Kumar,arun.kumar@microsoft.com,Arun4772,male,group A,high school,standard,none,57,51,54
-987,Pooja Desai,pooja.desai@gmail.com,Pooja8615,female,group C,associate's degree,standard,none,40,59,51
-988,Rahul Nair,rahul.nair@yahoo.com,Rahul8531,male,group E,some high school,standard,completed,81,75,76
-989,Anjali Patel,anjali.patel@yahoo.com,Anjali9221,female,group A,some high school,free/reduced,none,44,45,45
-990,Riya Gupta,riya.gupta@yahoo.com,Riya3376,female,group D,some college,free/reduced,completed,67,86,83
-991,Vikram Reddy,vikram.reddy@yahoo.com,Vikram4488,male,group E,high school,free/reduced,completed,86,81,75
-992,Priya Sharma,priya.sharma@microsoft.com,Priya3228,female,group B,some high school,standard,completed,65,82,78
-993,Priya Sharma,priya.sharma@microsoft.com,Priya7294,female,group D,associate's degree,free/reduced,none,55,76,76
-994,Neha Singh,neha.singh@gmail.com,Neha5226,female,group D,bachelor's degree,free/reduced,none,62,72,74
-995,Raj Verma,raj.verma@gmail.com,Raj3752,male,group A,high school,standard,none,63,63,62
-996,Neha Singh,neha.singh@microsoft.com,Neha6570,female,group E,master's degree,standard,completed,88,99,95
-997,Rahul Nair,rahul.nair@microsoft.com,Rahul3713,male,group C,high school,free/reduced,none,62,55,55
-998,Priya Sharma,priya.sharma@microsoft.com,Priya2093,female,group C,high school,free/reduced,completed,59,71,65
-999,Anjali Patel,anjali.patel@gmail.com,Anjali6967,female,group D,some college,standard,completed,68,78,77
-1000,Priya Sharma,priya.sharma@microsoft.com,Priya8108,female,group D,some college,free/reduced,none,77,86,86
+school,sex,age,address,famsize,Pstatus,Medu,Fedu,Mjob,Fjob,reason,guardian,traveltime,studytime,failures,schoolsup,famsup,paid,activities,nursery,higher,internet,romantic,famrel,freetime,goout,Dalc,Walc,health,absences,G1,G2,G3,name,email,password,attendance
+GP,F,18,U,GT3,A,4,4,at_home,teacher,course,mother,2,2,0,yes,no,no,no,yes,yes,no,no,4,3,4,1,1,3,6,5,6,6,Varsha,varsha@gmail.com,varsha6106,64
+GP,F,17,U,GT3,T,1,1,at_home,other,course,father,1,2,0,no,yes,no,no,no,yes,yes,no,5,3,3,1,1,3,4,6,6,7,Varsha,varsha@gmail.com,varsha8052,92
+GP,F,15,U,LE3,T,1,1,at_home,other,other,mother,1,2,3,yes,no,yes,no,yes,yes,yes,no,4,3,2,2,3,3,10,6,7,9,Mary,mary@gmail.com,mary8790,53
+GP,F,15,U,GT3,T,4,2,health,services,home,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,yes,3,2,2,1,1,5,2,16,15,16,Mary,mary@gmail.com,mary1453,96
+GP,F,16,U,GT3,T,3,3,other,other,home,father,1,2,0,no,yes,yes,no,yes,yes,no,no,4,3,2,1,2,5,4,7,11,11,Khushi,khushi@gmail.com,khushi4126,95
+GP,M,16,U,LE3,T,4,3,services,other,reputation,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,5,4,2,1,2,5,10,15,15,15,Ansh,ansh@gmail.com,ansh3135,78
+GP,M,16,U,LE3,T,2,2,other,other,home,mother,1,2,0,no,no,no,no,yes,yes,yes,no,4,4,4,1,1,3,0,11,11,10,Abdul,abdul@gmail.com,abdul5808,52
+GP,F,17,U,GT3,A,4,4,other,teacher,home,mother,2,2,0,yes,yes,no,no,yes,yes,no,no,4,1,4,1,1,1,6,6,5,6,Preeti,preeti@gmail.com,preeti7045,62
+GP,M,15,U,LE3,A,3,2,services,other,home,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,4,2,2,1,1,1,0,16,18,19,Vivek,vivek@gmail.com,vivek5106,69
+GP,M,15,U,GT3,T,3,4,other,other,home,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,5,5,1,1,1,5,0,15,16,16,Abdul,abdul@gmail.com,abdul6631,100
+GP,F,15,U,GT3,T,4,4,teacher,health,reputation,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,3,3,3,1,2,2,0,10,8,9,Preeti,preeti@gmail.com,preeti8549,62
+GP,F,15,U,GT3,T,2,1,services,other,reputation,father,3,3,0,no,yes,no,yes,yes,yes,yes,no,5,2,2,1,1,4,4,11,13,13,Mary,mary@gmail.com,mary4116,99
+GP,M,15,U,LE3,T,4,4,health,services,course,father,1,1,0,no,yes,yes,yes,yes,yes,yes,no,4,3,3,1,3,5,2,13,13,13,Piyush,piyush@gmail.com,piyush6043,57
+GP,M,15,U,GT3,T,4,3,teacher,other,course,mother,2,2,0,no,yes,yes,no,yes,yes,yes,no,5,4,3,1,2,3,2,9,9,10,Karan,karan@gmail.com,karan8714,57
+GP,M,15,U,GT3,A,2,2,other,other,home,other,1,3,0,no,yes,no,no,yes,yes,yes,yes,4,5,2,1,1,3,0,14,16,16,Ansh,ansh@gmail.com,ansh8896,71
+GP,F,16,U,GT3,T,4,4,health,other,home,mother,1,1,0,no,yes,no,no,yes,yes,yes,no,4,4,4,1,2,2,4,14,14,14,Mary,mary@gmail.com,mary5413,78
+GP,F,16,U,GT3,T,4,4,services,services,reputation,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,no,3,2,3,1,2,2,6,13,14,14,Khushi,khushi@gmail.com,khushi4904,78
+GP,F,16,U,GT3,T,3,3,other,other,reputation,mother,3,2,0,yes,yes,no,yes,yes,yes,no,no,5,3,2,1,1,4,4,8,10,10,Preeti,preeti@gmail.com,preeti1793,68
+GP,M,17,U,GT3,T,3,2,services,services,course,mother,1,1,3,no,yes,no,yes,yes,yes,yes,no,5,5,5,2,4,5,16,6,5,5,Karan,karan@gmail.com,karan7611,60
+GP,M,16,U,LE3,T,4,3,health,other,home,father,1,1,0,no,no,yes,yes,yes,yes,yes,no,3,1,3,1,3,5,4,9,11,11,Anshul,anshul@gmail.com,anshul6355,98
+GP,M,15,U,GT3,T,4,3,teacher,other,reputation,mother,1,2,0,no,no,no,no,yes,yes,yes,no,4,4,1,1,1,1,0,12,13,14,Ansh,ansh@gmail.com,ansh6550,54
+GP,M,15,U,GT3,T,4,4,health,health,other,father,1,1,0,no,yes,yes,no,yes,yes,yes,no,5,4,2,1,1,5,0,13,16,16,Piyush,piyush@gmail.com,piyush4934,93
+GP,M,16,U,LE3,T,4,2,teacher,other,course,mother,1,2,0,no,no,no,yes,yes,yes,yes,no,4,5,1,1,3,5,2,14,14,15,Karan,karan@gmail.com,karan3588,56
+GP,M,16,U,LE3,T,2,2,other,other,reputation,mother,2,2,0,no,yes,no,yes,yes,yes,yes,no,5,4,4,2,4,5,0,13,13,12,Karan,karan@gmail.com,karan5968,71
+GP,F,15,R,GT3,T,2,4,services,health,course,mother,1,3,0,yes,yes,yes,yes,yes,yes,yes,no,4,3,2,1,1,5,2,10,9,8,Mary,mary@gmail.com,mary2364,66
+GP,F,16,U,GT3,T,2,2,services,services,home,mother,1,1,2,no,yes,yes,no,no,yes,yes,no,1,2,2,1,3,5,14,6,9,8,Mary,mary@gmail.com,mary9370,80
+GP,M,15,U,GT3,T,2,2,other,other,home,mother,1,1,0,no,yes,yes,no,yes,yes,yes,no,4,2,2,1,2,5,2,12,12,11,Vivek,vivek@gmail.com,vivek2531,74
+GP,M,15,U,GT3,T,4,2,health,services,other,mother,1,1,0,no,no,yes,no,yes,yes,yes,no,2,2,4,2,4,1,4,15,16,15,Anshul,anshul@gmail.com,anshul3618,74
+GP,M,16,U,LE3,A,3,4,services,other,home,mother,1,2,0,yes,yes,no,yes,yes,yes,yes,no,5,3,3,1,1,5,4,12,12,12,Anshul,anshul@gmail.com,anshul8789,99
+GP,M,16,U,GT3,T,4,4,teacher,teacher,home,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,yes,4,4,5,5,5,5,16,11,13,12,Anshul,anshul@gmail.com,anshul5201,98
+GP,M,15,U,GT3,T,4,4,health,services,home,mother,1,2,0,no,yes,yes,no,no,yes,yes,no,5,4,2,3,4,5,0,9,11,12,Ansh,ansh@gmail.com,ansh9438,61
+GP,M,15,U,GT3,T,4,4,services,services,reputation,mother,2,2,0,no,yes,no,yes,yes,yes,yes,no,4,3,1,1,1,5,0,16,15,16,Ram,ram@gmail.com,ram2017,52
+GP,M,15,R,GT3,T,4,3,teacher,at_home,course,mother,1,2,0,no,yes,no,yes,yes,yes,yes,yes,4,5,2,1,1,5,0,17,16,16,Vivek,vivek@gmail.com,vivek8637,65
+GP,M,15,U,LE3,T,3,3,other,other,course,mother,1,2,0,no,no,no,yes,no,yes,yes,no,5,3,2,1,1,2,0,7,9,11,Ansh,ansh@gmail.com,ansh7114,52
+GP,M,16,U,GT3,T,3,2,other,other,home,mother,1,1,0,no,yes,yes,no,no,yes,yes,no,5,4,3,1,1,5,0,11,13,14,Vivek,vivek@gmail.com,vivek4407,53
+GP,F,15,U,GT3,T,2,3,other,other,other,father,2,1,0,no,yes,no,yes,yes,yes,no,no,3,5,1,1,1,5,0,7,6,5,Varsha,varsha@gmail.com,varsha6467,53
+GP,M,15,U,LE3,T,4,3,teacher,services,home,mother,1,3,0,no,yes,no,yes,yes,yes,yes,no,5,4,3,1,1,4,2,15,16,18,Ansh,ansh@gmail.com,ansh5348,87
+GP,M,16,R,GT3,A,4,4,other,teacher,reputation,mother,2,3,0,no,yes,no,yes,yes,yes,yes,yes,2,4,3,1,1,5,7,15,16,15,Ram,ram@gmail.com,ram7857,65
+GP,F,15,R,GT3,T,3,4,services,health,course,mother,1,3,0,yes,yes,yes,yes,yes,yes,yes,no,4,3,2,1,1,5,2,12,12,11,Mary,mary@gmail.com,mary2932,72
+GP,F,15,R,GT3,T,2,2,at_home,other,reputation,mother,1,1,0,yes,yes,yes,yes,yes,yes,no,no,4,3,1,1,1,2,8,14,13,13,Varsha,varsha@gmail.com,varsha8279,73
+GP,F,16,U,LE3,T,2,2,other,other,home,mother,2,2,1,no,yes,no,yes,no,yes,yes,yes,3,3,3,1,2,3,25,7,10,11,Khushi,khushi@gmail.com,khushi5280,89
+GP,M,15,U,LE3,T,4,4,teacher,other,home,other,1,1,0,no,yes,no,no,no,yes,yes,yes,5,4,3,2,4,5,8,12,12,12,Vivek,vivek@gmail.com,vivek9923,90
+GP,M,15,U,GT3,T,4,4,services,teacher,course,father,1,2,0,no,yes,no,yes,yes,yes,yes,no,4,3,3,1,1,5,2,18,17,17,Ram,ram@gmail.com,ram8923,59
+GP,M,15,U,GT3,T,2,2,services,services,course,father,1,1,0,yes,yes,no,no,yes,yes,yes,no,5,4,1,1,1,1,0,7,7,10,Ram,ram@gmail.com,ram4739,51
+GP,F,16,U,LE3,T,2,2,other,at_home,course,father,2,2,1,yes,no,no,yes,yes,yes,yes,no,4,3,3,2,2,5,14,10,10,9,Varsha,varsha@gmail.com,varsha7417,65
+GP,F,15,U,LE3,A,4,3,other,other,course,mother,1,2,0,yes,yes,yes,yes,yes,yes,yes,yes,5,2,2,1,1,5,8,9,9,7,Varsha,varsha@gmail.com,varsha8771,91
+GP,F,16,U,LE3,A,3,3,other,services,home,mother,1,2,0,no,yes,no,no,yes,yes,yes,no,2,3,5,1,4,3,12,10,11,10,Manisha,manisha@gmail.com,manisha6385,57
+GP,M,16,U,GT3,T,4,3,health,services,reputation,mother,1,4,0,no,no,no,yes,yes,yes,yes,no,4,2,2,1,1,2,4,19,19,20,Piyush,piyush@gmail.com,piyush6555,78
+GP,M,15,U,GT3,T,4,2,teacher,other,home,mother,1,2,0,no,yes,yes,no,yes,yes,no,no,4,3,3,2,2,5,2,14,14,13,Abdul,abdul@gmail.com,abdul7533,51
+GP,F,15,U,GT3,T,4,4,services,teacher,other,father,1,2,1,yes,yes,no,yes,no,yes,yes,no,4,4,4,1,1,3,2,7,7,7,Preeti,preeti@gmail.com,preeti2326,82
+GP,F,16,U,LE3,T,2,2,services,services,course,mother,3,2,0,no,yes,yes,no,yes,yes,yes,no,4,3,3,2,3,4,2,11,12,12,Khushi,khushi@gmail.com,khushi8912,59
+GP,F,15,U,LE3,T,4,2,health,other,other,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,4,3,3,1,1,5,2,11,13,13,Preeti,preeti@gmail.com,preeti9605,62
+GP,M,15,U,LE3,A,4,2,health,health,other,father,2,1,1,no,no,no,no,yes,yes,no,no,5,5,5,3,4,5,6,11,11,10,Abdul,abdul@gmail.com,abdul5985,61
+GP,F,15,U,GT3,T,4,4,services,services,course,mother,1,1,0,yes,yes,yes,no,yes,yes,yes,no,3,3,4,2,3,5,0,8,10,11,Mary,mary@gmail.com,mary8196,86
+GP,F,15,U,LE3,A,3,3,other,other,other,mother,1,1,0,no,no,yes,no,yes,yes,yes,no,5,3,4,4,4,1,6,11,14,14,Varsha,varsha@gmail.com,varsha1802,100
+GP,F,16,U,GT3,A,2,1,other,other,other,mother,1,2,0,no,no,yes,yes,yes,yes,yes,yes,5,3,4,1,1,2,8,9,10,11,Khushi,khushi@gmail.com,khushi8485,95
+GP,F,15,U,GT3,A,4,3,services,services,reputation,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,4,3,2,1,1,1,0,14,15,15,Manisha,manisha@gmail.com,manisha2449,64
+GP,M,15,U,GT3,T,4,4,teacher,health,reputation,mother,1,2,0,no,yes,no,yes,yes,yes,no,no,3,2,2,1,1,5,4,15,16,16,Ram,ram@gmail.com,ram1767,98
+GP,M,15,U,LE3,T,1,2,other,at_home,home,father,1,2,0,yes,yes,no,yes,yes,yes,yes,no,4,3,2,1,1,5,2,8,9,8,Piyush,piyush@gmail.com,piyush2674,58
+GP,F,16,U,GT3,T,4,2,services,other,course,mother,1,2,0,no,yes,no,no,yes,yes,yes,no,4,2,3,1,1,5,2,15,16,16,Mary,mary@gmail.com,mary5174,85
+GP,F,16,R,GT3,T,4,4,health,teacher,other,mother,1,2,0,no,yes,no,yes,yes,yes,no,no,2,4,4,2,3,4,6,11,12,12,Preeti,preeti@gmail.com,preeti8106,91
+GP,F,16,U,GT3,T,1,1,services,services,course,father,4,1,0,yes,yes,no,yes,no,yes,yes,yes,5,5,5,5,5,5,6,10,8,11,Varsha,varsha@gmail.com,varsha3636,68
+GP,F,16,U,LE3,T,1,2,other,services,reputation,father,1,2,0,yes,no,no,yes,yes,yes,yes,no,4,4,3,1,1,1,4,9,11,10,Preeti,preeti@gmail.com,preeti8225,98
+GP,F,16,U,GT3,T,4,3,teacher,health,home,mother,1,3,0,yes,yes,yes,yes,yes,yes,yes,no,3,4,4,2,4,4,2,9,8,8,Preeti,preeti@gmail.com,preeti3176,50
+GP,F,15,U,LE3,T,4,3,services,services,reputation,father,1,2,0,yes,no,no,yes,yes,yes,yes,yes,4,4,4,2,4,2,0,10,10,10,Preeti,preeti@gmail.com,preeti2774,69
+GP,F,16,U,LE3,T,4,3,teacher,services,course,mother,3,2,0,no,yes,no,yes,yes,yes,yes,no,5,4,3,1,2,1,2,17,16,16,Manisha,manisha@gmail.com,manisha5010,98
+GP,M,15,U,GT3,A,4,4,other,services,reputation,mother,1,4,0,no,yes,no,yes,no,yes,yes,yes,1,3,3,5,5,3,4,13,13,12,Vivek,vivek@gmail.com,vivek2803,64
+GP,F,16,U,GT3,T,3,1,services,other,course,mother,1,4,0,yes,yes,yes,no,yes,yes,yes,no,4,3,3,1,2,5,4,7,7,6,Manisha,manisha@gmail.com,manisha8524,63
+GP,F,15,R,LE3,T,2,2,health,services,reputation,mother,2,2,0,yes,yes,yes,no,yes,yes,yes,no,4,1,3,1,3,4,2,9,10,9,Mary,mary@gmail.com,mary8548,96
+GP,F,15,R,LE3,T,3,1,other,other,reputation,father,2,4,0,no,yes,no,no,no,yes,yes,no,4,4,2,2,3,3,12,17,17,17,Manisha,manisha@gmail.com,manisha2605,97
+GP,M,16,U,GT3,T,3,1,other,other,reputation,father,2,4,0,no,yes,yes,no,yes,yes,yes,no,4,3,2,1,1,5,0,13,15,15,Anshul,anshul@gmail.com,anshul5233,78
+GP,M,15,U,GT3,T,4,2,other,other,course,mother,1,4,0,no,no,no,no,yes,yes,yes,no,3,3,3,1,1,3,0,10,10,10,Ram,ram@gmail.com,ram1683,81
+GP,F,15,R,GT3,T,1,1,other,other,reputation,mother,1,2,2,yes,yes,no,no,no,yes,yes,yes,3,3,4,2,4,5,2,7,5,4,Preeti,preeti@gmail.com,preeti6247,52
+GP,M,16,U,GT3,T,3,1,other,other,reputation,mother,1,1,0,no,no,no,yes,yes,yes,no,no,5,3,2,2,2,5,2,12,12,14,Karan,karan@gmail.com,karan9418,73
+GP,F,16,U,GT3,T,3,3,other,services,home,mother,1,2,0,yes,yes,yes,yes,yes,yes,yes,no,4,3,3,2,4,5,54,11,12,11,Khushi,khushi@gmail.com,khushi8393,76
+GP,M,15,U,GT3,T,4,3,teacher,other,home,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,4,3,3,2,3,5,6,10,10,11,Piyush,piyush@gmail.com,piyush9075,95
+GP,M,15,U,GT3,T,4,0,teacher,other,course,mother,2,4,0,no,no,no,yes,yes,yes,yes,no,3,4,3,1,1,1,8,10,10,9,Vivek,vivek@gmail.com,vivek3671,52
+GP,F,16,U,GT3,T,2,2,other,other,reputation,mother,1,4,0,no,no,yes,no,yes,yes,yes,yes,5,2,3,1,3,3,0,12,12,12,Khushi,khushi@gmail.com,khushi3443,99
+GP,M,17,U,GT3,T,2,1,other,other,home,mother,2,1,3,yes,yes,no,yes,yes,no,yes,no,4,5,1,1,1,3,2,8,8,10,Ram,ram@gmail.com,ram8729,81
+GP,F,16,U,GT3,T,3,4,at_home,other,course,mother,1,2,0,no,yes,no,no,yes,yes,yes,no,2,4,3,1,2,3,12,5,5,5,Manisha,manisha@gmail.com,manisha5524,68
+GP,M,15,U,GT3,T,2,3,other,services,course,father,1,1,0,yes,yes,yes,yes,no,yes,yes,yes,3,2,2,1,3,3,2,9,11,11,Vivek,vivek@gmail.com,vivek6726,57
+GP,M,15,U,GT3,T,2,3,other,other,home,mother,1,3,0,yes,no,yes,no,no,yes,yes,no,5,3,2,1,2,5,4,10,9,10,Karan,karan@gmail.com,karan3826,57
+GP,F,15,U,LE3,T,3,2,services,other,reputation,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,4,4,4,1,1,5,10,7,6,6,Preeti,preeti@gmail.com,preeti7395,63
+GP,M,15,U,LE3,T,2,2,services,services,home,mother,2,2,0,no,no,yes,yes,yes,yes,yes,no,5,3,3,1,3,4,4,15,15,15,Vivek,vivek@gmail.com,vivek8644,75
+GP,F,15,U,GT3,T,1,1,other,other,home,father,1,2,0,no,yes,no,yes,no,yes,yes,no,4,3,2,2,3,4,2,10,11,11,Varsha,varsha@gmail.com,varsha8508,91
+GP,F,15,U,GT3,T,4,4,services,services,reputation,father,2,2,2,no,no,yes,no,yes,yes,yes,yes,4,4,4,2,3,5,6,6,8,7,Mary,mary@gmail.com,mary2923,59
+GP,F,16,U,LE3,T,2,2,at_home,other,course,mother,1,2,0,no,yes,no,no,yes,yes,no,no,4,3,4,1,2,2,4,8,7,6,Khushi,khushi@gmail.com,khushi8854,77
+GP,F,15,U,GT3,T,4,2,other,other,reputation,mother,1,3,0,no,yes,no,yes,yes,yes,yes,no,5,3,3,1,3,1,4,12,13,13,Khushi,khushi@gmail.com,khushi2304,59
+GP,M,16,U,GT3,T,2,2,services,other,reputation,father,2,2,1,no,no,yes,yes,no,yes,yes,no,4,4,2,1,1,3,12,10,9,9,Ram,ram@gmail.com,ram8540,50
+GP,M,16,U,LE3,A,4,4,teacher,health,reputation,mother,1,2,0,no,yes,no,no,yes,yes,no,no,4,1,3,3,5,5,18,8,6,7,Piyush,piyush@gmail.com,piyush2007,66
+GP,F,16,U,GT3,T,3,3,other,other,home,mother,1,3,0,no,yes,yes,no,yes,yes,yes,yes,4,3,3,1,3,4,0,7,7,8,Manisha,manisha@gmail.com,manisha4342,62
+GP,F,15,U,GT3,T,4,3,services,other,reputation,mother,1,1,0,no,no,yes,yes,yes,yes,yes,no,4,5,5,1,3,1,4,15,16,17,Varsha,varsha@gmail.com,varsha3465,54
+GP,F,16,U,LE3,T,3,1,other,other,home,father,1,2,0,yes,yes,no,no,yes,yes,no,no,3,3,3,2,3,2,4,7,6,6,Khushi,khushi@gmail.com,khushi4503,90
+GP,F,16,U,GT3,T,4,2,teacher,services,home,mother,2,2,0,no,yes,yes,yes,yes,yes,yes,no,5,3,3,1,1,1,0,12,11,11,Khushi,khushi@gmail.com,khushi3382,94
+GP,M,15,U,LE3,T,2,2,services,health,reputation,mother,1,4,0,no,yes,no,yes,yes,yes,yes,no,4,3,4,1,1,4,6,11,13,14,Piyush,piyush@gmail.com,piyush9736,86
+GP,F,15,R,GT3,T,1,1,at_home,other,home,mother,2,4,1,yes,yes,yes,yes,yes,yes,yes,no,3,1,2,1,1,1,2,6,9,9,Varsha,varsha@gmail.com,varsha2569,51
+GP,M,16,R,GT3,T,4,3,services,other,reputation,mother,2,1,0,yes,yes,no,yes,no,yes,yes,no,3,3,3,1,1,4,2,12,16,16,Anshul,anshul@gmail.com,anshul8609,96
+GP,F,16,U,GT3,T,2,1,other,other,course,mother,1,2,0,no,yes,yes,no,yes,yes,no,yes,4,3,5,1,1,5,2,7,8,9,Varsha,varsha@gmail.com,varsha7317,54
+GP,F,16,U,GT3,T,4,4,other,other,reputation,mother,1,1,0,no,no,no,yes,no,yes,yes,no,5,3,4,1,2,1,6,12,15,15,Preeti,preeti@gmail.com,preeti9705,100
+GP,F,16,U,GT3,T,4,3,other,at_home,course,mother,1,3,0,yes,yes,yes,no,yes,yes,yes,no,5,3,5,1,1,3,0,6,8,7,Khushi,khushi@gmail.com,khushi1926,54
+GP,M,16,U,GT3,T,4,4,services,services,other,mother,1,1,0,yes,yes,yes,yes,yes,yes,yes,no,4,5,5,5,5,4,14,8,8,6,Abdul,abdul@gmail.com,abdul7932,92
+GP,M,16,U,GT3,T,4,4,services,teacher,other,father,1,3,0,no,yes,no,yes,yes,yes,yes,yes,4,4,3,1,1,4,0,17,18,18,Ram,ram@gmail.com,ram7734,95
+GP,M,15,U,GT3,T,4,4,services,other,course,mother,1,1,0,no,yes,no,yes,no,yes,yes,no,5,3,3,1,1,5,4,10,13,14,Vivek,vivek@gmail.com,vivek2613,89
+GP,F,15,U,GT3,T,3,2,services,other,home,mother,2,2,0,yes,yes,yes,no,yes,yes,yes,no,4,3,5,1,1,2,26,7,6,6,Khushi,khushi@gmail.com,khushi9514,83
+GP,M,15,U,GT3,A,3,4,services,other,course,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,5,4,4,1,1,1,0,16,18,18,Karan,karan@gmail.com,karan2482,87
+GP,F,15,U,GT3,A,3,3,other,health,reputation,father,1,4,0,yes,no,no,no,yes,yes,no,no,4,3,3,1,1,4,10,11,12,12,Khushi,khushi@gmail.com,khushi2112,98
+GP,F,15,U,GT3,T,2,2,other,other,course,mother,1,4,0,yes,yes,yes,no,yes,yes,yes,no,5,1,2,1,1,3,8,8,9,9,Varsha,varsha@gmail.com,varsha4832,95
+GP,M,16,U,GT3,T,3,3,services,other,home,father,1,3,0,no,yes,no,yes,yes,yes,yes,no,5,3,3,1,1,5,2,16,18,18,Ansh,ansh@gmail.com,ansh1205,61
+GP,M,15,R,GT3,T,4,4,other,other,home,father,4,4,0,no,yes,yes,yes,yes,yes,yes,yes,1,3,5,3,5,1,6,10,13,13,Piyush,piyush@gmail.com,piyush4184,81
+GP,F,16,U,LE3,T,4,4,health,health,other,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,yes,5,4,5,1,1,4,4,14,15,16,Manisha,manisha@gmail.com,manisha6762,69
+GP,M,15,U,LE3,A,4,4,teacher,teacher,course,mother,1,1,0,no,no,no,yes,yes,yes,yes,no,5,5,3,1,1,4,6,18,19,19,Vivek,vivek@gmail.com,vivek7269,78
+GP,F,16,R,GT3,T,3,3,services,other,reputation,father,1,3,1,yes,yes,no,yes,yes,yes,yes,no,4,1,2,1,1,2,0,7,10,10,Khushi,khushi@gmail.com,khushi3105,73
+GP,F,16,U,GT3,T,2,2,at_home,other,home,mother,1,2,1,yes,no,no,yes,yes,yes,yes,no,3,1,2,1,1,5,6,11,14,14,Mary,mary@gmail.com,mary4507,92
+GP,M,15,U,LE3,T,4,2,teacher,other,course,mother,1,1,0,no,no,no,no,yes,yes,yes,no,3,5,2,1,1,3,10,18,19,19,Vivek,vivek@gmail.com,vivek5629,80
+GP,M,15,R,GT3,T,2,1,health,services,reputation,mother,1,2,0,no,no,no,yes,yes,yes,yes,yes,5,4,2,1,1,5,8,9,9,9,Anshul,anshul@gmail.com,anshul1304,76
+GP,M,16,U,GT3,T,4,4,teacher,teacher,course,father,1,2,0,no,yes,no,yes,yes,yes,yes,no,5,4,4,1,2,5,2,15,15,16,Vivek,vivek@gmail.com,vivek2482,76
+GP,M,15,U,GT3,T,4,4,other,teacher,reputation,father,2,2,0,no,yes,no,yes,yes,yes,no,no,4,4,3,1,1,2,2,11,13,14,Ansh,ansh@gmail.com,ansh3402,78
+GP,M,16,U,GT3,T,3,3,other,services,home,father,2,1,0,no,no,no,yes,yes,yes,yes,no,5,4,2,1,1,5,0,12,13,12,Ansh,ansh@gmail.com,ansh7254,51
+GP,M,17,R,GT3,T,1,3,other,other,course,father,3,2,1,no,yes,no,yes,yes,yes,yes,no,5,2,4,1,4,5,20,8,6,7,Anshul,anshul@gmail.com,anshul9239,56
+GP,M,15,U,GT3,T,3,4,other,other,reputation,father,1,1,0,no,no,no,no,yes,yes,yes,no,3,4,3,1,2,4,6,14,13,13,Ram,ram@gmail.com,ram7076,63
+GP,F,15,U,GT3,T,1,2,at_home,services,course,mother,1,2,0,no,no,no,no,no,yes,yes,no,3,2,3,1,2,1,2,16,15,15,Khushi,khushi@gmail.com,khushi2546,68
+GP,M,15,U,GT3,T,2,2,services,services,home,father,1,4,0,no,yes,yes,yes,yes,yes,yes,no,5,5,4,1,2,5,6,16,14,15,Piyush,piyush@gmail.com,piyush1752,73
+GP,F,16,U,LE3,T,2,4,other,health,course,father,2,2,0,no,yes,yes,yes,yes,yes,yes,yes,4,2,2,1,2,5,2,14,14,14,Mary,mary@gmail.com,mary6194,94
+GP,M,16,U,GT3,T,4,4,health,other,course,mother,1,1,0,no,yes,no,yes,yes,yes,yes,no,3,4,4,1,4,5,18,13,10,12,Karan,karan@gmail.com,karan8461,51
+GP,F,16,U,GT3,T,2,2,other,other,home,mother,1,2,0,no,no,yes,no,yes,yes,yes,yes,5,4,4,1,1,5,0,7,6,7,Manisha,manisha@gmail.com,manisha1257,52
+GP,M,15,U,GT3,T,3,4,services,services,home,father,1,1,0,yes,no,no,no,yes,yes,yes,no,5,5,5,3,2,5,0,13,13,12,Abdul,abdul@gmail.com,abdul6339,90
+GP,F,15,U,LE3,A,3,4,other,other,home,mother,1,2,0,yes,no,no,yes,yes,yes,yes,yes,5,3,2,1,1,1,0,6,9,10,Khushi,khushi@gmail.com,khushi1347,56
+GP,F,19,U,GT3,T,0,1,at_home,other,course,other,1,2,3,no,yes,no,no,no,no,no,no,3,4,2,1,1,5,2,7,8,9,Preeti,preeti@gmail.com,preeti7104,61
+GP,M,18,R,GT3,T,2,2,services,other,reputation,mother,1,1,2,no,yes,no,yes,yes,yes,yes,no,3,3,3,1,2,4,0,6,3,-1,Abdul,abdul@gmail.com,abdul4849,59
+GP,M,16,R,GT3,T,4,4,teacher,teacher,course,mother,1,1,0,no,no,yes,yes,yes,yes,yes,no,3,5,5,2,5,4,8,17,17,17,Piyush,piyush@gmail.com,piyush6501,54
+GP,F,15,R,GT3,T,3,4,services,teacher,course,father,2,3,2,no,yes,no,no,yes,yes,yes,yes,4,2,2,2,2,5,0,12,0,0,Preeti,preeti@gmail.com,preeti2546,61
+GP,F,15,U,GT3,T,1,1,at_home,other,course,mother,3,1,0,no,yes,no,yes,no,yes,yes,yes,4,3,3,1,2,4,0,9,1,1,Manisha,manisha@gmail.com,manisha5156,92
+GP,F,17,U,LE3,T,2,2,other,other,course,father,1,1,0,no,yes,no,no,yes,yes,yes,yes,3,4,4,1,3,5,12,10,13,12,Varsha,varsha@gmail.com,varsha8672,89
+GP,F,16,U,GT3,A,3,4,services,other,course,father,1,1,0,no,no,no,no,yes,yes,yes,no,3,2,1,1,4,5,16,12,11,11,Khushi,khushi@gmail.com,khushi1860,66
+GP,M,15,R,GT3,T,3,4,at_home,teacher,course,mother,4,2,0,no,yes,no,no,yes,yes,no,yes,5,3,3,1,1,5,0,8,-1,-1,Anshul,anshul@gmail.com,anshul2204,58
+GP,F,15,U,GT3,T,4,4,services,at_home,course,mother,1,3,0,no,yes,no,yes,yes,yes,yes,yes,4,3,3,1,1,5,0,11,0,0,Preeti,preeti@gmail.com,preeti7526,81
+GP,M,17,R,GT3,T,3,4,at_home,other,course,mother,3,2,0,no,no,no,no,yes,yes,no,no,5,4,5,2,4,5,0,9,-1,-1,Vivek,vivek@gmail.com,vivek6706,52
+GP,F,16,U,GT3,A,3,3,other,other,course,other,2,1,2,no,yes,no,yes,no,yes,yes,yes,4,3,2,1,1,5,0,4,0,0,Manisha,manisha@gmail.com,manisha1774,84
+GP,M,16,U,LE3,T,1,1,services,other,course,mother,1,2,1,no,no,no,no,yes,yes,no,yes,4,4,4,1,3,5,0,14,12,12,Ram,ram@gmail.com,ram2567,78
+GP,F,15,U,GT3,T,4,4,teacher,teacher,course,mother,2,1,0,no,no,no,yes,yes,yes,yes,no,4,3,2,1,1,5,0,16,16,15,Preeti,preeti@gmail.com,preeti4257,74
+GP,M,15,U,GT3,T,4,3,teacher,services,course,father,2,4,0,yes,yes,no,no,yes,yes,yes,no,2,2,2,1,1,3,0,7,9,0,Karan,karan@gmail.com,karan7602,76
+GP,M,16,U,LE3,T,2,2,services,services,reputation,father,2,1,2,no,yes,no,yes,yes,yes,yes,no,2,3,3,2,2,2,8,8,8,8,Ansh,ansh@gmail.com,ansh3300,56
+GP,F,15,U,GT3,T,4,4,teacher,services,course,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,no,4,2,2,1,1,5,2,9,11,11,Mary,mary@gmail.com,mary7940,62
+GP,F,16,U,LE3,T,1,1,at_home,at_home,course,mother,1,1,0,no,no,no,no,yes,yes,yes,no,3,4,4,3,3,1,2,14,14,13,Mary,mary@gmail.com,mary8335,70
+GP,M,17,U,GT3,T,2,1,other,other,home,mother,1,1,3,no,yes,no,no,yes,yes,yes,no,5,4,5,1,2,5,0,5,0,0,Karan,karan@gmail.com,karan5032,82
+GP,F,15,U,GT3,T,1,1,other,services,course,father,1,2,0,no,yes,yes,no,yes,yes,yes,no,4,4,2,1,2,5,0,8,11,11,Varsha,varsha@gmail.com,varsha4944,61
+GP,F,15,U,GT3,T,3,2,health,services,home,father,1,2,3,no,yes,no,no,yes,yes,yes,no,3,3,2,1,1,3,0,5,6,-1,Preeti,preeti@gmail.com,preeti8079,53
+GP,F,15,U,GT3,T,1,2,at_home,other,course,mother,1,2,0,no,yes,yes,no,no,yes,yes,no,4,3,2,1,1,5,2,11,12,12,Preeti,preeti@gmail.com,preeti2571,99
+GP,M,16,U,GT3,T,4,4,teacher,teacher,course,mother,1,1,0,no,yes,no,no,yes,no,yes,yes,3,3,2,2,1,5,0,7,6,0,Abdul,abdul@gmail.com,abdul2531,85
+GP,M,15,U,LE3,A,2,1,services,other,course,mother,4,1,3,no,no,no,no,yes,yes,yes,no,4,5,5,2,5,5,0,8,9,10,Abdul,abdul@gmail.com,abdul3246,62
+GP,M,18,U,LE3,T,1,1,other,other,course,mother,1,1,3,no,no,no,no,yes,no,yes,yes,2,3,5,2,5,4,0,6,5,0,Ansh,ansh@gmail.com,ansh3502,83
+GP,M,16,U,LE3,T,2,1,at_home,other,course,mother,1,1,1,no,no,no,yes,yes,yes,no,yes,4,4,4,3,5,5,6,13,14,15,Ansh,ansh@gmail.com,ansh3825,99
+GP,F,15,R,GT3,T,3,3,services,services,reputation,other,2,3,2,no,yes,yes,yes,yes,yes,yes,yes,4,2,1,2,3,3,8,10,10,10,Varsha,varsha@gmail.com,varsha2400,79
+GP,M,19,U,GT3,T,3,2,services,at_home,home,mother,1,1,3,no,yes,no,no,yes,no,yes,yes,4,5,4,1,1,4,0,5,0,0,Piyush,piyush@gmail.com,piyush1695,85
+GP,F,17,U,GT3,T,4,4,other,teacher,course,mother,1,1,0,yes,yes,no,no,yes,yes,no,yes,4,2,1,1,1,4,0,10,10,11,Preeti,preeti@gmail.com,preeti4136,52
+GP,M,15,R,GT3,T,2,3,at_home,services,course,mother,1,2,0,yes,no,yes,yes,yes,yes,no,no,4,4,4,1,1,1,2,11,8,8,Anshul,anshul@gmail.com,anshul1776,63
+GP,M,17,R,LE3,T,1,2,other,other,reputation,mother,1,1,0,no,no,no,no,yes,yes,no,no,2,2,2,3,3,5,8,15,11,12,Piyush,piyush@gmail.com,piyush1533,57
+GP,F,18,R,GT3,T,1,1,at_home,other,course,mother,3,1,3,no,yes,no,yes,no,yes,no,no,5,2,5,1,5,4,6,9,8,10,Khushi,khushi@gmail.com,khushi9433,68
+GP,M,16,R,GT3,T,2,2,at_home,other,course,mother,3,1,0,no,no,no,no,no,yes,no,no,4,2,2,1,2,3,2,18,16,16,Anshul,anshul@gmail.com,anshul4058,91
+GP,M,16,U,GT3,T,3,3,other,services,course,father,1,2,1,no,yes,yes,no,yes,yes,yes,yes,4,5,5,4,4,5,4,9,11,11,Abdul,abdul@gmail.com,abdul8084,54
+GP,M,17,R,LE3,T,2,1,at_home,other,course,mother,2,1,2,no,no,no,yes,yes,no,yes,yes,3,3,2,2,2,5,0,7,6,0,Ansh,ansh@gmail.com,ansh1941,80
+GP,M,15,R,GT3,T,3,2,other,other,course,mother,2,2,2,yes,yes,no,no,yes,yes,yes,yes,4,4,4,1,4,3,6,5,9,7,Ram,ram@gmail.com,ram8584,87
+GP,M,16,U,LE3,T,1,2,other,other,course,mother,2,1,1,no,no,no,yes,yes,yes,no,no,4,4,4,2,4,5,0,7,0,0,Abdul,abdul@gmail.com,abdul9506,68
+GP,M,17,U,GT3,T,1,3,at_home,services,course,father,1,1,0,no,no,no,no,yes,no,yes,no,5,3,3,1,4,2,2,9,9,9,Abdul,abdul@gmail.com,abdul2716,55
+GP,M,17,R,LE3,T,1,1,other,services,course,mother,4,2,3,no,no,no,yes,yes,no,no,yes,5,3,5,1,5,5,0,5,8,7,Ram,ram@gmail.com,ram4453,89
+GP,M,16,U,GT3,T,3,2,services,services,course,mother,2,1,1,no,yes,no,yes,no,no,no,no,4,5,2,1,1,2,16,12,11,12,Abdul,abdul@gmail.com,abdul9241,73
+GP,M,16,U,GT3,T,2,2,other,other,course,father,1,2,0,no,no,no,no,yes,no,yes,no,4,3,5,2,4,4,4,11,11,11,Ram,ram@gmail.com,ram8064,99
+GP,F,16,U,GT3,T,4,2,health,services,home,father,1,2,0,no,no,yes,no,yes,yes,yes,yes,4,2,3,1,1,3,0,13,14,15,Mary,mary@gmail.com,mary9712,58
+GP,F,16,U,GT3,T,2,2,other,other,home,mother,1,2,0,no,yes,yes,no,no,yes,yes,no,5,1,5,1,1,4,0,7,8,1,Preeti,preeti@gmail.com,preeti3445,95
+GP,F,16,U,GT3,T,4,4,health,health,reputation,mother,1,2,0,no,yes,yes,no,yes,yes,yes,yes,4,4,2,1,1,3,0,14,14,14,Khushi,khushi@gmail.com,khushi7533,74
+GP,M,16,U,GT3,T,3,4,other,other,course,father,3,1,2,no,yes,no,yes,no,yes,yes,no,3,4,5,2,4,2,0,6,5,0,Piyush,piyush@gmail.com,piyush4397,84
+GP,M,16,U,GT3,T,1,0,other,other,reputation,mother,2,2,0,no,yes,yes,yes,yes,yes,yes,yes,4,3,2,1,1,3,2,13,15,16,Vivek,vivek@gmail.com,vivek4799,83
+GP,M,17,U,LE3,T,4,4,teacher,other,reputation,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,4,4,4,1,3,5,0,14,12,11,Ram,ram@gmail.com,ram4851,95
+GP,F,16,U,GT3,T,1,3,at_home,services,home,mother,1,2,3,no,no,no,yes,no,yes,yes,yes,4,3,5,1,1,3,0,7,6,-1,Khushi,khushi@gmail.com,khushi8131,55
+GP,F,16,U,LE3,T,3,3,other,other,reputation,mother,2,2,0,no,yes,yes,yes,yes,yes,yes,no,4,4,5,1,1,4,4,10,11,9,Manisha,manisha@gmail.com,manisha3228,89
+GP,M,17,U,LE3,T,4,3,teacher,other,course,mother,2,2,0,no,no,yes,yes,yes,yes,yes,no,4,4,4,4,4,4,4,11,10,10,Anshul,anshul@gmail.com,anshul8455,95
+GP,F,16,U,GT3,T,2,2,services,other,reputation,mother,2,2,0,no,no,yes,yes,no,yes,yes,no,3,4,4,1,4,5,2,12,12,10,Khushi,khushi@gmail.com,khushi2903,53
+GP,M,17,U,GT3,T,3,3,other,other,reputation,father,1,2,0,no,no,no,yes,no,yes,yes,no,4,3,4,1,4,4,4,6,5,6,Vivek,vivek@gmail.com,vivek4626,90
+GP,M,16,R,GT3,T,4,2,teacher,services,other,mother,1,1,0,no,yes,no,yes,yes,yes,yes,yes,4,3,3,3,4,3,10,10,8,9,Abdul,abdul@gmail.com,abdul5315,75
+GP,M,17,U,GT3,T,4,3,other,other,course,mother,1,2,0,no,yes,no,yes,yes,yes,yes,yes,5,2,3,1,1,2,4,11,11,12,Abdul,abdul@gmail.com,abdul9094,91
+GP,M,16,U,GT3,T,4,3,teacher,other,home,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,3,4,3,2,3,3,10,10,9,9,Karan,karan@gmail.com,karan7795,91
+GP,M,16,U,GT3,T,3,3,services,other,home,mother,1,2,0,no,no,yes,yes,yes,yes,yes,yes,4,2,3,1,2,3,2,12,13,12,Abdul,abdul@gmail.com,abdul2455,67
+GP,F,17,U,GT3,T,2,4,services,services,reputation,father,1,2,0,no,yes,no,yes,yes,yes,no,no,5,4,2,2,3,5,0,17,18,18,Khushi,khushi@gmail.com,khushi6940,99
+GP,F,17,U,LE3,T,3,3,other,other,reputation,mother,1,2,0,no,yes,no,yes,yes,yes,yes,yes,5,3,3,2,3,1,56,9,9,8,Mary,mary@gmail.com,mary5394,68
+GP,F,16,U,GT3,T,3,2,other,other,reputation,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,1,2,2,1,2,1,14,12,13,12,Manisha,manisha@gmail.com,manisha9128,66
+GP,M,17,U,GT3,T,3,3,services,services,other,mother,1,2,0,no,yes,no,yes,yes,yes,yes,yes,4,3,4,2,3,4,12,12,12,11,Karan,karan@gmail.com,karan5023,72
+GP,M,16,U,GT3,T,1,2,services,services,other,mother,1,1,0,no,yes,yes,yes,yes,yes,yes,yes,3,3,3,1,2,3,2,11,12,11,Ram,ram@gmail.com,ram6278,64
+GP,M,16,U,LE3,T,2,1,other,other,course,mother,1,2,0,no,no,yes,yes,yes,yes,yes,yes,4,2,3,1,2,5,0,15,15,15,Anshul,anshul@gmail.com,anshul4142,77
+GP,F,17,U,GT3,A,3,3,health,other,reputation,mother,1,2,0,no,yes,no,no,no,yes,yes,yes,3,3,3,1,3,3,6,8,7,9,Preeti,preeti@gmail.com,preeti5276,68
+GP,M,17,R,GT3,T,1,2,at_home,other,home,mother,1,2,0,no,no,no,no,yes,yes,no,no,3,1,3,1,5,3,4,8,9,10,Abdul,abdul@gmail.com,abdul8083,68
+GP,F,16,U,GT3,T,2,3,services,services,course,mother,1,2,0,no,no,no,no,yes,yes,yes,no,4,3,3,1,1,2,10,11,12,13,Manisha,manisha@gmail.com,manisha5805,65
+GP,F,17,U,GT3,T,1,1,at_home,services,course,mother,1,2,0,no,no,no,yes,yes,yes,yes,no,5,3,3,1,1,3,0,8,8,9,Manisha,manisha@gmail.com,manisha2212,69
+GP,M,17,U,GT3,T,1,2,at_home,services,other,other,2,2,0,no,no,yes,yes,no,yes,yes,no,4,4,4,4,5,5,12,6,7,7,Piyush,piyush@gmail.com,piyush7659,55
+GP,M,16,R,GT3,T,3,3,services,services,reputation,mother,1,1,0,no,yes,no,yes,yes,yes,yes,no,4,3,2,3,4,5,8,8,9,10,Vivek,vivek@gmail.com,vivek7482,67
+GP,M,16,U,GT3,T,2,3,other,other,home,father,2,1,0,no,no,no,no,yes,yes,yes,no,5,3,3,1,1,3,0,13,14,14,Abdul,abdul@gmail.com,abdul2017,76
+GP,F,17,U,LE3,T,2,4,services,services,course,father,1,2,0,no,no,no,yes,yes,yes,yes,yes,4,3,2,1,1,5,0,14,15,15,Manisha,manisha@gmail.com,manisha7285,75
+GP,M,17,U,GT3,T,4,4,services,teacher,home,mother,1,1,0,no,no,no,no,yes,yes,yes,no,5,2,3,1,2,5,4,18,16,17,Anshul,anshul@gmail.com,anshul9446,93
+GP,M,16,R,LE3,T,3,3,teacher,other,home,father,3,1,0,no,yes,yes,yes,yes,yes,yes,no,3,3,4,3,5,3,8,9,9,10,Anshul,anshul@gmail.com,anshul8140,84
+GP,F,17,U,GT3,T,4,4,services,teacher,home,mother,2,1,1,no,yes,no,no,yes,yes,yes,no,4,2,4,2,3,2,24,17,17,17,Preeti,preeti@gmail.com,preeti8104,50
+GP,F,16,U,LE3,T,4,4,teacher,teacher,reputation,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,4,5,2,1,2,3,0,9,9,10,Varsha,varsha@gmail.com,varsha9124,80
+GP,F,16,U,GT3,T,4,3,health,other,home,mother,1,2,0,no,yes,no,yes,yes,yes,yes,no,4,3,5,1,5,2,2,17,17,17,Preeti,preeti@gmail.com,preeti1065,100
+GP,F,16,U,GT3,T,2,3,other,other,reputation,mother,1,2,0,yes,yes,yes,yes,yes,yes,no,no,4,4,3,1,3,4,6,8,10,10,Mary,mary@gmail.com,mary6777,70
+GP,F,17,U,GT3,T,1,1,other,other,course,mother,1,2,0,no,yes,yes,no,no,yes,no,no,4,4,4,1,3,1,4,10,10,11,Varsha,varsha@gmail.com,varsha7902,98
+GP,F,17,R,GT3,T,2,2,other,other,reputation,mother,1,1,0,no,yes,no,no,yes,yes,yes,no,5,3,2,1,2,3,18,7,6,6,Preeti,preeti@gmail.com,preeti6642,84
+GP,F,16,R,GT3,T,2,2,services,services,reputation,mother,2,4,0,no,yes,yes,yes,no,yes,yes,no,5,3,5,1,1,5,6,10,10,11,Varsha,varsha@gmail.com,varsha5381,84
+GP,F,17,U,GT3,T,3,4,at_home,services,home,mother,1,3,1,no,yes,yes,no,yes,yes,yes,yes,4,4,3,3,4,5,28,10,9,9,Manisha,manisha@gmail.com,manisha9000,62
+GP,F,16,U,GT3,A,3,1,services,other,course,mother,1,2,3,no,yes,yes,no,yes,yes,yes,no,2,3,3,2,2,4,5,7,7,7,Khushi,khushi@gmail.com,khushi4713,73
+GP,F,16,U,GT3,T,4,3,teacher,other,other,mother,1,2,0,no,no,yes,yes,yes,yes,yes,yes,1,3,2,1,1,1,10,10,11,12,Preeti,preeti@gmail.com,preeti7978,50
+GP,F,16,U,GT3,T,1,1,at_home,other,home,mother,2,1,0,no,yes,yes,no,yes,yes,no,no,4,3,2,1,4,5,6,8,8,9,Mary,mary@gmail.com,mary8359,58
+GP,F,17,R,GT3,T,4,3,teacher,other,reputation,mother,2,3,0,no,yes,yes,yes,yes,yes,yes,yes,4,4,2,1,1,4,6,7,7,7,Varsha,varsha@gmail.com,varsha7932,68
+GP,F,19,U,GT3,T,3,3,other,other,reputation,other,1,4,0,no,yes,yes,yes,yes,yes,yes,no,4,3,3,1,2,3,10,8,8,8,Khushi,khushi@gmail.com,khushi4232,65
+GP,M,17,U,LE3,T,4,4,services,other,home,mother,1,2,0,no,yes,yes,no,yes,yes,yes,yes,5,3,5,4,5,3,13,13,13,14,Vivek,vivek@gmail.com,vivek5337,95
+GP,F,16,U,GT3,A,2,2,other,other,reputation,mother,1,2,0,yes,yes,yes,no,yes,yes,yes,no,3,3,4,1,1,4,0,12,13,14,Varsha,varsha@gmail.com,varsha6004,68
+GP,M,18,U,GT3,T,2,2,services,other,home,mother,1,2,1,no,yes,yes,yes,yes,yes,yes,no,4,4,4,2,4,5,15,6,7,8,Karan,karan@gmail.com,karan6339,74
+GP,F,17,R,LE3,T,4,4,services,other,other,mother,1,1,0,no,yes,yes,no,yes,yes,no,no,5,2,1,1,2,3,12,7,9,9,Mary,mary@gmail.com,mary2617,50
+GP,F,17,U,LE3,T,3,2,other,other,reputation,mother,2,2,0,no,no,yes,no,yes,yes,yes,no,4,4,4,1,3,1,2,14,15,15,Mary,mary@gmail.com,mary3725,86
+GP,F,17,U,GT3,T,4,3,other,other,reputation,mother,1,2,2,no,no,yes,no,yes,yes,yes,yes,3,4,5,2,4,1,22,6,6,4,Varsha,varsha@gmail.com,varsha6484,70
+GP,M,18,U,LE3,T,3,3,services,health,home,father,1,2,1,no,yes,yes,no,yes,yes,yes,no,3,2,4,2,4,4,13,6,6,8,Ansh,ansh@gmail.com,ansh5031,69
+GP,F,17,U,GT3,T,2,3,at_home,other,home,father,2,1,0,no,yes,yes,no,yes,yes,no,no,3,3,3,1,4,3,3,7,7,8,Khushi,khushi@gmail.com,khushi5174,64
+GP,F,17,U,GT3,T,2,2,at_home,at_home,course,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,no,4,3,3,1,1,4,4,9,10,10,Manisha,manisha@gmail.com,manisha7196,76
+GP,F,17,R,GT3,T,2,1,at_home,services,reputation,mother,2,2,0,no,yes,no,yes,yes,yes,yes,no,4,2,5,1,2,5,2,6,6,6,Preeti,preeti@gmail.com,preeti4046,63
+GP,F,17,U,GT3,T,1,1,at_home,other,reputation,mother,1,3,1,no,yes,no,yes,yes,yes,no,yes,4,3,4,1,1,5,0,7,6,1,Preeti,preeti@gmail.com,preeti7456,92
+GP,F,16,U,GT3,T,2,3,services,teacher,other,mother,1,2,0,yes,no,no,no,yes,yes,yes,no,2,3,1,1,1,3,2,16,16,17,Preeti,preeti@gmail.com,preeti5245,75
+GP,M,18,U,GT3,T,2,2,other,other,home,mother,2,2,0,no,yes,yes,no,yes,yes,yes,no,3,3,3,5,5,4,0,13,14,14,Vivek,vivek@gmail.com,vivek2536,92
+GP,F,16,U,GT3,T,4,4,teacher,services,home,mother,1,3,0,no,yes,no,yes,no,yes,yes,no,5,3,2,1,1,5,0,13,13,14,Mary,mary@gmail.com,mary3111,88
+GP,F,18,R,GT3,T,3,1,other,other,reputation,mother,1,2,1,no,no,no,yes,yes,yes,yes,yes,5,3,3,1,1,4,16,9,8,7,Manisha,manisha@gmail.com,manisha8045,82
+GP,F,17,U,GT3,T,3,2,other,other,course,mother,1,2,0,no,no,no,yes,no,yes,yes,no,5,3,4,1,3,3,10,16,15,15,Varsha,varsha@gmail.com,varsha4878,90
+GP,M,17,U,LE3,T,2,3,services,services,reputation,father,1,2,0,no,yes,yes,no,no,yes,yes,no,5,3,3,1,3,3,2,11,10,11,Ram,ram@gmail.com,ram6512,52
+GP,M,18,U,LE3,T,2,1,at_home,other,course,mother,4,2,0,yes,yes,yes,yes,yes,yes,yes,yes,4,3,2,4,5,3,14,10,8,9,Anshul,anshul@gmail.com,anshul8596,85
+GP,F,17,U,GT3,A,2,1,other,other,course,mother,2,3,0,no,no,no,yes,yes,yes,yes,yes,3,2,3,1,2,3,10,11,9,11,Varsha,varsha@gmail.com,varsha1661,54
+GP,F,17,U,LE3,T,4,3,health,other,reputation,father,1,2,0,no,no,no,yes,yes,yes,yes,yes,3,2,3,1,2,3,14,13,13,14,Preeti,preeti@gmail.com,preeti3391,69
+GP,M,17,R,GT3,T,2,2,other,other,course,father,2,2,0,no,yes,yes,yes,yes,yes,yes,no,4,5,2,1,1,1,4,12,12,12,Ansh,ansh@gmail.com,ansh7680,100
+GP,M,17,U,GT3,T,4,4,teacher,teacher,reputation,mother,1,2,0,yes,yes,no,yes,yes,yes,yes,yes,4,5,5,1,3,2,14,12,10,10,Piyush,piyush@gmail.com,piyush9470,97
+GP,M,16,U,GT3,T,4,4,health,other,reputation,father,1,2,0,no,yes,yes,yes,yes,yes,yes,no,4,2,4,2,4,1,2,14,13,13,Karan,karan@gmail.com,karan8379,64
+GP,M,16,U,LE3,T,1,1,other,other,home,mother,2,2,0,no,yes,yes,no,yes,yes,yes,no,3,4,2,1,1,5,18,8,6,5,Vivek,vivek@gmail.com,vivek3879,52
+GP,M,16,U,GT3,T,3,2,at_home,other,reputation,mother,2,3,0,no,no,no,yes,yes,yes,yes,yes,5,3,3,1,3,2,10,11,9,10,Ram,ram@gmail.com,ram6469,71
+GP,M,17,U,LE3,T,2,2,other,other,home,father,1,2,0,no,no,yes,yes,no,yes,yes,yes,4,4,2,5,5,4,4,14,13,13,Piyush,piyush@gmail.com,piyush2013,81
+GP,F,16,U,GT3,T,2,1,other,other,home,mother,1,1,0,no,no,no,no,yes,yes,yes,yes,4,5,2,1,1,5,20,13,12,12,Khushi,khushi@gmail.com,khushi9695,66
+GP,F,17,R,GT3,T,2,1,at_home,services,course,mother,3,2,0,no,no,no,yes,yes,yes,no,no,2,1,1,1,1,3,2,14,12,12,Varsha,varsha@gmail.com,varsha7519,93
+GP,M,18,U,GT3,T,2,2,other,services,reputation,father,1,2,1,no,no,no,no,yes,no,yes,no,5,5,4,3,5,2,0,7,7,0,Anshul,anshul@gmail.com,anshul9608,81
+GP,M,17,U,LE3,T,4,3,health,other,course,mother,2,2,0,no,no,no,yes,yes,yes,yes,yes,2,5,5,1,4,5,14,11,11,11,Ansh,ansh@gmail.com,ansh7215,53
+GP,M,17,R,LE3,A,4,4,teacher,other,course,mother,2,2,0,no,yes,yes,no,yes,yes,yes,no,3,3,3,2,3,4,2,9,10,11,Ansh,ansh@gmail.com,ansh3336,52
+GP,M,16,U,LE3,T,4,3,teacher,other,course,mother,1,1,0,no,no,no,yes,no,yes,yes,no,5,4,5,1,1,3,0,6,0,0,Piyush,piyush@gmail.com,piyush6531,62
+GP,M,16,U,GT3,T,4,4,services,services,course,mother,1,1,0,no,no,no,yes,yes,yes,yes,no,5,3,2,1,2,5,0,12,11,11,Abdul,abdul@gmail.com,abdul2231,55
+GP,F,18,U,GT3,T,2,1,other,other,course,other,2,3,0,no,yes,yes,no,no,yes,yes,yes,4,4,4,1,1,3,0,8,1,1,Manisha,manisha@gmail.com,manisha3825,96
+GP,M,16,U,GT3,T,2,1,other,other,course,mother,3,1,0,no,no,no,no,yes,yes,yes,no,4,3,3,1,1,4,6,17,17,17,Vivek,vivek@gmail.com,vivek6570,59
+GP,M,17,U,GT3,T,2,3,other,other,course,father,2,1,0,no,no,no,no,yes,yes,yes,no,5,2,2,1,1,2,4,11,11,12,Karan,karan@gmail.com,karan4894,50
+GP,M,22,U,GT3,T,3,1,services,services,other,mother,1,1,3,no,no,no,no,no,no,yes,yes,5,4,5,5,5,1,16,6,8,8,Karan,karan@gmail.com,karan3191,90
+GP,M,18,R,LE3,T,3,3,other,services,course,mother,1,2,1,no,yes,no,no,yes,yes,yes,yes,4,3,3,1,3,5,8,4,6,6,Abdul,abdul@gmail.com,abdul5584,96
+GP,M,16,U,GT3,T,0,2,other,other,other,mother,1,1,0,no,no,yes,no,no,yes,yes,no,4,3,2,2,4,5,0,12,14,14,Vivek,vivek@gmail.com,vivek6663,50
+GP,M,18,U,GT3,T,3,2,services,other,course,mother,2,1,1,no,no,no,no,yes,no,yes,no,4,4,5,2,4,5,0,7,9,9,Anshul,anshul@gmail.com,anshul9470,100
+GP,M,16,U,GT3,T,3,3,at_home,other,reputation,other,3,2,0,yes,yes,no,no,no,yes,yes,no,5,3,3,1,3,2,6,7,10,10,Ram,ram@gmail.com,ram7482,70
+GP,M,18,U,GT3,T,2,1,services,services,other,mother,1,1,1,no,no,no,no,no,no,yes,no,3,2,5,2,5,5,4,7,10,9,Abdul,abdul@gmail.com,abdul4260,99
+GP,M,16,R,GT3,T,2,1,other,other,course,mother,2,1,0,no,no,no,yes,no,yes,no,no,3,3,2,1,3,3,0,9,10,9,Ansh,ansh@gmail.com,ansh9445,99
+GP,M,17,R,GT3,T,2,1,other,other,course,mother,1,1,0,no,no,no,no,no,yes,yes,no,4,4,2,2,4,5,0,8,12,12,Ram,ram@gmail.com,ram9307,78
+GP,M,17,U,LE3,T,1,1,health,other,course,mother,2,1,1,no,yes,no,yes,yes,yes,yes,no,4,4,4,1,2,5,2,7,9,8,Anshul,anshul@gmail.com,anshul1995,80
+GP,F,17,U,LE3,T,4,2,teacher,services,reputation,mother,1,4,0,no,yes,yes,yes,yes,yes,yes,no,4,2,3,1,1,4,6,15,13,14,Manisha,manisha@gmail.com,manisha7915,98
+GP,M,19,U,LE3,A,4,3,services,at_home,reputation,mother,1,2,0,no,yes,no,no,yes,yes,yes,no,4,3,1,1,1,1,12,10,10,10,Karan,karan@gmail.com,karan4795,51
+GP,M,18,U,GT3,T,2,1,other,other,home,mother,1,2,0,no,no,no,yes,yes,yes,yes,no,5,2,4,1,2,4,8,16,15,15,Ansh,ansh@gmail.com,ansh9523,91
+GP,F,17,U,LE3,T,2,2,services,services,course,father,1,4,0,no,no,yes,yes,yes,yes,yes,yes,3,4,1,1,1,2,0,11,10,1,Manisha,manisha@gmail.com,manisha2730,99
+GP,F,18,U,GT3,T,4,3,services,other,home,father,1,2,0,no,yes,yes,no,yes,yes,yes,yes,3,1,2,1,3,2,21,17,18,18,Preeti,preeti@gmail.com,preeti9997,82
+GP,M,18,U,GT3,T,4,3,teacher,other,course,mother,1,2,0,no,yes,yes,no,no,yes,yes,no,4,3,2,1,1,3,2,8,8,8,Karan,karan@gmail.com,karan4648,63
+GP,M,18,R,GT3,T,3,2,other,other,course,mother,1,3,0,no,no,no,yes,no,yes,no,no,5,3,2,1,1,3,1,12,11,11,Ram,ram@gmail.com,ram9326,50
+GP,F,17,U,GT3,T,3,3,other,other,home,mother,1,3,0,no,no,no,yes,no,yes,no,no,3,2,3,1,1,4,4,10,9,9,Khushi,khushi@gmail.com,khushi8182,83
+GP,F,18,U,GT3,T,2,2,at_home,services,home,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,yes,4,3,3,1,1,3,0,9,10,0,Mary,mary@gmail.com,mary1144,72
+GP,M,18,R,LE3,A,3,4,other,other,reputation,mother,2,2,0,no,yes,yes,yes,yes,yes,yes,no,4,2,5,3,4,1,13,16,16,16,Ram,ram@gmail.com,ram9399,56
+GP,M,17,U,GT3,T,3,1,services,other,other,mother,1,2,0,no,no,yes,yes,yes,yes,yes,yes,5,4,4,3,4,5,2,9,9,10,Anshul,anshul@gmail.com,anshul4782,89
+GP,F,18,R,GT3,T,4,4,teacher,other,reputation,mother,2,2,0,no,no,yes,yes,yes,yes,yes,no,4,3,4,2,2,4,8,12,10,11,Manisha,manisha@gmail.com,manisha6089,85
+GP,M,18,U,GT3,T,4,2,health,other,reputation,father,1,2,0,no,yes,yes,yes,yes,yes,yes,yes,5,4,5,1,3,5,10,9,8,9,Ram,ram@gmail.com,ram5000,59
+GP,F,18,R,GT3,T,2,1,other,other,reputation,mother,2,2,0,no,yes,no,no,yes,no,yes,yes,4,3,5,1,2,3,0,6,0,0,Varsha,varsha@gmail.com,varsha9499,62
+GP,F,19,U,GT3,T,3,3,other,services,home,other,1,2,2,no,yes,yes,yes,yes,yes,yes,no,4,3,5,3,3,5,15,9,9,9,Manisha,manisha@gmail.com,manisha5432,68
+GP,F,18,U,GT3,T,2,3,other,services,reputation,father,1,4,0,no,yes,yes,yes,yes,yes,yes,yes,4,5,5,1,3,2,4,15,14,14,Preeti,preeti@gmail.com,preeti3813,80
+GP,F,18,U,LE3,T,1,1,other,other,home,mother,2,2,0,no,yes,yes,no,no,yes,no,no,4,4,3,1,1,3,2,12,12,12,Khushi,khushi@gmail.com,khushi7093,92
+GP,M,17,R,GT3,T,1,2,at_home,at_home,home,mother,1,2,0,no,yes,yes,yes,no,yes,no,yes,3,5,2,2,2,1,2,16,15,15,Piyush,piyush@gmail.com,piyush4777,94
+GP,F,17,U,GT3,T,2,4,at_home,health,reputation,mother,2,2,0,no,yes,yes,no,yes,yes,yes,yes,4,3,3,1,1,1,2,10,10,10,Manisha,manisha@gmail.com,manisha8875,68
+GP,F,17,U,LE3,T,2,2,services,other,course,mother,2,2,0,yes,yes,yes,no,yes,yes,yes,yes,4,4,4,2,3,5,6,12,12,12,Preeti,preeti@gmail.com,preeti3102,80
+GP,F,18,R,GT3,A,3,2,other,services,home,mother,2,2,0,no,no,no,no,no,no,yes,yes,4,1,1,1,1,5,75,10,9,9,Preeti,preeti@gmail.com,preeti3661,60
+GP,M,18,U,GT3,T,4,4,teacher,services,home,mother,2,1,0,no,no,yes,yes,yes,yes,yes,no,3,2,4,1,4,3,22,9,9,9,Ansh,ansh@gmail.com,ansh8997,81
+GP,F,18,U,GT3,T,4,4,health,health,reputation,father,1,2,1,yes,yes,no,yes,yes,yes,yes,yes,2,4,4,1,1,4,15,9,8,8,Manisha,manisha@gmail.com,manisha8038,85
+GP,M,18,U,LE3,T,4,3,teacher,services,course,mother,2,1,0,no,no,yes,yes,yes,yes,yes,no,4,2,3,1,2,1,8,10,11,10,Abdul,abdul@gmail.com,abdul7525,71
+GP,M,17,U,LE3,A,4,1,services,other,home,mother,2,1,0,no,no,yes,yes,yes,yes,yes,yes,4,5,4,2,4,5,30,8,8,8,Ram,ram@gmail.com,ram1534,87
+GP,M,17,U,LE3,A,3,2,teacher,services,home,mother,1,1,1,no,no,no,no,yes,yes,yes,no,4,4,4,3,4,3,19,11,9,10,Vivek,vivek@gmail.com,vivek8566,70
+GP,F,18,R,LE3,T,1,1,at_home,other,reputation,mother,2,4,0,no,yes,yes,yes,yes,yes,no,no,5,2,2,1,1,3,1,12,12,12,Preeti,preeti@gmail.com,preeti2867,80
+GP,F,18,U,GT3,T,1,1,other,other,home,mother,2,2,0,yes,no,no,yes,yes,yes,yes,no,5,4,4,1,1,4,4,7,8,9,Preeti,preeti@gmail.com,preeti9581,50
+GP,F,17,U,GT3,T,2,2,other,other,course,mother,1,2,0,no,yes,no,no,no,yes,yes,no,5,4,5,1,2,5,4,11,10,12,Khushi,khushi@gmail.com,khushi5857,100
+GP,M,17,U,GT3,T,1,1,other,other,reputation,father,1,2,0,no,no,yes,no,no,yes,yes,no,4,3,3,1,2,4,2,12,10,11,Anshul,anshul@gmail.com,anshul1892,74
+GP,F,18,U,GT3,T,2,2,at_home,at_home,other,mother,1,3,0,no,yes,yes,no,yes,yes,yes,no,4,3,3,1,2,2,5,17,17,18,Varsha,varsha@gmail.com,varsha9650,59
+GP,F,17,U,GT3,T,1,1,services,teacher,reputation,mother,1,3,0,no,yes,yes,no,yes,yes,yes,no,4,3,3,1,1,3,6,13,12,12,Preeti,preeti@gmail.com,preeti2339,75
+GP,M,18,U,GT3,T,2,1,services,services,reputation,mother,1,3,0,no,no,yes,yes,yes,yes,yes,no,4,2,4,1,3,2,6,15,14,14,Abdul,abdul@gmail.com,abdul6776,88
+GP,M,18,U,LE3,A,4,4,teacher,teacher,reputation,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,5,4,3,1,1,2,9,14,12,14,Vivek,vivek@gmail.com,vivek3058,54
+GP,M,18,U,GT3,T,4,2,teacher,other,home,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,yes,4,3,2,1,4,5,11,12,11,11,Piyush,piyush@gmail.com,piyush3704,67
+GP,F,17,U,GT3,T,4,3,health,services,reputation,mother,1,3,0,no,yes,yes,no,yes,yes,yes,no,4,2,2,1,2,3,0,16,16,16,Preeti,preeti@gmail.com,preeti9532,96
+GP,F,18,U,LE3,T,2,1,services,at_home,reputation,mother,1,2,1,no,no,no,no,yes,yes,yes,yes,5,4,3,1,1,5,12,12,12,13,Mary,mary@gmail.com,mary8533,68
+GP,F,17,R,LE3,T,3,1,services,other,reputation,mother,2,4,0,no,yes,yes,no,yes,yes,no,no,3,1,2,1,1,3,6,18,18,18,Varsha,varsha@gmail.com,varsha6700,76
+GP,M,18,R,LE3,T,3,2,services,other,reputation,mother,2,3,0,no,yes,yes,yes,yes,yes,yes,no,5,4,2,1,1,4,8,14,13,14,Ansh,ansh@gmail.com,ansh7772,68
+GP,M,17,U,GT3,T,3,3,health,other,home,mother,1,1,0,no,yes,yes,no,yes,yes,yes,no,4,4,3,1,3,5,4,13,11,10,Vivek,vivek@gmail.com,vivek4860,55
+GP,F,19,U,GT3,T,4,4,health,other,reputation,other,2,2,0,no,yes,yes,yes,yes,yes,yes,no,2,3,4,2,3,2,0,10,9,0,Manisha,manisha@gmail.com,manisha6474,84
+GP,F,18,U,LE3,T,4,3,other,other,home,other,2,2,0,no,yes,yes,no,yes,yes,yes,yes,4,4,5,1,2,2,10,10,8,8,Manisha,manisha@gmail.com,manisha4168,75
+GP,F,18,U,GT3,T,4,3,other,other,reputation,father,1,4,0,no,yes,yes,no,yes,yes,yes,no,4,3,3,1,1,3,0,15,14,15,Manisha,manisha@gmail.com,manisha2386,91
+GP,M,18,U,LE3,T,4,4,teacher,teacher,home,mother,1,1,0,no,yes,yes,no,yes,yes,yes,yes,1,4,2,2,2,1,5,16,15,16,Anshul,anshul@gmail.com,anshul6171,89
+GP,F,18,U,LE3,A,4,4,health,other,home,mother,1,2,0,no,yes,no,no,yes,yes,yes,yes,4,2,4,1,1,4,14,12,10,11,Mary,mary@gmail.com,mary2230,70
+GP,M,17,U,LE3,T,4,4,other,teacher,home,father,2,1,0,no,no,yes,no,yes,yes,yes,no,4,1,1,2,2,5,0,11,11,10,Ansh,ansh@gmail.com,ansh5138,63
+GP,F,17,U,GT3,T,4,2,other,other,reputation,mother,2,3,0,no,yes,yes,no,yes,yes,yes,no,4,3,3,1,1,3,0,15,12,14,Mary,mary@gmail.com,mary9767,79
+GP,F,17,U,GT3,T,3,2,health,health,reputation,father,1,4,0,no,yes,yes,yes,no,yes,yes,no,5,2,2,1,2,5,0,17,17,18,Khushi,khushi@gmail.com,khushi3149,82
+GP,M,19,U,GT3,T,3,3,other,other,home,other,1,2,1,no,yes,no,yes,yes,yes,yes,yes,4,4,4,1,1,3,20,16,15,14,Anshul,anshul@gmail.com,anshul2511,95
+GP,F,18,U,GT3,T,2,4,services,at_home,reputation,other,1,2,1,no,yes,yes,yes,yes,yes,yes,no,4,4,3,1,1,3,8,14,12,12,Mary,mary@gmail.com,mary9035,78
+GP,M,20,U,GT3,A,3,2,services,other,course,other,1,1,0,no,no,no,yes,yes,yes,no,no,5,5,3,1,1,5,0,18,19,19,Karan,karan@gmail.com,karan7409,94
+GP,M,19,U,GT3,T,4,4,teacher,services,reputation,other,2,1,1,no,yes,yes,no,yes,yes,yes,yes,4,3,4,1,1,4,38,9,10,9,Ram,ram@gmail.com,ram1567,96
+GP,M,19,R,GT3,T,3,3,other,services,reputation,father,1,2,1,no,no,no,yes,yes,yes,no,yes,4,5,3,1,2,5,0,14,11,11,Vivek,vivek@gmail.com,vivek4269,53
+GP,F,19,U,LE3,T,1,1,at_home,other,reputation,other,1,2,1,yes,yes,no,yes,no,yes,yes,no,4,4,3,1,3,3,18,12,10,10,Khushi,khushi@gmail.com,khushi2282,79
+GP,F,19,U,LE3,T,1,2,services,services,home,other,1,2,1,no,no,no,yes,no,yes,no,yes,4,2,4,2,2,3,0,9,9,0,Mary,mary@gmail.com,mary9580,60
+GP,F,19,U,GT3,T,2,1,at_home,other,other,other,3,2,0,no,yes,no,no,yes,no,yes,yes,3,4,1,1,1,2,20,14,12,13,Khushi,khushi@gmail.com,khushi4249,88
+GP,M,19,U,GT3,T,1,2,other,services,course,other,1,2,1,no,no,no,no,no,yes,yes,no,4,5,2,2,2,4,3,13,11,11,Piyush,piyush@gmail.com,piyush5975,73
+GP,F,19,U,LE3,T,3,2,services,other,reputation,other,2,2,1,no,yes,yes,no,no,yes,yes,yes,4,2,2,1,2,1,22,13,10,11,Manisha,manisha@gmail.com,manisha8436,70
+GP,F,19,U,GT3,T,1,1,at_home,health,home,other,1,3,2,no,no,no,no,no,yes,yes,yes,4,1,2,1,1,3,14,16,14,14,Varsha,varsha@gmail.com,varsha2073,96
+GP,F,19,R,GT3,T,2,3,other,other,reputation,other,1,3,1,no,no,no,no,yes,yes,yes,yes,4,1,2,1,1,3,40,13,11,11,Manisha,manisha@gmail.com,manisha1310,71
+GP,F,18,U,GT3,T,2,1,services,other,course,mother,2,2,0,no,yes,yes,yes,yes,yes,yes,no,5,3,3,1,2,1,0,8,8,0,Varsha,varsha@gmail.com,varsha1789,82
+GP,F,18,U,GT3,T,4,3,other,other,course,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,yes,4,3,4,1,1,5,9,9,10,9,Manisha,manisha@gmail.com,manisha3968,90
+GP,F,17,R,GT3,T,3,4,at_home,services,course,father,1,3,0,no,yes,yes,yes,no,yes,yes,no,4,3,4,2,5,5,0,11,11,10,Khushi,khushi@gmail.com,khushi8952,66
+GP,F,18,U,GT3,T,4,4,teacher,other,course,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,4,4,4,3,3,5,2,12,12,12,Preeti,preeti@gmail.com,preeti9610,95
+GP,F,17,U,GT3,A,4,3,services,services,course,mother,1,2,0,no,yes,yes,no,yes,yes,yes,yes,5,2,2,1,2,5,23,12,12,12,Varsha,varsha@gmail.com,varsha9415,50
+GP,F,17,U,GT3,T,2,2,other,other,course,mother,1,2,0,no,yes,no,no,yes,yes,no,yes,4,2,2,1,1,3,12,11,9,9,Preeti,preeti@gmail.com,preeti9609,61
+GP,F,17,R,LE3,T,2,2,services,services,course,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,no,3,3,2,2,2,3,3,11,11,11,Khushi,khushi@gmail.com,khushi6165,70
+GP,F,17,U,GT3,T,3,1,services,services,course,father,1,3,0,no,yes,no,no,no,yes,yes,no,3,4,3,2,3,5,1,12,14,15,Manisha,manisha@gmail.com,manisha8019,62
+GP,F,17,U,LE3,T,0,2,at_home,at_home,home,father,2,3,0,no,no,no,no,yes,yes,yes,no,3,3,3,2,3,2,0,16,15,15,Preeti,preeti@gmail.com,preeti9300,75
+GP,M,18,U,GT3,T,4,4,other,other,course,mother,1,3,0,no,no,no,yes,yes,yes,yes,no,4,3,3,2,2,3,3,9,12,11,Anshul,anshul@gmail.com,anshul3863,85
+GP,M,17,U,GT3,T,3,3,other,services,reputation,mother,1,1,0,no,no,no,yes,no,yes,yes,no,4,3,5,3,5,5,3,14,15,16,Piyush,piyush@gmail.com,piyush9524,83
+GP,M,17,R,GT3,T,2,2,services,other,course,mother,4,1,0,no,yes,no,no,yes,yes,yes,no,4,4,5,5,5,4,8,10,9,9,Piyush,piyush@gmail.com,piyush5395,50
+GP,F,17,U,GT3,T,4,4,teacher,services,course,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,no,5,4,4,1,3,4,7,10,9,9,Khushi,khushi@gmail.com,khushi3205,74
+GP,F,17,U,GT3,T,4,4,teacher,teacher,course,mother,2,3,0,no,yes,yes,no,no,yes,yes,yes,4,3,3,1,2,4,4,14,14,14,Mary,mary@gmail.com,mary9798,67
+GP,M,18,U,LE3,T,2,2,other,other,course,mother,1,4,0,no,yes,no,yes,yes,yes,yes,no,4,5,5,2,4,5,2,8,7,7,Karan,karan@gmail.com,karan6087,57
+GP,F,17,R,GT3,T,2,4,at_home,other,course,father,1,3,0,no,yes,no,no,yes,yes,yes,yes,4,4,3,1,1,5,7,12,14,14,Preeti,preeti@gmail.com,preeti9707,65
+GP,F,18,U,GT3,T,3,3,services,services,home,mother,1,2,0,no,no,no,yes,yes,yes,yes,no,5,3,4,1,1,4,0,7,0,0,Preeti,preeti@gmail.com,preeti6129,69
+GP,F,18,U,LE3,T,2,2,other,other,home,other,1,2,0,no,no,no,yes,no,yes,yes,yes,4,3,3,1,1,2,0,8,8,0,Khushi,khushi@gmail.com,khushi6768,89
+GP,F,18,R,GT3,T,2,2,at_home,other,course,mother,2,4,0,no,no,no,yes,yes,yes,no,no,4,4,4,1,1,4,0,9,8,-1,Varsha,varsha@gmail.com,varsha1603,56
+GP,F,17,U,GT3,T,3,4,services,other,course,mother,1,3,0,no,no,no,no,yes,yes,yes,no,4,4,5,1,3,5,16,17,16,16,Mary,mary@gmail.com,mary2611,100
+GP,F,19,R,GT3,A,3,1,services,at_home,home,other,1,3,1,no,no,yes,no,yes,yes,no,no,5,4,3,1,2,5,12,14,13,13,Varsha,varsha@gmail.com,varsha4920,67
+GP,F,17,U,GT3,T,3,2,other,other,home,mother,1,2,0,no,yes,yes,no,yes,yes,yes,yes,4,3,2,2,3,2,0,7,8,0,Khushi,khushi@gmail.com,khushi9026,82
+GP,F,18,U,LE3,T,3,3,services,services,home,mother,1,4,0,no,yes,no,no,yes,yes,yes,no,5,3,3,1,1,1,7,16,15,17,Khushi,khushi@gmail.com,khushi8163,60
+GP,F,17,R,GT3,A,3,2,other,other,home,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,4,3,3,2,3,2,4,9,10,10,Khushi,khushi@gmail.com,khushi1087,60
+GP,F,19,U,GT3,T,2,1,services,services,home,other,1,3,1,no,no,yes,yes,yes,yes,yes,yes,4,3,4,1,3,3,4,11,12,11,Khushi,khushi@gmail.com,khushi3195,80
+GP,M,18,U,GT3,T,4,4,teacher,services,home,father,1,2,1,no,yes,no,yes,yes,yes,yes,no,4,3,3,2,2,2,0,10,10,0,Ansh,ansh@gmail.com,ansh3220,61
+GP,M,18,U,LE3,T,3,4,services,other,home,mother,1,2,0,no,no,no,yes,yes,yes,yes,yes,4,3,3,1,3,5,11,17,16,16,Karan,karan@gmail.com,karan4633,98
+GP,F,17,U,GT3,A,2,2,at_home,at_home,home,father,1,2,1,no,yes,no,no,yes,yes,yes,yes,3,3,1,1,2,4,0,9,8,0,Manisha,manisha@gmail.com,manisha8376,65
+GP,F,18,U,GT3,T,2,3,at_home,other,course,mother,1,3,0,no,yes,no,no,yes,yes,yes,no,4,3,3,1,2,3,4,10,9,9,Varsha,varsha@gmail.com,varsha2357,54
+GP,F,18,U,GT3,T,3,2,other,services,other,mother,1,3,0,no,no,no,no,yes,yes,yes,yes,5,4,3,2,3,1,7,13,13,14,Khushi,khushi@gmail.com,khushi4129,89
+GP,M,18,R,GT3,T,4,3,teacher,services,course,mother,1,3,0,no,no,no,no,yes,yes,yes,yes,5,3,2,1,2,4,9,16,15,16,Piyush,piyush@gmail.com,piyush7837,80
+GP,M,18,U,GT3,T,4,3,teacher,other,course,mother,1,3,0,no,yes,yes,no,yes,yes,yes,yes,5,4,5,2,3,5,0,11,11,10,Vivek,vivek@gmail.com,vivek9632,92
+GP,F,17,U,GT3,T,4,3,health,other,reputation,mother,1,3,0,no,yes,yes,yes,yes,yes,yes,yes,4,4,3,1,3,4,0,12,14,14,Mary,mary@gmail.com,mary1474,59
+MS,M,18,R,GT3,T,3,2,other,other,course,mother,2,1,1,no,yes,no,no,no,yes,yes,no,2,5,5,5,5,5,10,11,13,13,Ansh,ansh@gmail.com,ansh2330,73
+MS,M,19,R,GT3,T,1,1,other,services,home,other,3,2,3,no,no,no,no,yes,yes,yes,no,5,4,4,3,3,2,8,8,7,8,Ansh,ansh@gmail.com,ansh6477,79
+MS,M,17,U,GT3,T,3,3,health,other,course,mother,2,2,0,no,yes,yes,no,yes,yes,yes,no,4,5,4,2,3,3,2,13,13,13,Vivek,vivek@gmail.com,vivek6692,76
+MS,M,18,U,LE3,T,1,3,at_home,services,course,mother,1,1,1,no,no,no,no,yes,no,yes,yes,4,3,3,2,3,3,7,9,8,9,Karan,karan@gmail.com,karan2833,97
+MS,M,19,R,GT3,T,1,1,other,other,home,other,3,1,1,no,yes,no,no,yes,yes,yes,no,4,4,4,3,3,5,4,8,8,8,Ram,ram@gmail.com,ram7572,83
+MS,M,17,R,GT3,T,4,3,services,other,home,mother,2,2,0,no,yes,yes,yes,no,yes,yes,yes,4,5,5,1,3,2,4,12,10,10,Piyush,piyush@gmail.com,piyush9315,56
+MS,F,18,U,GT3,T,3,3,services,services,course,father,1,2,0,no,yes,no,no,yes,yes,no,yes,5,3,4,1,1,5,0,10,9,9,Preeti,preeti@gmail.com,preeti4480,78
+MS,F,17,R,GT3,T,4,4,teacher,services,other,father,2,2,0,no,yes,yes,yes,yes,yes,yes,no,4,3,3,1,2,5,4,11,12,12,Khushi,khushi@gmail.com,khushi4684,57
+MS,F,17,U,LE3,A,3,2,services,other,reputation,mother,2,2,0,no,no,no,no,yes,yes,no,yes,1,2,3,1,2,5,2,13,13,12,Manisha,manisha@gmail.com,manisha4368,92
+MS,M,18,U,LE3,T,1,1,other,services,home,father,2,1,0,no,no,no,no,no,yes,yes,yes,3,3,2,1,2,3,4,10,10,10,Ansh,ansh@gmail.com,ansh7459,76
+MS,F,18,U,LE3,T,1,1,at_home,services,course,father,2,3,0,no,no,no,no,yes,yes,yes,no,5,3,2,1,1,4,0,18,16,16,Manisha,manisha@gmail.com,manisha8119,62
+MS,F,18,R,LE3,A,1,4,at_home,other,course,mother,3,2,0,no,no,no,no,yes,yes,no,yes,4,3,4,1,4,5,0,13,13,13,Manisha,manisha@gmail.com,manisha7267,83
+MS,M,18,R,LE3,T,1,1,at_home,other,other,mother,2,2,1,no,no,no,yes,no,no,no,no,4,4,3,2,3,5,2,14,13,13,Piyush,piyush@gmail.com,piyush2504,93
+MS,F,18,U,GT3,T,3,3,services,services,other,mother,2,2,0,no,yes,no,no,yes,yes,yes,yes,4,3,2,1,3,3,0,10,10,9,Manisha,manisha@gmail.com,manisha7316,55
+MS,F,17,U,LE3,T,4,4,at_home,at_home,course,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,yes,2,3,4,1,1,1,0,16,15,15,Preeti,preeti@gmail.com,preeti4754,80
+MS,F,17,R,GT3,T,1,2,other,services,course,father,2,2,0,no,no,no,no,no,yes,no,no,3,2,2,1,2,3,0,12,11,12,Mary,mary@gmail.com,mary3602,69
+MS,M,18,R,GT3,T,1,3,at_home,other,course,mother,2,2,0,no,yes,yes,no,yes,yes,no,no,3,3,4,2,4,3,4,11,11,11,Abdul,abdul@gmail.com,abdul5736,100
+MS,M,18,U,LE3,T,4,4,teacher,services,other,mother,2,3,0,no,no,yes,no,yes,yes,yes,yes,4,2,2,2,2,5,0,13,13,13,Vivek,vivek@gmail.com,vivek9372,72
+MS,F,17,R,GT3,T,1,1,other,services,reputation,mother,3,1,1,no,yes,yes,no,yes,yes,yes,yes,5,2,1,1,2,1,0,6,5,-1,Khushi,khushi@gmail.com,khushi8585,59
+MS,F,18,U,GT3,T,2,3,at_home,services,course,father,2,1,0,no,yes,yes,no,yes,yes,yes,yes,5,2,3,1,2,4,0,11,10,10,Mary,mary@gmail.com,mary1246,76
+MS,F,18,R,GT3,T,4,4,other,teacher,other,father,3,2,0,no,yes,yes,no,no,yes,yes,yes,3,2,2,4,2,5,10,14,12,11,Preeti,preeti@gmail.com,preeti2212,80
+MS,F,19,U,LE3,T,3,2,services,services,home,other,2,2,2,no,no,no,yes,yes,yes,no,yes,3,2,2,1,1,3,4,7,7,9,Manisha,manisha@gmail.com,manisha7804,75
+MS,M,18,R,LE3,T,1,2,at_home,services,other,father,3,1,0,no,yes,yes,yes,yes,no,yes,yes,4,3,3,2,3,3,3,14,12,12,Vivek,vivek@gmail.com,vivek7222,67
+MS,F,17,U,GT3,T,2,2,other,at_home,home,mother,1,3,0,no,no,no,yes,yes,yes,no,yes,3,4,3,1,1,3,8,12,10,10,Manisha,manisha@gmail.com,manisha4995,55
+MS,F,17,R,GT3,T,1,2,other,other,course,mother,1,1,0,no,no,no,yes,yes,yes,yes,no,3,5,5,1,3,1,14,5,4,4,Preeti,preeti@gmail.com,preeti4338,56
+MS,F,18,R,LE3,T,4,4,other,other,reputation,mother,2,3,0,no,no,no,no,yes,yes,yes,no,5,4,4,1,1,1,0,19,18,19,Manisha,manisha@gmail.com,manisha8474,68
+MS,F,18,R,GT3,T,1,1,other,other,home,mother,4,3,0,no,no,no,no,yes,yes,yes,no,4,3,2,1,2,4,2,9,9,11,Varsha,varsha@gmail.com,varsha5829,100
+MS,F,20,U,GT3,T,4,2,health,other,course,other,2,3,2,no,yes,yes,no,no,yes,yes,yes,5,4,3,1,1,3,4,15,14,15,Mary,mary@gmail.com,mary3431,80
+MS,F,18,R,LE3,T,4,4,teacher,services,course,mother,1,2,0,no,no,yes,yes,yes,yes,yes,no,5,4,3,3,4,2,4,7,8,9,Preeti,preeti@gmail.com,preeti8106,56
+MS,F,18,U,GT3,T,3,3,other,other,home,mother,1,2,0,no,no,yes,no,yes,yes,yes,yes,4,1,3,1,2,1,0,15,15,15,Varsha,varsha@gmail.com,varsha1368,66
+MS,F,17,R,GT3,T,3,1,at_home,other,reputation,mother,1,2,0,no,yes,yes,yes,no,yes,yes,no,4,5,4,2,3,1,17,10,10,10,Mary,mary@gmail.com,mary1094,89
+MS,M,18,U,GT3,T,4,4,teacher,teacher,home,father,1,2,0,no,no,yes,yes,no,yes,yes,no,3,2,4,1,4,2,4,15,14,14,Ram,ram@gmail.com,ram9695,62
+MS,M,18,R,GT3,T,2,1,other,other,other,mother,2,1,0,no,no,no,yes,no,yes,yes,yes,4,4,3,1,3,5,5,6,5,6,Abdul,abdul@gmail.com,abdul8210,56
+MS,M,17,U,GT3,T,2,3,other,services,home,father,2,2,0,no,no,no,yes,yes,yes,yes,no,4,4,3,1,1,3,2,12,12,11,Piyush,piyush@gmail.com,piyush3134,94
+MS,M,19,R,GT3,T,1,1,other,services,other,mother,2,1,1,no,no,no,no,yes,yes,no,no,4,3,2,1,3,5,0,7,6,1,Abdul,abdul@gmail.com,abdul8020,92
+MS,M,18,R,GT3,T,4,2,other,other,home,father,2,1,1,no,no,yes,no,yes,yes,no,no,5,4,3,4,3,3,14,6,5,5,Ram,ram@gmail.com,ram1969,69
+MS,F,18,R,GT3,T,2,2,at_home,other,other,mother,2,3,0,no,no,yes,no,yes,yes,no,no,5,3,3,1,3,4,2,10,9,10,Manisha,manisha@gmail.com,manisha8167,67
+MS,F,18,R,GT3,T,4,4,teacher,at_home,reputation,mother,3,1,0,no,yes,yes,yes,yes,yes,yes,yes,4,4,3,2,2,5,7,6,5,6,Khushi,khushi@gmail.com,khushi2163,72
+MS,F,19,R,GT3,T,2,3,services,other,course,mother,1,3,1,no,no,no,yes,no,yes,yes,no,5,4,2,1,2,5,0,7,5,0,Manisha,manisha@gmail.com,manisha2286,74
+MS,F,18,U,LE3,T,3,1,teacher,services,course,mother,1,2,0,no,yes,yes,no,yes,yes,yes,no,4,3,4,1,1,1,0,6,8,7,Manisha,manisha@gmail.com,manisha3555,56
+MS,F,18,U,GT3,T,1,1,other,other,course,mother,2,2,1,no,no,no,yes,yes,yes,no,no,1,1,1,1,1,5,0,5,4,-1,Manisha,manisha@gmail.com,manisha3096,56
+MS,M,20,U,LE3,A,2,2,services,services,course,other,1,2,2,no,yes,yes,no,yes,yes,no,no,5,5,4,4,5,4,11,9,9,9,Ansh,ansh@gmail.com,ansh9438,87
+MS,M,17,U,LE3,T,3,1,services,services,course,mother,2,1,0,no,no,no,no,no,yes,yes,no,2,4,5,3,4,2,3,14,16,16,Ram,ram@gmail.com,ram7188,87
+MS,M,21,R,GT3,T,1,1,other,other,course,other,1,1,3,no,no,no,no,no,yes,no,no,5,5,3,3,3,3,3,11,9,8,Ram,ram@gmail.com,ram1477,93
+MS,M,18,R,LE3,T,3,2,services,other,course,mother,3,1,0,no,no,no,no,no,yes,yes,no,4,4,1,3,4,5,0,11,12,10,Piyush,piyush@gmail.com,piyush9710,61
+MS,M,19,U,LE3,T,1,1,other,at_home,course,father,1,1,0,no,no,no,no,yes,yes,yes,no,3,2,3,3,3,5,5,8,9,9,Karan,karan@gmail.com,karan3025,64
