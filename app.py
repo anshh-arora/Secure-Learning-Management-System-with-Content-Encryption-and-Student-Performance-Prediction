@@ -6,6 +6,11 @@ import pickle
 import mysql.connector
 from mysql.connector import Error
 from datetime import datetime
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -14,12 +19,12 @@ model = load_model('final_marks_predictor_model.h5')
 with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
-# Database configuration
+# Database configuration from environment variables
 db_config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'ansh1529',
-    'database': 'student_details'
+    'host': os.getenv('DB_HOST'),
+    'user': os.getenv('DB_USER'),
+    'password': os.getenv('DB_PASSWORD'),
+    'database': os.getenv('DB_NAME')
 }
 
 def get_db_connection():
