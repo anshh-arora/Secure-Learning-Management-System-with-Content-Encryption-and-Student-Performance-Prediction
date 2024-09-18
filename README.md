@@ -27,6 +27,7 @@ Here’s an overview of the project's directory structure:
 ├── modified_data.csv
 └── .env
 
+```
 - **app.py**: Main Flask application.
 - **requirements.txt**: Python dependencies.
 - **final_marks_predictor.h5**: Trained model.
