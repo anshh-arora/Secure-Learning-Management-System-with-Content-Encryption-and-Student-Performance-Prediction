@@ -36,7 +36,7 @@ def init_db():
     if conn is not None:
         try:
             cursor = conn.cursor()
-            cursor.execute('''CREATE TABLE IF NOT EXISTS predictions
+            cursor.execute('''CREATE TABLE IF NOT EXISTS student_prediction_data
                             (id INT AUTO_INCREMENT PRIMARY KEY,
                              name VARCHAR(255),
                              age INT,
@@ -108,7 +108,7 @@ def predict():
         if conn is not None:
             try:
                 cursor = conn.cursor()
-                cursor.execute('''INSERT INTO predictions 
+                cursor.execute('''INSERT INTO student_prediction_data 
                                 (name, age, year1_marks, year2_marks, study_time, failures, predicted_score, timestamp)
                                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s)''',
                                (name, age, year1_marks, year2_marks, studytime, failures, rounded_prediction, datetime.now()))
