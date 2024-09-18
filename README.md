@@ -4,6 +4,13 @@ This project predicts student marks using machine learning techniques, including
 
 ## Project Structure
 
+# Project Name
+
+## Project Structure
+
+Here’s an overview of the project's directory structure:
+
+```plaintext
 │
 ├── static/
 │   └── (Static files like CSS, JavaScript, images, etc.)
