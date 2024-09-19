@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (data.prediction !== undefined) {
-                resultElement.textContent = `Prediction: ${data.prediction}`;
+                resultElement.textContent = `Predicted Final Year Marks: ${data.prediction}`;
             } else {
                 resultElement.textContent = `Error: ${data.error || 'No prediction available'}`;
             }
