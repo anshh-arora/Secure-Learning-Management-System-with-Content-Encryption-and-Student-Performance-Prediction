@@ -76,7 +76,7 @@ def predict_new_input(model, scaler, age, year1_marks, year2_marks, studytime, f
     except Exception as e:
         print(f"Error during prediction: {e}")
         return None
-
+# home page
 @app.route('/')
 def index():
     return render_template('index.html')
