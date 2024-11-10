@@ -3,63 +3,40 @@ import numpy as np
 import pandas as pd
 from tensorflow.keras.models import load_model
 import pickle
-import mysql.connector
-from mysql.connector import Error
 from datetime import datetime
-from dotenv import load_dotenv
 import os
-
-# Load environment variables from .env file
-load_dotenv()
 
 app = Flask(__name__)
 
 # Load the trained model and scaler
-model = load_model('final_marks_predictor_model.h5')
-with open('scaler.pkl', 'rb') as f:
+model = load_model('Secure-Learning-Management-System-with-Content-Encryption-and-Student-Performance-Prediction/final_marks_predictor_model.h5')
+with open('Secure-Learning-Management-System-with-Content-Encryption-and-Student-Performance-Prediction/scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
-# Database configuration from environment variables
-db_config = {
-    'host': os.getenv('DB_HOST'),
-    'user': os.getenv('DB_USER'),
-    'password': os.getenv('DB_PASSWORD'),
-    'database': os.getenv('DB_NAME')
-}
+# CSV file configuration
+CSV_FILENAME = 'student_predicted_performance.csv'
 
-def get_db_connection():
+def init_csv():
+    """Initialize CSV file with headers if it doesn't exist"""
+    if not os.path.exists(CSV_FILENAME):
+        headers = ['name', 'age', 'year1_marks', 'year2_marks', 'study_time', 
+                  'failures', 'predicted_score', 'timestamp']
+        pd.DataFrame(columns=headers).to_csv(CSV_FILENAME, index=False)
+
+def save_to_csv(data):
+    """Save prediction data to CSV file"""
     try:
-        connection = mysql.connector.connect(**db_config)
-        if connection.is_connected():
-            return connection
-    except Error as e:
-        print(f"Error while connecting to MySQL: {e}")
-        return None
-
-def init_db():
-    conn = get_db_connection()
-    if conn is not None:
-        try:
-            cursor = conn.cursor()
-            cursor.execute('''CREATE TABLE IF NOT EXISTS student_prediction_data
-                            (id INT AUTO_INCREMENT PRIMARY KEY,
-                             name VARCHAR(255),
-                             age INT,
-                             year1_marks FLOAT,
-                             year2_marks FLOAT,
-                             study_time FLOAT,
-                             failures INT,
-                             predicted_score FLOAT,
-                             timestamp DATETIME)''')
-            conn.commit()
-        except Error as e:
-            print(f"Error creating table: {e}")
-        finally:
-            if conn.is_connected():
-                cursor.close()
-                conn.close()
-
-init_db()
+        # If file doesn't exist, create it with headers
+        if not os.path.exists(CSV_FILENAME):
+            init_csv()
+        
+        # Append new data to CSV
+        df = pd.DataFrame([data])
+        df.to_csv(CSV_FILENAME, mode='a', header=False, index=False)
+        return True
+    except Exception as e:
+        print(f"Error saving to CSV: {e}")
+        return False
 
 def predict_new_input(model, scaler, age, year1_marks, year2_marks, studytime, failures):
     try:
@@ -76,7 +53,7 @@ def predict_new_input(model, scaler, age, year1_marks, year2_marks, studytime, f
     except Exception as e:
         print(f"Error during prediction: {e}")
         return None
-# home 
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -108,23 +85,21 @@ def predict():
         # Log the prediction result
         print(f"Prediction result: {rounded_prediction}")
 
-        # Store data in the database
-        conn = get_db_connection()
-        if conn is not None:
-            try:
-                cursor = conn.cursor()
-                cursor.execute('''INSERT INTO student_prediction_data 
-                                (name, age, year1_marks, year2_marks, study_time, failures, predicted_score, timestamp)
-                                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)''',
-                               (name, age, year1_marks, year2_marks, studytime, failures, rounded_prediction, datetime.now()))
-                conn.commit()
-            except Error as e:
-                print(f"Error inserting data: {e}")
-                return jsonify({'error': 'Database error occurred.'}), 500
-            finally:
-                if conn.is_connected():
-                    cursor.close()
-                    conn.close()
+        # Prepare data for CSV storage
+        data = {
+            'name': name,
+            'age': age,
+            'year1_marks': year1_marks,
+            'year2_marks': year2_marks,
+            'study_time': studytime,
+            'failures': failures,
+            'predicted_score': rounded_prediction,
+            'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        }
+
+        # Save to CSV
+        if not save_to_csv(data):
+            return jsonify({'error': 'Error saving data to CSV.'}), 500
 
         # Return the result as a JSON response
         return jsonify({'prediction': rounded_prediction})
@@ -140,4 +115,9 @@ def predict():
         return jsonify({'error': 'Internal server error.'}), 500
 
 if __name__ == '__main__':
+    init_csv()  # Initialize CSV file when starting the application
     app.run(debug=True)
+
+
+
+    
