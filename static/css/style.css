@@ -1,0 +1,948 @@
+/*-- ----- Fonts Import ----- -*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap");
+
+/*-- ----- Global CSS ----- -*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+* img {
+  pointer-events: none;
+  user-select: none;
+}
+
+section h1, h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+
+/*-- ----- Custom Scrollbar ----- -*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000d2;
+  border: #fff;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #bebebe;
+}
+
+
+/*-- ----- Navbar ----- -*/
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  padding: 0 50px;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  text-wrap: nowrap;
+  transition: height .4s ease;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #fff;
+  opacity: .7;
+  transition: 0.2s ease;
+}
+
+#nav-links a {
+  margin-right: 20px;
+}
+
+#signin-up a {
+  opacity: 1;
+  margin-right: 10px;
+}
+
+#nav-links .nav-active {
+  color: #fff;
+  opacity: 1;
+}
+
+#navbar a:hover {
+  color: #bebebe;
+}
+
+#logo-container {
+  width: 170px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  overflow: hidden;
+  transition: all .4s ease;
+}
+
+#logo {
+  width: 100%;
+}
+
+#search-bar {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 0 20px 0 10px;
+}
+
+#search-box {
+  width: 95%;
+  height: 30px;
+}
+
+#search-box input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  padding-inline: 10px;
+}
+
+#search-box input:focus {
+  outline: none;
+}
+
+#search-icon {
+  width: 5%;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background: #D8D8D8;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/*-- ----- Responsive Navbar ----- -*/
+#menu {
+  width: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+#menu-open {
+  position: absolute;
+  color: #ffffff;
+  width: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-close {
+  position: absolute;
+  color: #ffffff;
+  width: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*-- ----- Hero Section ----- -*/
+#banner {
+  background-image: url(../Images/banner.jpeg);
+  background-size: cover;
+  background-position: center 0;
+  width: 100%;
+  height: 480px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#banner-content {
+  width: 35%;
+  color: #ffffff;
+  margin-right: 100px;
+  text-transform: capitalize;
+}
+
+#banner h1 {
+  font-size: 2.5rem;
+  text-align: left;
+  margin: 0;
+}
+
+#banner p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+
+/*-- ----- Courses Section ----- -*/
+#courses {
+  width: 100%;
+  margin: auto;
+  text-transform: capitalize;
+  margin: 50px 0 50px 0;
+}
+
+#courses h2 {
+  margin-bottom: 20px;
+}
+
+#courses-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+
+.course {
+  background-color: #e7e7e7;
+  border-radius: 30px;
+  max-width: 370px;
+  min-width: 300px;
+  max-height: 360px;
+  min-height: 350px;
+  padding: 20px;
+  cursor: default;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease-in-out;
+}
+
+.course:hover {
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 0.3);
+}
+
+.course h3 {
+  margin: 10px 0 0 0;
+}
+
+.course p {
+  margin-top: 5px;
+  font-family: "Poppins", "Raleway";
+}
+
+.course img {
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+.course:hover img {
+  transform: scale(1.1);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.course-btn {
+  background-color: #000000;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.course a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.course a:hover {
+  color: #bebebe;
+}
+
+.course-btn:hover {
+  transform: scale(1.05);
+}
+
+
+/*-- ----- Features Section ----- -*/
+#features {
+  width: 70%;
+  border-radius: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 0.3);
+}
+
+#feature-box {
+  width: 100%;
+  margin: 50px;
+}
+
+aside {
+  float: right;
+  width: 35%;
+  height: 30vh;
+}
+
+#asideimg {
+  background-image: url(../Images/aside.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#why-us {
+  width: 65%;
+  padding: 30px;
+}
+
+#why-us h3 {
+  font-size: 2rem;
+  margin: 0 0 10px 0;
+}
+
+#why-us h2 {
+  font-size: 3rem;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+#why-us p {
+  font-size: 1.3rem;
+  font-family: "Poppins", "Raleway";
+}
+
+#feature {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.feature-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.feature-card i {
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+
+.feature-card h4 {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+
+/*-- ----- Reviews Section ----- -*/
+#reviews h2 {
+  margin-bottom: 30px;
+}
+
+.swiper {
+  width: 70%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: auto;
+  height: 100%;
+}
+
+.review {
+  margin: 20px 30px 50px 30px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+}
+
+.review::before {
+  content: "\f10e";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 5rem;
+  position: absolute;
+  top: 40px;
+  right: 70px;
+  color: grey;
+  opacity: 0.5;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.review .user-profile img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.review .user-profile h3 {
+  font-size: 1.5rem;
+}
+
+.review .user-profile h3,
+h4 {
+  margin: 0 0 0 20px;
+}
+
+.review .user-profile h4 {
+  margin-top: 6px;
+}
+
+.review .user-review-text p {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  margin-top: 20px;
+}
+
+.review .user-ratings {
+  color: #ffd900;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.review .user-ratings i {
+  font-size: 1.5rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000000 !important;
+}
+
+
+
+/*-- ----- About The Project Page {Second Page Of The Website} ----- -*/
+section h1  {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 100px 20px 50px 20px;
+  text-transform: capitalize;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+#about-content {
+  width: 70%;
+  margin: auto;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#about-content hr {
+  margin-block: 20px;
+}
+
+#about-content h2, h3, h4 {
+  text-align: left;
+  margin: 20px;
+}
+
+#about-content p {
+  margin-left: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+#about-content li {
+  font-size: 1.2rem;
+  margin-left: 40px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+
+#about-content .extraMargin {
+  margin-block: 20px;
+}
+
+#about-content li::marker {
+  content: '\f101';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  color: #000000;
+  font-size: .9rem;
+}
+
+
+
+/*-- ----- Contributors Page {Third Page Of The Website} ----- -*/
+#contributors {
+  padding: 0 50px;
+}
+
+#contributors-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contributors-profile {
+  position: relative;
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 440px;
+  min-height: 425px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #bebebe;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contributors-profile .profile-badge {
+  position: absolute;
+  top: 28px;
+  right: -18px;
+  width: 50%;
+}
+
+.profile {
+  width: 100%;
+  height: calc(100% - 70px);
+  background-color: #fff;
+  border-radius: 20px;
+  border-top-left-radius: 30%;
+  padding: 30px;
+  padding-top: 100px;
+  margin-top: 70px;
+}
+
+.profile-photo {
+  width: 150px;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+}
+
+.profile-content h3 {
+  font-size: 1.5rem;
+  margin-block: 15px;
+  margin-inline: 0;
+}
+
+.profile-content ul {
+  margin: 0 0 20px 20px;
+}
+
+.profile-content li {
+  font-size: .9rem;
+  margin-bottom: 10px;
+  padding-left: 7px;
+}
+
+.profile-content li::marker {
+  content: '\f101';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  color: #000000;
+  font-size: .9rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+
+.socials i {
+  color: #000000;
+  transition: .2s ease-in-out;
+}
+
+.socials i:hover {
+  transform: scale(1.2);
+}
+
+
+/*-- ----- Footer ----- -*/
+footer {
+  width: 100%;
+  height: 300px;
+  background: #000000;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+#footer-logo {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#f-logo {
+  background-image: url(../Images/Logo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 50px;
+}
+
+#social {
+  margin-top: 10px;
+}
+
+#social a {
+  text-decoration: none;
+  color: #bebebe;
+  margin: 5px;
+  transition: .2S ease;
+}
+
+#social a:hover {
+  color: #ffffff;
+}
+
+#copyright p {
+  color: #bebebe;
+  font-size: small;
+  margin-top: 110px;
+}
+
+#contact-us form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 100%;
+}
+
+#contact-us input,
+#contact-us textarea:focus {
+  outline: none;
+}
+
+#contact-us input {
+  height: 30px;
+}
+
+#contact-us input,
+#contact-us textarea {
+  background-color: #000000;
+  margin-bottom: 10px;
+  color: #bebebe;
+  border: none;
+  border-bottom: 1px solid #bebebe;
+  padding: 5px;
+}
+
+#contact-us textarea {
+  resize: none;
+}
+
+#contact-us button {
+  height: 30px;
+  padding: 5px;
+  border: none;
+  background-color: #000000;
+  color: #bebebe;
+  border: 1px solid #bebebe;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#contact-us button:hover {
+  color: #ffffff;
+}
+
+
+/*-- ----- Responsiveness {Multi Device Compatibility} ----- -*/
+@keyframes fade {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@media (max-width: 1872px) {
+  #courses-container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  #contributors-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 50px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1700px) {
+  #nav-links a { 
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1600px) {
+  #navbar #nav-links,
+  #navbar #signin-up,
+  #navbar #search-bar,
+  #navbar #search-box,
+  #navbar #search-box input,
+  #navbar #search-icon,
+  #menu-close {
+    animation: fade .4s ease;
+  }
+
+  #nav-links,
+  #search-bar,
+  #signin-up {
+    display: none;
+  }
+
+  #menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  #menu #menu-open,
+  #menu #menu-close {
+    color: #fff;
+    font-size: 1.5rem;
+    width: 20px;
+    height: 40px;
+    transition: 0.3s ease;
+  }
+
+  #menu #menu-close {
+    display: none;
+  }
+
+  #menu.active #menu-open {
+    display: none;
+  }
+  
+  #menu.active #menu-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navbar.active {
+    height: 480px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #navbar.active #logo-container {
+    margin: 20px;
+  }
+
+  #navbar.active #nav-links,
+  #navbar.active #signin-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar.active #nav-links a {
+    margin: 0 0 20px 0;
+  }
+  #navbar.active #signin-up a {
+    margin: 0 0 20px 0;
+  }
+
+  #navbar.active #search-bar {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+
+  #navbar.active #search-box {
+    width: 90%;
+  }
+
+  #navbar.active #search-icon {
+    width: 10%;
+  }
+}
+
+@media (max-width: 1412px) {
+  #courses-container { 
+    width: 90%;
+  }
+
+  #features {
+    width: 80%;
+  }
+
+  #feature {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    flex-direction: column;
+  }
+
+  #about-content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1110px) {
+  aside {
+    float: none;
+    width: 100%;
+    height: 200px;
+  }
+
+  #asideimg {
+    background-position: center -30px;
+  }
+
+  #why-us {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #why-us h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  #why-us h3 {
+    text-align: center;
+  }
+
+  #why-us p {
+    font-size: 1.1rem;
+  }
+
+  #about-content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 893px) {
+  #banner-content p { 
+    display: none;
+  }
+  
+  #banner-content {
+    margin-right: 50px;
+  }
+
+  #banner-content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 772px) {
+  .swiper {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #copyright p {
+    margin: 10px 0 20px 0;
+  }
+
+  #abouth  {
+    font-size: 1.9rem;
+  }
+
+  #headline  {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 521px) {
+  .feature-card,
+  #why-us h3,
+  #why-us p{
+    display: none;
+  }
+
+  #asideimg {
+    background-position: center;
+  }
+
+  #features {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  #why-us, #why-us h2 {
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .review::before {
+    font-size: 3.5rem;
+    right: 50px;
+  }
+
+  .review .user-profile h3, h4 {
+    margin: 0 0 0 10px
+  }
+
+  .review .user-review-text p {
+    margin-top: 5px;
+  }
+
+  .review .user-profile h3 {
+    font-size: 1.3rem;
+  }
+
+  .review .user-profile img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 452px) {
+  #banner-content {
+    margin-right: 30px;
+  }
+}
