@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -79,3 +80,86 @@
 </body>
 
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E Academy | Student's Study Material</title>
+
+  <!-- ==== CSS Linking ==== -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/student.css') }}" type="text/css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- ==== Favicon ==== -->
+  <link rel="icon" href="{{ url_for('static', filename='Images/Favicon.png') }}" type="image/x-icon" />
+</head>
+
+<body>
+  <div id="main">
+    <!-- ==== Navbar ==== -->
+    <aside id="left-sidebar">
+      <header>
+
+        <div id="header-logo">
+          <img src="{{ url_for('static', filename='Images/Logo.jpg') }}">
+        </div>
+
+        <nav id="navbar">
+          <div class="nav-link"><a href="{{ url_for('student') }}"><i class='bx bxs-home' ></i>Home</a></div>
+          <div class="nav-link"><a href="{{ url_for('courses') }}"><i class='bx bxs-book-bookmark'></i>Courses</a></div>
+          <div class="nav-link"><a href="{{ url_for('assignments') }}"><i class='bx bxs-book-content'></i>Assignment(s)</a></div>
+          <div class="nav-link"><a href="{{ url_for('study_material') }}" class="active"><i class='bx bxs-bookmarks'></i>Study Material</a></div>
+        </nav>
+
+      </header>
+
+      <div id="user-info" onclick="togglePopup()">
+        <div id="user-icon">
+          <i class='bx bxs-user-circle'></i>
+        </div>
+        <div id="user">
+          <div id="username">
+            <h5>{{ name }}</h5>
+          </div>
+          <div id="user-email">
+            <h5>{{ email }}</h5>
+          </div>
+        </div>
+      </div>
+
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <a href="{{ url_for('logout') }}" class="logout-button">Sign Out<i class='bx bx-log-out-circle'></i></a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ==== MAIN ==== -->
+    <main>
+
+      <div id="course-header">
+        <div id="header-content">
+          
+          <h2>Study Materials</h2>
+          
+        </div>
+      </div>
+      
+      <section id="courses">
+
+        <div id="enrolledCourses"></div>
+
+      </section>
+    </main>
+
+  </div>
+
+  <!-- ==== JavaScript Linking -->
+  <script src="{{ url_for('static', filename='js/studyMaterial.js') }}"></script>
+</body>
+
+</html>
+>>>>>>> e15557ecab5bdcb2311bbce011b5afc1d0f69998
