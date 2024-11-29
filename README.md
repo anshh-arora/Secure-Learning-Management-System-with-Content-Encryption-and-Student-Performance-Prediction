@@ -19,12 +19,12 @@ E-Academy is a comprehensive e-learning platform that incorporates advanced secu
 ![Homepage](https://github.com/anshh-arora/Secure-Learning-Management-System-with-Content-Encryption-and-Student-Performance-Prediction/blob/main/Home_page)
 *E-Academy homepage featuring sign-in and registration options*
 
-### Student Dashboard
-![Student Dashboard](/static/images/student-dashboard.jpg)
+### Student Home Page
+![Student Home Page](/static/images/student-dashboard.jpg)
 *Student interface showing courses, assignments, and study materials*
 
 ### Teacher Dashboard
-![Teacher Dashboard](/static/images/Teacher's Dashboard.jpg)
+![Teacher Dashboard](https://github.com/anshh-arora/Secure-Learning-Management-System-with-Content-Encryption-and-Student-Performance-Prediction/blob/main/Teacher's%20Dashboard.jpg)
 *Comprehensive teacher dashboard with student performance metrics*
 
 ### Performance Prediction Model
