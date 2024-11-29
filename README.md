@@ -16,7 +16,7 @@ E-Academy is a comprehensive e-learning platform that incorporates advanced secu
 ## Platform Screenshots
 
 ### Homepage
-![Homepage](/static/images/homepage.jpg)
+![Homepage](https://github.com/anshh-arora/Secure-Learning-Management-System-with-Content-Encryption-and-Student-Performance-Prediction/blob/main/Home_page)
 *E-Academy homepage featuring sign-in and registration options*
 
 ### Student Dashboard
