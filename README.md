@@ -74,17 +74,11 @@ E-Academy/
 │   └── images/             # Image assets
 │
 ├── templates/              # HTML templates
-│   ├── base.html          # Base template
+│   ├── index.html          # Home template
 │   ├── student/           # Student-specific templates
 │   └── teacher/           # Teacher-specific templates
 │
-├── app/
-│   ├── __init__.py        # Application initialization
-│   ├── routes.py          # Application routes
-│   ├── models.py          # Data models
-│   └── security/          # Security implementations
-│       ├── cipher.py      # Custom encryption implementation
-│       └── auth.py        # Authentication logic
+├── app  #contain python flask app
 │
 ├── model/
 │   ├── train.py           # Model training script
