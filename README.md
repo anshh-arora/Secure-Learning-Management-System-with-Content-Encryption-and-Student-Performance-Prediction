@@ -13,6 +13,15 @@ E-Academy is a comprehensive e-learning platform that incorporates advanced secu
 - Assignment tracking and submission
 - Secure study material distribution
 
+## Branch Structure
+
+- main: Core application code and web interface
+- host_model: Contains the TensorFlow Lite model for student performance prediction
+
+     - Separate deployment for optimized model serving
+     - Implements API endpoints for model predictions
+     - Includes model training scripts and data preprocessing
+
 ## Platform Screenshots
 
 ### Homepage
@@ -36,15 +45,15 @@ E-Academy is a comprehensive e-learning platform that incorporates advanced secu
 ```mermaid
 graph TD
     A[User Access] --> B{Authentication}
-    B -->|Student| C[Student Dashboard]
-    B -->|Teacher| D[Teacher Dashboard]
+    B -->|Student| C[Student Home Page]
+    B -->|Teacher| D[Teacher Home Page]
     C --> E[Courses]
     C --> F[Assignments]
     C --> G[Study Materials]
-    D --> H[Performance Analytics]
+    D --> H[PowerBI Dashboard]
     D --> I[Assignment Management]
     D --> J[Student Prediction Model]
-    H --> K[PowerBI Dashboard]
+    
 ```
 
 ## Technology Stack
@@ -52,23 +61,30 @@ graph TD
 - Backend: Python (Flask)
 - Database: MongoDB
 - Analytics: PowerBI
-- Machine Learning: Neural Networks
+- Machine Learning: Neural Networks, TensorFlow Lite
 - Security: Bcrypt, Cipher Substitution
 
 ## Repository Structure
-```
 E-Academy/
 ├── static/                 # Static files (CSS, JS, Images)
 ├── templates/             # HTML templates
-├── app.py                 # Main application file
+├── app/
+│   ├── __init__.py
+│   ├── routes.py          # Application routes
+│   ├── models.py          # Data models
+│   └── security/
+│       ├── cipher.py      # Custom encryption implementation
+│       └── auth.py        # Authentication logic
+├── model/
+│   ├── train.py          # Model training script
+│   └── preprocess.py     # Data preprocessing
 ├── config.py             # Configuration settings
-├── wsgi.py               # WSGI entry point
-├── requirements.txt      # Project dependencies
-├── procfile              # Heroku deployment file
+├── wsgi.py              # WSGI entry point
+├── requirements.txt     # Project dependencies
 └── data/
     ├── student_data.csv
     └── enhanced_student_dashboard_data.csv
-```
+    ```
 
 ## Installation and Setup
 
@@ -79,7 +95,7 @@ E-Academy/
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/E-Academy.git
+https://github.com/anshh-arora/E-Academy.git
 cd E-Academy
 ```
 
@@ -109,29 +125,9 @@ The application will be available at `http://localhost:5000`
 - **Ansh**: Neural Network Model Development
 - **Karan**: PowerBI Dashboard and Data Visualization
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Contact Information
+For any questions or feedback, feel free to reach out:
 
-```
-MIT License
-
-Copyright (c) 2024 E-Academy
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+- **Email**: [ansharora.cs@gmail.com](mailto:ansharora.cs@gmail.com)
+- **LinkedIn**: [Connect with me on LinkedIn](https://www.linkedin.com/in/ansh-arora-data-scientist/)
+- **Kaggle**: [Follow me on Kaggle](https://www.kaggle.com/ansh1529)
