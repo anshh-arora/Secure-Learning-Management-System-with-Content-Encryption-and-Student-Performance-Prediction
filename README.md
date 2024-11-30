@@ -1,4 +1,4 @@
-# E-Academy: Secure E-Learning Management System
+# E-Academy: Secure E-Learning Management System With Content Encryption and Student Performance Prediction Using Neural Networks
 
 ## Overview
 E-Academy is a comprehensive e-learning platform that incorporates advanced security features, content encryption, and student performance prediction capabilities. The platform provides separate interfaces for students and teachers, enabling efficient learning management and performance tracking.
