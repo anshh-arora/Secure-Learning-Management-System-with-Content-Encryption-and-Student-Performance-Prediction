@@ -65,27 +65,40 @@ graph TD
 - Security: Bcrypt, Cipher Substitution
 
 ## Repository Structure
+```
 E-Academy/
-├── static/                 # Static files (CSS, JS, Images)
-├── templates/             # HTML templates
+│
+├── static/                  # Static files (CSS, JS, Images)
+│   ├── css/                # Stylesheet files
+│   ├── js/                 # JavaScript files
+│   └── images/             # Image assets
+│
+├── templates/              # HTML templates
+│   ├── base.html          # Base template
+│   ├── student/           # Student-specific templates
+│   └── teacher/           # Teacher-specific templates
+│
 ├── app/
-│   ├── __init__.py
+│   ├── __init__.py        # Application initialization
 │   ├── routes.py          # Application routes
 │   ├── models.py          # Data models
-│   └── security/
+│   └── security/          # Security implementations
 │       ├── cipher.py      # Custom encryption implementation
 │       └── auth.py        # Authentication logic
+│
 ├── model/
-│   ├── train.py          # Model training script
-│   └── preprocess.py     # Data preprocessing
-├── config.py             # Configuration settings
-├── wsgi.py              # WSGI entry point
-├── requirements.txt     # Project dependencies
-└── data/
-    ├── student_data.csv
-    └── enhanced_student_dashboard_data.csv
-    ```
-
+│   ├── train.py           # Model training script
+│   └── preprocess.py      # Data preprocessing utilities
+│
+├── data/
+│   ├── student_data.csv              # Raw student data
+│   └── enhanced_student_dashboard_data.csv  # Processed data for dashboard
+│
+├── config.py              # Configuration settings
+├── wsgi.py               # WSGI entry point
+├── requirements.txt       # Project dependencies
+└── final_model.ipynb     # Jupyter notebook with model development
+```
 ## Installation and Setup
 
 ### Prerequisites
