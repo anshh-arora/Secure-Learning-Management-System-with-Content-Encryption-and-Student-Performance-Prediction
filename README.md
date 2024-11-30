@@ -29,7 +29,7 @@ E-Academy is a comprehensive e-learning platform that incorporates advanced secu
 *E-Academy homepage featuring sign-in and registration options*
 
 ### Student Home Page
-![Student Home Page](/static/images/student-dashboard.jpg)
+![Student Home Page](https://github.com/anshh-arora/E-Academy/blob/main/Student%20Home%20Page)
 *Student interface showing courses, assignments, and study materials*
 
 ### Teacher Dashboard
@@ -37,7 +37,7 @@ E-Academy is a comprehensive e-learning platform that incorporates advanced secu
 *Comprehensive teacher dashboard with student performance metrics*
 
 ### Performance Prediction Model
-![Prediction Model](/static/images/prediction-model.jpg)
+![Prediction Model](https://github.com/anshh-arora/E-Academy/blob/main/Prediction%20Model)
 *Neural Network-based performance prediction visualization*
 
 ## Project Architecture
