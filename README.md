@@ -13,6 +13,15 @@ E-Academy is a comprehensive e-learning platform that incorporates advanced secu
 - Assignment tracking and submission
 - Secure study material distribution
 
+## E-Academy Repositories
+
+- thearmanqureshi : On this GitHub Account the repositories were created to be deployed on Render
+     - [thearmanqureshi/E-Academy](https://github.com/thearmanqureshi/E-Academy) : Contains the main project
+     - [thearmanqureshi/E-Academy-Proxy](https://github.com/thearmanqureshi/E-Academy-Proxy) : Contains the E-Academy Proxy Webpage
+     - [thearmanqureshi/E-Academy-Model-Host](https://github.com/thearmanqureshi/E-Academy-Model-Host) : Contains the tensorflow-lite model and scaler for the prediction model
+
+- [anshh-arora/E-Academy](https://github.com/anshh-arora/E-Academy) : On this GitHub Account's Repositorie our team members worked on the E-Acaedmy Project
+
 ## Branch Structure
 
 - main: Core application code and web interface
@@ -131,15 +140,6 @@ The application will be available at `http://localhost:5000`
 - **Piyush**: Responsive Design Implementation
 - **Ansh**: Neural Network Model Development
 - **Karan**: PowerBI Dashboard and Data Visualization
-
-## E-Academy Repositories
-
-- thearmanqureshi : On this GitHub Account the repositories were created to be deployed on Render
-     - [thearmanqureshi/E-Academy](https://github.com/thearmanqureshi/E-Academy) : Contains the main project
-     - [thearmanqureshi/E-Academy-Proxy](https://github.com/thearmanqureshi/E-Academy-Proxy) : Contains the E-Academy Proxy Webpage
-     - [thearmanqureshi/E-Academy-Model-Host](https://github.com/thearmanqureshi/E-Academy-Model-Host) : Contains the tensorflow-lite model and scaler for the prediction model
-
-- [anshh-arora/E-Academy](https://github.com/anshh-arora/E-Academy) : On this GitHub Account's Repositorie our team members worked on the E-Acaedmy Project
 
 ## Contact Information
 For any questions or feedback, feel free to reach out:
